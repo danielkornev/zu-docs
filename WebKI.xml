@@ -2857,16 +2857,16 @@
     <HelpKINode Title="IUserAction.UID Property " Url="html/P_ZU_Core_IUserAction_UID.htm" />
     <HelpKINode Title="IVisualClustersIndexer.UID Property " Url="html/P_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_UID.htm" />
   </HelpKINode>
-  <HelpKINode Title="UIDChanger property" Url="html/P_ZU_Configuration_Settings_IAppSettings_UIDChanger.htm" />
   <HelpKINode Title="UIdChanger property">
     <HelpKINode Title="ITimelined.UIdChanger Property " Url="html/P_ZU_Core_ITimelined_UIdChanger.htm" />
     <HelpKINode Title="Property.UIdChanger Property " Url="html/P_ZU_Core_Property_UIdChanger.htm" />
   </HelpKINode>
+  <HelpKINode Title="UIDChanger property" Url="html/P_ZU_Configuration_Settings_IAppSettings_UIDChanger.htm" />
+  <HelpKINode Title="UIDOwner property" Url="html/P_ZU_Configuration_Settings_IAppSettings_UIDOwner.htm" />
   <HelpKINode Title="UIdOwner property">
     <HelpKINode Title="ITimelined.UIdOwner Property " Url="html/P_ZU_Core_ITimelined_UIdOwner.htm" />
     <HelpKINode Title="Property.UIdOwner Property " Url="html/P_ZU_Core_Property_UIdOwner.htm" />
   </HelpKINode>
-  <HelpKINode Title="UIDOwner property" Url="html/P_ZU_Configuration_Settings_IAppSettings_UIDOwner.htm" />
   <HelpKINode Title="UnableToCreateMetaspaceAndOrUserFolder field" Url="html/F_ZU_Constants_Application_ErrorCodes_UnableToCreateMetaspaceAndOrUserFolder.htm" />
   <HelpKINode Title="Undefined enumeration member" Url="html/T_ZU_Semantic_Core_ContainerKinds.htm" />
   <HelpKINode Title="UnhandledException field" Url="html/F_ZU_Constants_Application_ErrorCodes_UnhandledException.htm" />
