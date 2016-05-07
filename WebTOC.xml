@@ -1,0 +1,1644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="db2c8bdf-77e1-4570-b0a2-6175aafe1f8a" Title="Zet Universe Overview" Url="html/485024b5-1f82-4616-a9d8-b8b55fc20ad1.htm">
+    <HelpTOCNode Title="Zet Universe Technical Requirements Document" Url="html/bf16b1ea-d376-468a-a5c2-e261bdd5f345.htm" />
+    <HelpTOCNode Title="Zet Universe System Architecture" Url="html/0fe31055-eea4-4dfe-bdcc-d11743749678.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="3e5bc435-d333-4097-b611-fbab144042ec" Title="Zet Universe Ontology and Kinds" Url="html/a129330d-61fe-4d24-af3d-fe0f4a789cd1.htm">
+    <HelpTOCNode Title="Ontology of The Everyday Things" Url="html/5b1b08cc-1676-47c0-84f7-f4b3402147d2.htm" />
+    <HelpTOCNode Title="Entities and Kinds" Url="html/0eefe9fa-3381-4dcd-a12f-05f495d5252e.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Title="Zet Universe Semantic Pipeline" Url="html/efc532e9-2c70-41f8-a420-97e2b2cd852e.htm" />
+  <HelpTOCNode Title="Zet Universe APIs" Url="html/f1ae560b-ba87-4f1d-a8e7-1ec9020c9b2b.htm" />
+  <HelpTOCNode Id="7282b374-9cdf-48c3-9b0f-617d70e75edc" Title="How Do I..." Url="html/de91e60d-3ca3-4a87-8017-7f67081626fd.htm">
+    <HelpTOCNode Id="18f968ff-0935-4553-a213-b7c44431cf00" Title="How Do I Get Started With Zet Universe" Url="html/ee152bc4-c010-48dc-8c03-d84b730e4d30.htm">
+      <HelpTOCNode Title="How To Set Up and Build a Plugin that Uses Zet Universe" Url="html/f5459c77-4896-4b2a-893f-d5c78a32b527.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="7ad84aa9-0b29-4a71-8bb1-389484d89da6" Title="Zet Universe Samples" Url="html/259c4f8b-fca0-46e0-a4fa-eab0f3fa39a0.htm">
+    <HelpTOCNode Title="Processor Motivating Example" Url="html/3d8fea32-9e63-4a77-9d8b-427f1c8466c5.htm" />
+    <HelpTOCNode Title="App Motivating Example" Url="html/8146132c-e2ce-4fb7-8132-9384e184c6c8.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Title="Zet Universe Glossary" Url="html/1f0604b0-ed04-4c38-8243-25d392b736af.htm" />
+  <HelpTOCNode Id="90acd261-d93a-4445-b0ca-8b28e242006f" Title="Zet Universe Class Library" Url="html/R_Project_ZUSDK_docs.htm">
+    <HelpTOCNode Id="1a227fce-83f9-4cef-8176-1c71101fe52e" Title="ZU" Url="html/N_ZU.htm">
+      <HelpTOCNode Id="000f1599-d752-4f25-b324-3f020b06da08" Title="AppRelationshipDefinition Class" Url="html/T_ZU_AppRelationshipDefinition.htm">
+        <HelpTOCNode Title="AppRelationshipDefinition Constructor " Url="html/M_ZU_AppRelationshipDefinition__ctor.htm" />
+        <HelpTOCNode Id="d4027dbe-030c-4daa-9d1a-1e8f3dca51f9" Title="AppRelationshipDefinition Properties" Url="html/Properties_T_ZU_AppRelationshipDefinition.htm">
+          <HelpTOCNode Title="AllowedParticipatingKinds Property " Url="html/P_ZU_AppRelationshipDefinition_AllowedParticipatingKinds.htm" />
+          <HelpTOCNode Title="Relation Property " Url="html/P_ZU_AppRelationshipDefinition_Relation.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="AppRelationshipDefinition Methods" Url="html/Methods_T_ZU_AppRelationshipDefinition.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4c29a15c-0c32-4bb6-9b3f-a3dd1c25e390" Title="BasePropertyChanged Class" Url="html/T_ZU_BasePropertyChanged.htm">
+        <HelpTOCNode Title="BasePropertyChanged Constructor " Url="html/M_ZU_BasePropertyChanged__ctor.htm" />
+        <HelpTOCNode Id="cbcbfb37-18e1-443e-a8d4-ebd449acf47d" Title="BasePropertyChanged Methods" Url="html/Methods_T_ZU_BasePropertyChanged.htm">
+          <HelpTOCNode Title="Changed Method " Url="html/M_ZU_BasePropertyChanged_Changed.htm" />
+          <HelpTOCNode Title="SetProperty(T) Method " Url="html/M_ZU_BasePropertyChanged_SetProperty__1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9ea7adef-12cf-4ad8-b333-02c2da472c7d" Title="BasePropertyChanged Events" Url="html/Events_T_ZU_BasePropertyChanged.htm">
+          <HelpTOCNode Title="PropertyChanged Event" Url="html/E_ZU_BasePropertyChanged_PropertyChanged.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c79c6293-2d17-41b8-b8df-ca8d099663eb" Title="Constants Class" Url="html/T_ZU_Constants.htm">
+        <HelpTOCNode Id="2036bf84-9bd6-416b-a7a3-8e056f026ef5" Title="Constants Methods" Url="html/Methods_T_ZU_Constants.htm">
+          <HelpTOCNode Title="GetDescription Method " Url="html/M_ZU_Constants_GetDescription.htm" />
+          <HelpTOCNode Title="ValueOf(T) Method " Url="html/M_ZU_Constants_ValueOf__1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.Application Class" Url="html/T_ZU_Constants_Application.htm" />
+      <HelpTOCNode Id="4e398280-2728-4483-8f3f-1952f50a1d7b" Title="Constants.Application.Configuration Class" Url="html/T_ZU_Constants_Application_Configuration.htm">
+        <HelpTOCNode Id="9f5dd7cc-12fd-43b0-8d3b-78ba4cbb4061" Title="Configuration Fields" Url="html/Fields_T_ZU_Constants_Application_Configuration.htm">
+          <HelpTOCNode Title="AppSpacesFolder Field" Url="html/F_ZU_Constants_Application_Configuration_AppSpacesFolder.htm" />
+          <HelpTOCNode Title="AssemblyFileName Field" Url="html/F_ZU_Constants_Application_Configuration_AssemblyFileName.htm" />
+          <HelpTOCNode Title="SALPluginsFolder Field" Url="html/F_ZU_Constants_Application_Configuration_SALPluginsFolder.htm" />
+          <HelpTOCNode Title="SALSettingsFolder Field" Url="html/F_ZU_Constants_Application_Configuration_SALSettingsFolder.htm" />
+          <HelpTOCNode Title="SpacesFolder Field" Url="html/F_ZU_Constants_Application_Configuration_SpacesFolder.htm" />
+          <HelpTOCNode Title="ZetUniverseMetaspaceFolder Field" Url="html/F_ZU_Constants_Application_Configuration_ZetUniverseMetaspaceFolder.htm" />
+          <HelpTOCNode Title="ZetUniverseOnlineInsidersCommunityUrl Field" Url="html/F_ZU_Constants_Application_Configuration_ZetUniverseOnlineInsidersCommunityUrl.htm" />
+          <HelpTOCNode Title="ZetUniverseOnlineSetupUrl Field" Url="html/F_ZU_Constants_Application_Configuration_ZetUniverseOnlineSetupUrl.htm" />
+          <HelpTOCNode Title="ZetUniverseOnlineUserVoiceCommunityUrl Field" Url="html/F_ZU_Constants_Application_Configuration_ZetUniverseOnlineUserVoiceCommunityUrl.htm" />
+          <HelpTOCNode Title="ZetUniverseProcessorsFolder Field" Url="html/F_ZU_Constants_Application_Configuration_ZetUniverseProcessorsFolder.htm" />
+          <HelpTOCNode Title="ZetUniverseRootFolder Field" Url="html/F_ZU_Constants_Application_Configuration_ZetUniverseRootFolder.htm" />
+          <HelpTOCNode Title="ZetUniverseUserSettingsFile Field" Url="html/F_ZU_Constants_Application_Configuration_ZetUniverseUserSettingsFile.htm" />
+          <HelpTOCNode Title="ZetUniverseUserSettingsV2File Field" Url="html/F_ZU_Constants_Application_Configuration_ZetUniverseUserSettingsV2File.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c56dd5ca-ab1f-4680-83cb-522d73151b92" Title="Constants.Application.Configuration.StorageProviders Class" Url="html/T_ZU_Constants_Application_Configuration_StorageProviders.htm">
+        <HelpTOCNode Id="4024fe18-9d8c-48d0-a47f-7eeb811bf3c5" Title="StorageProviders Fields" Url="html/Fields_T_ZU_Constants_Application_Configuration_StorageProviders.htm">
+          <HelpTOCNode Title="CompoundFileStorageProvider Field" Url="html/F_ZU_Constants_Application_Configuration_StorageProviders_CompoundFileStorageProvider.htm" />
+          <HelpTOCNode Title="FolderStorageProvider Field" Url="html/F_ZU_Constants_Application_Configuration_StorageProviders_FolderStorageProvider.htm" />
+          <HelpTOCNode Title="NextStorageProvider Field" Url="html/F_ZU_Constants_Application_Configuration_StorageProviders_NextStorageProvider.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ca3772bb-84b9-4c0c-b5d1-e4c8fe1f42bb" Title="Constants.Application.ErrorCodes Class" Url="html/T_ZU_Constants_Application_ErrorCodes.htm">
+        <HelpTOCNode Id="533611bc-fb77-4dc5-aaa9-fd19741643fe" Title="ErrorCodes Fields" Url="html/Fields_T_ZU_Constants_Application_ErrorCodes.htm">
+          <HelpTOCNode Title="FailedToExtractData Field" Url="html/F_ZU_Constants_Application_ErrorCodes_FailedToExtractData.htm" />
+          <HelpTOCNode Title="FailedToMigrateData Field" Url="html/F_ZU_Constants_Application_ErrorCodes_FailedToMigrateData.htm" />
+          <HelpTOCNode Title="FailedToPrepareStorageRecord Field" Url="html/F_ZU_Constants_Application_ErrorCodes_FailedToPrepareStorageRecord.htm" />
+          <HelpTOCNode Title="MainWindowIsNull Field" Url="html/F_ZU_Constants_Application_ErrorCodes_MainWindowIsNull.htm" />
+          <HelpTOCNode Title="MigrationFailed Field" Url="html/F_ZU_Constants_Application_ErrorCodes_MigrationFailed.htm" />
+          <HelpTOCNode Title="MigrationSucceeded Field" Url="html/F_ZU_Constants_Application_ErrorCodes_MigrationSucceeded.htm" />
+          <HelpTOCNode Title="ProvidedForMigrationDataIsNull Field" Url="html/F_ZU_Constants_Application_ErrorCodes_ProvidedForMigrationDataIsNull.htm" />
+          <HelpTOCNode Title="SettingsObjectIsNull Field" Url="html/F_ZU_Constants_Application_ErrorCodes_SettingsObjectIsNull.htm" />
+          <HelpTOCNode Title="UnableToCreateMetaspaceAndOrUserFolder Field" Url="html/F_ZU_Constants_Application_ErrorCodes_UnableToCreateMetaspaceAndOrUserFolder.htm" />
+          <HelpTOCNode Title="UnhandledException Field" Url="html/F_ZU_Constants_Application_ErrorCodes_UnhandledException.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="dd9b4fa6-b83d-4b55-86e1-e142db7ba463" Title="Constants.AppsKinds Class" Url="html/T_ZU_Constants_AppsKinds.htm">
+        <HelpTOCNode Id="9555e850-544b-420a-b1c9-471c150aee9b" Title="AppsKinds Fields" Url="html/Fields_T_ZU_Constants_AppsKinds.htm">
+          <HelpTOCNode Title="FileStore Field" Url="html/F_ZU_Constants_AppsKinds_FileStore.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.Importers Class" Url="html/T_ZU_Constants_Importers.htm" />
+      <HelpTOCNode Id="8528fc7d-ca52-4927-bd05-e61ca20431d8" Title="Constants.Importers.FileSystemImporter Class" Url="html/T_ZU_Constants_Importers_FileSystemImporter.htm">
+        <HelpTOCNode Id="25d467bb-a75c-41e7-94c3-e0487a1d66d5" Title="FileSystemImporter Fields" Url="html/Fields_T_ZU_Constants_Importers_FileSystemImporter.htm">
+          <HelpTOCNode Title="FileSystemDirectories Field" Url="html/F_ZU_Constants_Importers_FileSystemImporter_FileSystemDirectories.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.Importers.Services Class" Url="html/T_ZU_Constants_Importers_Services.htm" />
+      <HelpTOCNode Id="570e819d-bdbb-4e06-a27f-3cd96601886a" Title="Constants.Importers.Services.Dropbox Class" Url="html/T_ZU_Constants_Importers_Services_Dropbox.htm">
+        <HelpTOCNode Id="44876f06-2210-4038-8d12-e8660c41ed8d" Title="Dropbox Fields" Url="html/Fields_T_ZU_Constants_Importers_Services_Dropbox.htm">
+          <HelpTOCNode Title="ProviderName Field" Url="html/F_ZU_Constants_Importers_Services_Dropbox_ProviderName.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.Importers.Services.Microsoft Class" Url="html/T_ZU_Constants_Importers_Services_Microsoft.htm" />
+      <HelpTOCNode Id="60519ed9-feef-4313-9500-c50b1e490a45" Title="Constants.Importers.Services.Microsoft.Office365 Class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Office365.htm">
+        <HelpTOCNode Id="a881d48e-2d81-459c-884d-9948c5f4063b" Title="Office365 Fields" Url="html/Fields_T_ZU_Constants_Importers_Services_Microsoft_Office365.htm">
+          <HelpTOCNode Title="ProviderName Field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Office365_ProviderName.htm" />
+          <HelpTOCNode Title="TenantName Field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Office365_TenantName.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="fb8496eb-54b1-451c-b508-9cb3188ca127" Title="Constants.Importers.Services.Microsoft.Outlook Class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Outlook.htm">
+        <HelpTOCNode Id="565bceef-a594-4893-8954-c7acc4cfa32f" Title="Outlook Fields" Url="html/Fields_T_ZU_Constants_Importers_Services_Microsoft_Outlook.htm">
+          <HelpTOCNode Title="LocalCacheName Field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Outlook_LocalCacheName.htm" />
+          <HelpTOCNode Title="ProviderName Field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Outlook_ProviderName.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="98e80294-9b79-4609-83ef-284c826fb3b7" Title="Constants.Importers.Services.Microsoft.Outlook.ContactSchema Class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema.htm">
+        <HelpTOCNode Id="221a36a5-f22d-4d14-8941-43af80b95c4b" Title="ContactSchema Fields" Url="html/Fields_T_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema.htm">
+          <HelpTOCNode Title="Id Field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema_Id.htm" />
+          <HelpTOCNode Title="IsFavorite Field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema_IsFavorite.htm" />
+          <HelpTOCNode Title="IsFriend Field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema_IsFriend.htm" />
+          <HelpTOCNode Title="UpdatedTime Field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema_UpdatedTime.htm" />
+          <HelpTOCNode Title="UserId Field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema_UserId.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="777e5aa6-2d5f-44b1-8073-dc4bb9de3e0d" Title="Constants.Importers.WebPageImporter Class" Url="html/T_ZU_Constants_Importers_WebPageImporter.htm">
+        <HelpTOCNode Id="7623de68-a109-4d8e-8dad-3d825f7b5938" Title="WebPageImporter Fields" Url="html/Fields_T_ZU_Constants_Importers_WebPageImporter.htm">
+          <HelpTOCNode Title="DefaultReadabilityParserToken Field" Url="html/F_ZU_Constants_Importers_WebPageImporter_DefaultReadabilityParserToken.htm" />
+          <HelpTOCNode Title="MaximumDownloadTimeInterval Field" Url="html/F_ZU_Constants_Importers_WebPageImporter_MaximumDownloadTimeInterval.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.Indexers Class" Url="html/T_ZU_Constants_Indexers.htm" />
+      <HelpTOCNode Id="73696e07-98c1-4809-b9ec-9588f887f2dc" Title="Constants.Indexers.FullTextSearchIndexer Class" Url="html/T_ZU_Constants_Indexers_FullTextSearchIndexer.htm">
+        <HelpTOCNode Id="bb404f7d-2521-4157-983b-d784a16c9d27" Title="FullTextSearchIndexer Fields" Url="html/Fields_T_ZU_Constants_Indexers_FullTextSearchIndexer.htm">
+          <HelpTOCNode Title="DocumentId Field" Url="html/F_ZU_Constants_Indexers_FullTextSearchIndexer_DocumentId.htm" />
+          <HelpTOCNode Title="FullText Field" Url="html/F_ZU_Constants_Indexers_FullTextSearchIndexer_FullText.htm" />
+          <HelpTOCNode Title="FullTextHash Field" Url="html/F_ZU_Constants_Indexers_FullTextSearchIndexer_FullTextHash.htm" />
+          <HelpTOCNode Title="Keyphrases Field" Url="html/F_ZU_Constants_Indexers_FullTextSearchIndexer_Keyphrases.htm" />
+          <HelpTOCNode Title="Kind Field" Url="html/F_ZU_Constants_Indexers_FullTextSearchIndexer_Kind.htm" />
+          <HelpTOCNode Title="Title Field" Url="html/F_ZU_Constants_Indexers_FullTextSearchIndexer_Title.htm" />
+          <HelpTOCNode Title="VisualClusterId Field" Url="html/F_ZU_Constants_Indexers_FullTextSearchIndexer_VisualClusterId.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="45c118f1-f88a-4395-b421-7880bf4ed24a" Title="Constants.Kinds Class" Url="html/T_ZU_Constants_Kinds.htm">
+        <HelpTOCNode Id="7c0063d7-103c-467e-a4b9-2939bc4e77e3" Title="Kinds Properties" Url="html/Properties_T_ZU_Constants_Kinds.htm">
+          <HelpTOCNode Title="BuiltInKindsDictionary Property " Url="html/P_ZU_Constants_Kinds_BuiltInKindsDictionary.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a95bdb2f-3c7f-452a-831e-63e13b3fccc6" Title="Kinds Methods" Url="html/Methods_T_ZU_Constants_Kinds.htm">
+          <HelpTOCNode Title="CanBePartOfVisualCluster Method " Url="html/M_ZU_Constants_Kinds_CanBePartOfVisualCluster.htm" />
+          <HelpTOCNode Title="GetKindDescription Method " Url="html/M_ZU_Constants_Kinds_GetKindDescription.htm" />
+          <HelpTOCNode Title="GetKindFullTextAliases Method " Url="html/M_ZU_Constants_Kinds_GetKindFullTextAliases.htm" />
+          <HelpTOCNode Title="GetKindSelection Method " Url="html/M_ZU_Constants_Kinds_GetKindSelection.htm" />
+          <HelpTOCNode Title="IsBuiltInKind Method " Url="html/M_ZU_Constants_Kinds_IsBuiltInKind.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="efd34954-41ba-40a2-93e9-2eaab386529f" Title="Kinds Fields" Url="html/Fields_T_ZU_Constants_Kinds.htm">
+          <HelpTOCNode Title="Agent Field" Url="html/F_ZU_Constants_Kinds_Agent.htm" />
+          <HelpTOCNode Title="Application Field" Url="html/F_ZU_Constants_Kinds_Application.htm" />
+          <HelpTOCNode Title="Appointment Field" Url="html/F_ZU_Constants_Kinds_Appointment.htm" />
+          <HelpTOCNode Title="AppSpace Field" Url="html/F_ZU_Constants_Kinds_AppSpace.htm" />
+          <HelpTOCNode Title="Article Field" Url="html/F_ZU_Constants_Kinds_Article.htm" />
+          <HelpTOCNode Title="Author Field" Url="html/F_ZU_Constants_Kinds_Author.htm" />
+          <HelpTOCNode Title="Book Field" Url="html/F_ZU_Constants_Kinds_Book.htm" />
+          <HelpTOCNode Title="Calendar Field" Url="html/F_ZU_Constants_Kinds_Calendar.htm" />
+          <HelpTOCNode Title="Call Field" Url="html/F_ZU_Constants_Kinds_Call.htm" />
+          <HelpTOCNode Title="Communication Field" Url="html/F_ZU_Constants_Kinds_Communication.htm" />
+          <HelpTOCNode Title="Document Field" Url="html/F_ZU_Constants_Kinds_Document.htm" />
+          <HelpTOCNode Title="Email Field" Url="html/F_ZU_Constants_Kinds_Email.htm" />
+          <HelpTOCNode Title="Folder Field" Url="html/F_ZU_Constants_Kinds_Folder.htm" />
+          <HelpTOCNode Title="GenericFile Field" Url="html/F_ZU_Constants_Kinds_GenericFile.htm" />
+          <HelpTOCNode Title="GraphView Field" Url="html/F_ZU_Constants_Kinds_GraphView.htm" />
+          <HelpTOCNode Title="InstantMessage Field" Url="html/F_ZU_Constants_Kinds_InstantMessage.htm" />
+          <HelpTOCNode Title="Kind Field" Url="html/F_ZU_Constants_Kinds_Kind.htm" />
+          <HelpTOCNode Title="Link Field" Url="html/F_ZU_Constants_Kinds_Link.htm" />
+          <HelpTOCNode Title="List Field" Url="html/F_ZU_Constants_Kinds_List.htm" />
+          <HelpTOCNode Title="Location Field" Url="html/F_ZU_Constants_Kinds_Location.htm" />
+          <HelpTOCNode Title="Media Field" Url="html/F_ZU_Constants_Kinds_Media.htm" />
+          <HelpTOCNode Title="Meeting Field" Url="html/F_ZU_Constants_Kinds_Meeting.htm" />
+          <HelpTOCNode Title="Movie Field" Url="html/F_ZU_Constants_Kinds_Movie.htm" />
+          <HelpTOCNode Title="Music Field" Url="html/F_ZU_Constants_Kinds_Music.htm" />
+          <HelpTOCNode Title="MusicalPlaylist Field" Url="html/F_ZU_Constants_Kinds_MusicalPlaylist.htm" />
+          <HelpTOCNode Title="Organization Field" Url="html/F_ZU_Constants_Kinds_Organization.htm" />
+          <HelpTOCNode Title="PdfDocument Field" Url="html/F_ZU_Constants_Kinds_PdfDocument.htm" />
+          <HelpTOCNode Title="PeopleGroup Field" Url="html/F_ZU_Constants_Kinds_PeopleGroup.htm" />
+          <HelpTOCNode Title="Person Field" Url="html/F_ZU_Constants_Kinds_Person.htm" />
+          <HelpTOCNode Title="Picture Field" Url="html/F_ZU_Constants_Kinds_Picture.htm" />
+          <HelpTOCNode Title="Place Field" Url="html/F_ZU_Constants_Kinds_Place.htm" />
+          <HelpTOCNode Title="PptxDocument Field" Url="html/F_ZU_Constants_Kinds_PptxDocument.htm" />
+          <HelpTOCNode Title="ProjectSpace Field" Url="html/F_ZU_Constants_Kinds_ProjectSpace.htm" />
+          <HelpTOCNode Title="Property Field" Url="html/F_ZU_Constants_Kinds_Property.htm" />
+          <HelpTOCNode Title="RecordedTV Field" Url="html/F_ZU_Constants_Kinds_RecordedTV.htm" />
+          <HelpTOCNode Title="Thing Field" Url="html/F_ZU_Constants_Kinds_Thing.htm" />
+          <HelpTOCNode Title="User Field" Url="html/F_ZU_Constants_Kinds_User.htm" />
+          <HelpTOCNode Title="Video Field" Url="html/F_ZU_Constants_Kinds_Video.htm" />
+          <HelpTOCNode Title="View Field" Url="html/F_ZU_Constants_Kinds_View.htm" />
+          <HelpTOCNode Title="VisualCluster Field" Url="html/F_ZU_Constants_Kinds_VisualCluster.htm" />
+          <HelpTOCNode Title="WebPage Field" Url="html/F_ZU_Constants_Kinds_WebPage.htm" />
+          <HelpTOCNode Title="ZetUniverse Field" Url="html/F_ZU_Constants_Kinds_ZetUniverse.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.KindSelection Enumeration" Url="html/T_ZU_Constants_KindSelection.htm" />
+      <HelpTOCNode Id="3db0f36b-0a20-48fb-a771-0de2c6c333e0" Title="Constants.KnownEntities Class" Url="html/T_ZU_Constants_KnownEntities.htm">
+        <HelpTOCNode Id="f9f568f0-fe2d-420b-b555-c9f148b5363f" Title="KnownEntities Fields" Url="html/Fields_T_ZU_Constants_KnownEntities.htm">
+          <HelpTOCNode Title="DefaultUnsortedList Field" Url="html/F_ZU_Constants_KnownEntities_DefaultUnsortedList.htm" />
+          <HelpTOCNode Title="Unsorted Field" Url="html/F_ZU_Constants_KnownEntities_Unsorted.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.Meta Class" Url="html/T_ZU_Constants_Meta.htm" />
+      <HelpTOCNode Id="3f755299-04a0-45d3-aa26-574050262cd3" Title="Constants.Meta.Confidence Class" Url="html/T_ZU_Constants_Meta_Confidence.htm">
+        <HelpTOCNode Id="37c86425-5700-475f-8cdc-032586533494" Title="Confidence Fields" Url="html/Fields_T_ZU_Constants_Meta_Confidence.htm">
+          <HelpTOCNode Title="EightyPercent Field" Url="html/F_ZU_Constants_Meta_Confidence_EightyPercent.htm" />
+          <HelpTOCNode Title="NightyFivePercent Field" Url="html/F_ZU_Constants_Meta_Confidence_NightyFivePercent.htm" />
+          <HelpTOCNode Title="OneHundredPercent Field" Url="html/F_ZU_Constants_Meta_Confidence_OneHundredPercent.htm" />
+          <HelpTOCNode Title="SeventyFivePercent Field" Url="html/F_ZU_Constants_Meta_Confidence_SeventyFivePercent.htm" />
+          <HelpTOCNode Title="SixtySixPercent Field" Url="html/F_ZU_Constants_Meta_Confidence_SixtySixPercent.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="22916d7b-ac63-4b8f-bdd6-40a64ac7675f" Title="Constants.Properties Class" Url="html/T_ZU_Constants_Properties.htm">
+        <HelpTOCNode Id="8899f520-9fb0-4cac-88a3-0501b523de77" Title="Properties Fields" Url="html/Fields_T_ZU_Constants_Properties.htm">
+          <HelpTOCNode Title="AppId Field" Url="html/F_ZU_Constants_Properties_AppId.htm" />
+          <HelpTOCNode Title="AppRootFolder Field" Url="html/F_ZU_Constants_Properties_AppRootFolder.htm" />
+          <HelpTOCNode Title="FullPath Field" Url="html/F_ZU_Constants_Properties_FullPath.htm" />
+          <HelpTOCNode Title="SyncSource Field" Url="html/F_ZU_Constants_Properties_SyncSource.htm" />
+          <HelpTOCNode Title="Uri Field" Url="html/F_ZU_Constants_Properties_Uri.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="90cff851-933e-4794-8496-eb8e45ff9a3a" Title="Constants.Properties.Person Class" Url="html/T_ZU_Constants_Properties_Person.htm">
+        <HelpTOCNode Id="a2408237-499a-4f80-9bf7-1fa4dbc01a48" Title="Person Fields" Url="html/Fields_T_ZU_Constants_Properties_Person.htm">
+          <HelpTOCNode Title="Email1 Field" Url="html/F_ZU_Constants_Properties_Person_Email1.htm" />
+          <HelpTOCNode Title="Email10 Field" Url="html/F_ZU_Constants_Properties_Person_Email10.htm" />
+          <HelpTOCNode Title="Email2 Field" Url="html/F_ZU_Constants_Properties_Person_Email2.htm" />
+          <HelpTOCNode Title="Email3 Field" Url="html/F_ZU_Constants_Properties_Person_Email3.htm" />
+          <HelpTOCNode Title="Email4 Field" Url="html/F_ZU_Constants_Properties_Person_Email4.htm" />
+          <HelpTOCNode Title="Email5 Field" Url="html/F_ZU_Constants_Properties_Person_Email5.htm" />
+          <HelpTOCNode Title="Email6 Field" Url="html/F_ZU_Constants_Properties_Person_Email6.htm" />
+          <HelpTOCNode Title="Email7 Field" Url="html/F_ZU_Constants_Properties_Person_Email7.htm" />
+          <HelpTOCNode Title="Email8 Field" Url="html/F_ZU_Constants_Properties_Person_Email8.htm" />
+          <HelpTOCNode Title="Email9 Field" Url="html/F_ZU_Constants_Properties_Person_Email9.htm" />
+          <HelpTOCNode Title="FirstName Field" Url="html/F_ZU_Constants_Properties_Person_FirstName.htm" />
+          <HelpTOCNode Title="HomePhone Field" Url="html/F_ZU_Constants_Properties_Person_HomePhone.htm" />
+          <HelpTOCNode Title="LastName Field" Url="html/F_ZU_Constants_Properties_Person_LastName.htm" />
+          <HelpTOCNode Title="MobilePhone Field" Url="html/F_ZU_Constants_Properties_Person_MobilePhone.htm" />
+          <HelpTOCNode Title="WorkFax Field" Url="html/F_ZU_Constants_Properties_Person_WorkFax.htm" />
+          <HelpTOCNode Title="WorkPhone Field" Url="html/F_ZU_Constants_Properties_Person_WorkPhone.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="9988f650-1e83-4a83-93b0-75948df1af51" Title="Constants.Properties.WebPage Class" Url="html/T_ZU_Constants_Properties_WebPage.htm">
+        <HelpTOCNode Id="a853e06a-6328-415a-a257-17f2d2fa42b8" Title="WebPage Fields" Url="html/Fields_T_ZU_Constants_Properties_WebPage.htm">
+          <HelpTOCNode Title="LocalPageUri Field" Url="html/F_ZU_Constants_Properties_WebPage_LocalPageUri.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="81934b76-8a96-46ee-8e89-660a48839280" Title="Constants.Relationships Class" Url="html/T_ZU_Constants_Relationships.htm">
+        <HelpTOCNode Id="09f4e732-615f-4558-b12d-b56c88bde9f8" Title="Relationships Properties" Url="html/Properties_T_ZU_Constants_Relationships.htm">
+          <HelpTOCNode Title="BuiltInFromRelationshipsDictionary Property " Url="html/P_ZU_Constants_Relationships_BuiltInFromRelationshipsDictionary.htm" />
+          <HelpTOCNode Title="BuiltInRelationshipsDictionary Property " Url="html/P_ZU_Constants_Relationships_BuiltInRelationshipsDictionary.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="aa74c155-4e4e-46b0-85c1-3765b3f00709" Title="Relationships Fields" Url="html/Fields_T_ZU_Constants_Relationships.htm">
+          <HelpTOCNode Title="CurrentZetUniverseUser Field" Url="html/F_ZU_Constants_Relationships_CurrentZetUniverseUser.htm" />
+          <HelpTOCNode Title="IsAuthoredBy Field" Url="html/F_ZU_Constants_Relationships_IsAuthoredBy.htm" />
+          <HelpTOCNode Title="IsChangedBy Field" Url="html/F_ZU_Constants_Relationships_IsChangedBy.htm" />
+          <HelpTOCNode Title="IsMentionedIn Field" Url="html/F_ZU_Constants_Relationships_IsMentionedIn.htm" />
+          <HelpTOCNode Title="PartOfList Field" Url="html/F_ZU_Constants_Relationships_PartOfList.htm" />
+          <HelpTOCNode Title="PartOfVisualCluster Field" Url="html/F_ZU_Constants_Relationships_PartOfVisualCluster.htm" />
+          <HelpTOCNode Title="SameEntity Field" Url="html/F_ZU_Constants_Relationships_SameEntity.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.Service Class" Url="html/T_ZU_Constants_Service.htm" />
+      <HelpTOCNode Id="20c8d966-3c04-4413-8c6d-9555ff3c43fe" Title="Constants.Service.Roles Class" Url="html/T_ZU_Constants_Service_Roles.htm">
+        <HelpTOCNode Id="3316791b-0538-4ed3-ad61-21e16b0811a2" Title="Roles Fields" Url="html/Fields_T_ZU_Constants_Service_Roles.htm">
+          <HelpTOCNode Title="Admin Field" Url="html/F_ZU_Constants_Service_Roles_Admin.htm" />
+          <HelpTOCNode Title="User Field" Url="html/F_ZU_Constants_Service_Roles_User.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="a1125827-f4ca-4b21-b8cd-950037e4f104" Title="Constants.StorageHelper Class" Url="html/T_ZU_Constants_StorageHelper.htm">
+        <HelpTOCNode Id="c425e2df-7058-494e-a0ca-9f7698145ac9" Title="StorageHelper Methods" Url="html/Methods_T_ZU_Constants_StorageHelper.htm">
+          <HelpTOCNode Title="GetBoundsFromStorageRecordKey Method " Url="html/M_ZU_Constants_StorageHelper_GetBoundsFromStorageRecordKey.htm" />
+          <HelpTOCNode Title="GetChangeDateFromStorageRecordKey Method " Url="html/M_ZU_Constants_StorageHelper_GetChangeDateFromStorageRecordKey.htm" />
+          <HelpTOCNode Title="GetEntityStorageRecordKey Method " Url="html/M_ZU_Constants_StorageHelper_GetEntityStorageRecordKey.htm" />
+          <HelpTOCNode Title="GetEntityStorageRecordKeyWithoutUID Method " Url="html/M_ZU_Constants_StorageHelper_GetEntityStorageRecordKeyWithoutUID.htm" />
+          <HelpTOCNode Title="GetIdFromStorageRecordKey Method " Url="html/M_ZU_Constants_StorageHelper_GetIdFromStorageRecordKey.htm" />
+          <HelpTOCNode Title="GetSemanticActionFromStorageRecordKey Method " Url="html/M_ZU_Constants_StorageHelper_GetSemanticActionFromStorageRecordKey.htm" />
+          <HelpTOCNode Title="MyRound Method " Url="html/M_ZU_Constants_StorageHelper_MyRound.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e6b132b7-990c-4b6c-82e9-5a1495306baf" Title="StorageHelper Fields" Url="html/Fields_T_ZU_Constants_StorageHelper.htm">
+          <HelpTOCNode Title="strEDateFormat Field" Url="html/F_ZU_Constants_StorageHelper_strEDateFormat.htm" />
+          <HelpTOCNode Title="strEDatePart Field" Url="html/F_ZU_Constants_StorageHelper_strEDatePart.htm" />
+          <HelpTOCNode Title="strEIdPart Field" Url="html/F_ZU_Constants_StorageHelper_strEIdPart.htm" />
+          <HelpTOCNode Title="strFilterE Field" Url="html/F_ZU_Constants_StorageHelper_strFilterE.htm" />
+          <HelpTOCNode Title="strFilterLE Field" Url="html/F_ZU_Constants_StorageHelper_strFilterLE.htm" />
+          <HelpTOCNode Title="strFilterLocationALE Field" Url="html/F_ZU_Constants_StorageHelper_strFilterLocationALE.htm" />
+          <HelpTOCNode Title="StrFilterLocationE Field" Url="html/F_ZU_Constants_StorageHelper_StrFilterLocationE.htm" />
+          <HelpTOCNode Title="strFilterLocationLE Field" Url="html/F_ZU_Constants_StorageHelper_strFilterLocationLE.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Constants.Topics Class" Url="html/T_ZU_Constants_Topics.htm" />
+      <HelpTOCNode Id="69c5b690-962d-4670-ac8d-05a274d0d2b1" Title="Constants.Topics.ActivityHistory Class" Url="html/T_ZU_Constants_Topics_ActivityHistory.htm">
+        <HelpTOCNode Id="82e9090c-92b8-4dbd-ba69-8bdff87e0b16" Title="ActivityHistory Fields" Url="html/Fields_T_ZU_Constants_Topics_ActivityHistory.htm">
+          <HelpTOCNode Title="SemanticActionEntries Field" Url="html/F_ZU_Constants_Topics_ActivityHistory_SemanticActionEntries.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="06bfe086-17af-43f2-95d9-5bdcea41e729" Title="Constants.Topics.Classifications Class" Url="html/T_ZU_Constants_Topics_Classifications.htm">
+        <HelpTOCNode Id="f6e07bf9-9df8-428b-a4be-0da44c636b46" Title="Classifications Fields" Url="html/Fields_T_ZU_Constants_Topics_Classifications.htm">
+          <HelpTOCNode Title="Kinds Field" Url="html/F_ZU_Constants_Topics_Classifications_Kinds.htm" />
+          <HelpTOCNode Title="Name Field" Url="html/F_ZU_Constants_Topics_Classifications_Name.htm" />
+          <HelpTOCNode Title="VisualClusters Field" Url="html/F_ZU_Constants_Topics_Classifications_VisualClusters.htm" />
+          <HelpTOCNode Title="WebPages Field" Url="html/F_ZU_Constants_Topics_Classifications_WebPages.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="d1341771-924e-478d-ae91-799425f4c776" Title="Constants.Topics.Content Class" Url="html/T_ZU_Constants_Topics_Content.htm">
+        <HelpTOCNode Id="e76900b2-ad0c-4424-b3ed-2f4531a7db15" Title="Content Fields" Url="html/Fields_T_ZU_Constants_Topics_Content.htm">
+          <HelpTOCNode Title="FullText Field" Url="html/F_ZU_Constants_Topics_Content_FullText.htm" />
+          <HelpTOCNode Title="Thumbnail Field" Url="html/F_ZU_Constants_Topics_Content_Thumbnail.htm" />
+          <HelpTOCNode Title="Title Field" Url="html/F_ZU_Constants_Topics_Content_Title.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="d5b325fa-f0c9-4a29-a3ec-3ecb9fd9284e" Title="Constants.Topics.Incoming Class" Url="html/T_ZU_Constants_Topics_Incoming.htm">
+        <HelpTOCNode Id="6756a5d0-9887-44bd-bbea-e91ea9dcb885" Title="Incoming Fields" Url="html/Fields_T_ZU_Constants_Topics_Incoming.htm">
+          <HelpTOCNode Title="ExtractedRelationships Field" Url="html/F_ZU_Constants_Topics_Incoming_ExtractedRelationships.htm" />
+          <HelpTOCNode Title="Files Field" Url="html/F_ZU_Constants_Topics_Incoming_Files.htm" />
+          <HelpTOCNode Title="Keyphrases Field" Url="html/F_ZU_Constants_Topics_Incoming_Keyphrases.htm" />
+          <HelpTOCNode Title="Name Field" Url="html/F_ZU_Constants_Topics_Incoming_Name.htm" />
+          <HelpTOCNode Title="NormalizedText Field" Url="html/F_ZU_Constants_Topics_Incoming_NormalizedText.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3ca01e8b-929d-4e62-a1bf-22af4c7b837e" Title="Constants.Topics.Incoming.Kinds Class" Url="html/T_ZU_Constants_Topics_Incoming_Kinds.htm">
+        <HelpTOCNode Id="2ce99b3e-8feb-4027-81c4-c057f5116cb1" Title="Kinds Fields" Url="html/Fields_T_ZU_Constants_Topics_Incoming_Kinds.htm">
+          <HelpTOCNode Title="GenericFile Field" Url="html/F_ZU_Constants_Topics_Incoming_Kinds_GenericFile.htm" />
+          <HelpTOCNode Title="WebPage Field" Url="html/F_ZU_Constants_Topics_Incoming_Kinds_WebPage.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="8b80e62a-714d-4d0d-b24e-30e32996d032" Title="Log Class" Url="html/T_ZU_Log.htm">
+        <HelpTOCNode Id="8d2dc02c-2a65-4961-baeb-a89ac91d71c1" Title="Log Constructor " Url="html/Overload_ZU_Log__ctor.htm">
+          <HelpTOCNode Title="Log Constructor " Url="html/M_ZU_Log__ctor.htm" />
+          <HelpTOCNode Title="Log Constructor (String, Object[])" Url="html/M_ZU_Log__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="705b4689-7ef0-4d4d-a7ee-bd77f876221c" Title="Log Properties" Url="html/Properties_T_ZU_Log.htm">
+          <HelpTOCNode Title="Instance Property " Url="html/P_ZU_Log_Instance.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="920be616-b629-481b-b7d8-d1a8f2bb609b" Title="Log Methods" Url="html/Methods_T_ZU_Log.htm">
+          <HelpTOCNode Id="e9bd9d22-af98-4ad9-bfe2-aac427b2f945" Title="Add Method " Url="html/Overload_ZU_Log_Add.htm">
+            <HelpTOCNode Title="Add Method (Object, Exception)" Url="html/M_ZU_Log_Add_1.htm" />
+            <HelpTOCNode Title="Add Method (EventType, Object, String)" Url="html/M_ZU_Log_Add.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Debug Method " Url="html/M_ZU_Log_Debug.htm" />
+          <HelpTOCNode Id="3279f727-a9e4-44b9-9971-6f62142fa094" Title="Dispose Method " Url="html/Overload_ZU_Log_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_ZU_Log_Dispose.htm" />
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_ZU_Log_Dispose_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Error Method " Url="html/M_ZU_Log_Error.htm" />
+          <HelpTOCNode Id="032165fc-1e70-473b-8207-800d5bed46af" Title="Exception Method " Url="html/Overload_ZU_Log_Exception.htm">
+            <HelpTOCNode Title="Exception Method (Exception)" Url="html/M_ZU_Log_Exception.htm" />
+            <HelpTOCNode Title="Exception Method (String, Exception, Object[])" Url="html/M_ZU_Log_Exception_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Fatal Method " Url="html/M_ZU_Log_Fatal.htm" />
+          <HelpTOCNode Title="Finalize Method " Url="html/M_ZU_Log_Finalize.htm" />
+          <HelpTOCNode Title="Info Method " Url="html/M_ZU_Log_Info.htm" />
+          <HelpTOCNode Title="IsFatal Method " Url="html/M_ZU_Log_IsFatal.htm" />
+          <HelpTOCNode Title="Message Method " Url="html/M_ZU_Log_Message.htm" />
+          <HelpTOCNode Title="Notify Method " Url="html/M_ZU_Log_Notify.htm" />
+          <HelpTOCNode Id="424ccc29-ee0b-46ab-9671-2bc2cb123a7d" Title="Result Method " Url="html/Overload_ZU_Log_Result.htm">
+            <HelpTOCNode Title="Result(T) Method (T)" Url="html/M_ZU_Log_Result__1.htm" />
+            <HelpTOCNode Title="Result(T) Method (T, String)" Url="html/M_ZU_Log_Result__1_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Verbose Method " Url="html/M_ZU_Log_Verbose.htm" />
+          <HelpTOCNode Title="Warn Method " Url="html/M_ZU_Log_Warn.htm" />
+          <HelpTOCNode Title="Warning Method " Url="html/M_ZU_Log_Warning.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="25064ccb-37c4-465e-8ed4-5515f47aa789" Title="Log Fields" Url="html/Fields_T_ZU_Log.htm">
+          <HelpTOCNode Title="IndentLevel Field" Url="html/F_ZU_Log_IndentLevel.htm" />
+          <HelpTOCNode Title="Items Field" Url="html/F_ZU_Log_Items.htm" />
+          <HelpTOCNode Title="Locker Field" Url="html/F_ZU_Log_Locker.htm" />
+          <HelpTOCNode Title="NumErrors Field" Url="html/F_ZU_Log_NumErrors.htm" />
+          <HelpTOCNode Title="NumWarnings Field" Url="html/F_ZU_Log_NumWarnings.htm" />
+          <HelpTOCNode Title="OnMessage Field" Url="html/F_ZU_Log_OnMessage.htm" />
+          <HelpTOCNode Title="StartMemory Field" Url="html/F_ZU_Log_StartMemory.htm" />
+          <HelpTOCNode Title="StartTimer Field" Url="html/F_ZU_Log_StartTimer.htm" />
+          <HelpTOCNode Title="StrHeader Field" Url="html/F_ZU_Log_StrHeader.htm" />
+          <HelpTOCNode Title="StrLevel Field" Url="html/F_ZU_Log_StrLevel.htm" />
+          <HelpTOCNode Title="UseLock Field" Url="html/F_ZU_Log_UseLock.htm" />
+          <HelpTOCNode Title="UseTrace Field" Url="html/F_ZU_Log_UseTrace.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f7d7d660-3944-4c89-a31c-738699a6a378" Title="Log.Entry Structure" Url="html/T_ZU_Log_Entry.htm">
+        <HelpTOCNode Title="Log.Entry Constructor " Url="html/M_ZU_Log_Entry__ctor.htm" />
+        <HelpTOCNode Id="2d7e677d-ae4c-40d3-bdbe-cc9a2d62c083" Title="Entry Properties" Url="html/Properties_T_ZU_Log_Entry.htm">
+          <HelpTOCNode Title="IndentLevel Property " Url="html/P_ZU_Log_Entry_IndentLevel.htm" />
+          <HelpTOCNode Title="Level Property " Url="html/P_ZU_Log_Entry_Level.htm" />
+          <HelpTOCNode Title="Message Property " Url="html/P_ZU_Log_Entry_Message.htm" />
+          <HelpTOCNode Title="Time Property " Url="html/P_ZU_Log_Entry_Time.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ac1b3e6c-7c7f-448b-bbbd-1cc33f1519c3" Title="Entry Methods" Url="html/Methods_T_ZU_Log_Entry.htm">
+          <HelpTOCNode Title="ToString Method " Url="html/M_ZU_Log_Entry_ToString.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Log.Level Enumeration" Url="html/T_ZU_Log_Level.htm" />
+      <HelpTOCNode Id="97868f90-65f8-420f-86f9-98bb702bbfd0" Title="Platform Class" Url="html/T_ZU_Platform.htm">
+        <HelpTOCNode Id="f4ff5ce9-0780-4769-ad66-dab15950d8e7" Title="Platform Methods" Url="html/Methods_T_ZU_Platform.htm">
+          <HelpTOCNode Title="InputInvalidate Method " Url="html/M_ZU_Platform_InputInvalidate.htm" />
+          <HelpTOCNode Title="InvokeInUI Method " Url="html/M_ZU_Platform_InvokeInUI.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8e8c88ab-f192-4733-8956-dac3bb429312" Title="Platform Fields" Url="html/Fields_T_ZU_Platform.htm">
+          <HelpTOCNode Title="InputCheckInvalidate Field" Url="html/F_ZU_Platform_InputCheckInvalidate.htm" />
+          <HelpTOCNode Title="ThreadingCheckAccess Field" Url="html/F_ZU_Platform_ThreadingCheckAccess.htm" />
+          <HelpTOCNode Title="ThreadingInvokeInUI Field" Url="html/F_ZU_Platform_ThreadingInvokeInUI.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="618debd2-ad08-409f-b34c-85b5521557cd" Title="RegexUtilities Class" Url="html/T_ZU_RegexUtilities.htm">
+        <HelpTOCNode Id="36b564c7-0485-4b02-8b43-2549e78f57ab" Title="RegexUtilities Methods" Url="html/Methods_T_ZU_RegexUtilities.htm">
+          <HelpTOCNode Title="EmailIsValid Method " Url="html/M_ZU_RegexUtilities_EmailIsValid.htm" />
+          <HelpTOCNode Title="TenantNameIsValid Method " Url="html/M_ZU_RegexUtilities_TenantNameIsValid.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="04469305-7d27-49c0-8411-3325223abda8" Title="RelationshipMetadataAttribute Class" Url="html/T_ZU_RelationshipMetadataAttribute.htm">
+        <HelpTOCNode Id="652179c4-b154-43fd-ab14-e50c620c55a8" Title="RelationshipMetadataAttribute Constructor " Url="html/Overload_ZU_RelationshipMetadataAttribute__ctor.htm">
+          <HelpTOCNode Title="RelationshipMetadataAttribute Constructor " Url="html/M_ZU_RelationshipMetadataAttribute__ctor.htm" />
+          <HelpTOCNode Title="RelationshipMetadataAttribute Constructor (String, String, Boolean)" Url="html/M_ZU_RelationshipMetadataAttribute__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e9c03955-98e6-4471-8c64-b1f9f4cecbdf" Title="RelationshipMetadataAttribute Properties" Url="html/Properties_T_ZU_RelationshipMetadataAttribute.htm">
+          <HelpTOCNode Title="AppId Property " Url="html/P_ZU_RelationshipMetadataAttribute_AppId.htm" />
+          <HelpTOCNode Title="Description Property " Url="html/P_ZU_RelationshipMetadataAttribute_Description.htm" />
+          <HelpTOCNode Title="DescriptionFrom Property " Url="html/P_ZU_RelationshipMetadataAttribute_DescriptionFrom.htm" />
+          <HelpTOCNode Title="IsSystem Property " Url="html/P_ZU_RelationshipMetadataAttribute_IsSystem.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="RelationshipMetadataAttribute Methods" Url="html/Methods_T_ZU_RelationshipMetadataAttribute.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c8fa6189-d5e6-450c-9d80-8f2d9ed83d96" Title="ShortGuid Class" Url="html/T_ZU_ShortGuid.htm">
+        <HelpTOCNode Title="ShortGuid Constructor " Url="html/M_ZU_ShortGuid__ctor.htm" />
+        <HelpTOCNode Id="9dcc0048-ea54-445b-b241-9a566f56ed00" Title="ShortGuid Methods" Url="html/Methods_T_ZU_ShortGuid.htm">
+          <HelpTOCNode Title="Parse Method " Url="html/M_ZU_ShortGuid_Parse.htm" />
+          <HelpTOCNode Title="ToGuid Method " Url="html/M_ZU_ShortGuid_ToGuid.htm" />
+          <HelpTOCNode Title="ToString Method " Url="html/M_ZU_ShortGuid_ToString.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="cc5d8bb8-ab91-4a61-8bfb-a5a226590435" Title="ShortGuid Type Conversions" Url="html/Operators_T_ZU_ShortGuid.htm">
+          <HelpTOCNode Id="de2ab183-0e33-4d4b-b89a-f0a517ded086" Title="Implicit Conversion Operators" Url="html/Overload_ZU_ShortGuid_op_Implicit.htm">
+            <HelpTOCNode Title="Implicit Conversion (ShortGuid to String)" Url="html/M_ZU_ShortGuid_op_Implicit.htm" />
+            <HelpTOCNode Title="Implicit Conversion (ShortGuid to Guid)" Url="html/M_ZU_ShortGuid_op_Implicit_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cc9dfab6-ed11-4d5d-9a43-471a424dd9f9" Title="ZU.Collections Namespaces" Url="html/G_ZU_Collections.htm">
+      <HelpTOCNode Id="c129e9ff-b972-4b92-bbc1-0837a9468468" Title="ZU.Collections.Generic" Url="html/N_ZU_Collections_Generic.htm">
+        <HelpTOCNode Id="b5ecaab0-b437-4cfa-99cf-1e38eba8530e" Title="IPriorityQuadTree(T) Interface" Url="html/T_ZU_Collections_Generic_IPriorityQuadTree_1.htm">
+          <HelpTOCNode Id="30e2c49e-aaa8-4edf-b059-1ddac105c941" Title="IPriorityQuadTree(T) Properties" Url="html/Properties_T_ZU_Collections_Generic_IPriorityQuadTree_1.htm">
+            <HelpTOCNode Title="Extent Property " Url="html/P_ZU_Collections_Generic_IPriorityQuadTree_1_Extent.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="373f656b-0169-47e7-86e1-4771a638de63" Title="IPriorityQuadTree(T) Methods" Url="html/Methods_T_ZU_Collections_Generic_IPriorityQuadTree_1.htm">
+            <HelpTOCNode Title="Clear Method " Url="html/M_ZU_Collections_Generic_IPriorityQuadTree_1_Clear.htm" />
+            <HelpTOCNode Title="GetEnumerator Method " Url="html/M_ZU_Collections_Generic_IPriorityQuadTree_1_GetEnumerator.htm" />
+            <HelpTOCNode Title="GetItemsInside Method " Url="html/M_ZU_Collections_Generic_IPriorityQuadTree_1_GetItemsInside.htm" />
+            <HelpTOCNode Title="GetItemsIntersecting Method " Url="html/M_ZU_Collections_Generic_IPriorityQuadTree_1_GetItemsIntersecting.htm" />
+            <HelpTOCNode Title="HasItemsInside Method " Url="html/M_ZU_Collections_Generic_IPriorityQuadTree_1_HasItemsInside.htm" />
+            <HelpTOCNode Title="HasItemsIntersecting Method " Url="html/M_ZU_Collections_Generic_IPriorityQuadTree_1_HasItemsIntersecting.htm" />
+            <HelpTOCNode Title="Insert Method " Url="html/M_ZU_Collections_Generic_IPriorityQuadTree_1_Insert.htm" />
+            <HelpTOCNode Id="2957ba46-fcc8-42f3-bf4d-92cafb4e2fe2" Title="Remove Method " Url="html/Overload_ZU_Collections_Generic_IPriorityQuadTree_1_Remove.htm">
+              <HelpTOCNode Title="Remove Method (T)" Url="html/M_ZU_Collections_Generic_IPriorityQuadTree_1_Remove.htm" />
+              <HelpTOCNode Title="Remove Method (T, Rect)" Url="html/M_ZU_Collections_Generic_IPriorityQuadTree_1_Remove_1.htm" />
+            </HelpTOCNode>
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b11a3665-e281-4565-88fd-b0d03ae37c75" Title="ZU.Collections.ObjectModel" Url="html/N_ZU_Collections_ObjectModel.htm">
+        <HelpTOCNode Id="b0034325-cca7-4005-b893-109d0d53ef86" Title="IRangeObservableCollection(T) Interface" Url="html/T_ZU_Collections_ObjectModel_IRangeObservableCollection_1.htm">
+          <HelpTOCNode Title="IRangeObservableCollection(T) Properties" Url="html/Properties_T_ZU_Collections_ObjectModel_IRangeObservableCollection_1.htm" />
+          <HelpTOCNode Id="c4112ee8-a16c-458a-af2d-2eda8dd744d5" Title="IRangeObservableCollection(T) Methods" Url="html/Methods_T_ZU_Collections_ObjectModel_IRangeObservableCollection_1.htm">
+            <HelpTOCNode Title="AddRange Method " Url="html/M_ZU_Collections_ObjectModel_IRangeObservableCollection_1_AddRange.htm" />
+            <HelpTOCNode Title="Clear Method " Url="html/M_ZU_Collections_ObjectModel_IRangeObservableCollection_1_Clear.htm" />
+            <HelpTOCNode Title="NotifyRefreshCollection Method " Url="html/M_ZU_Collections_ObjectModel_IRangeObservableCollection_1_NotifyRefreshCollection.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="107ad5b8-9f37-44bb-9968-05e914f5c16f" Title="IRangeObservableCollection(T) Events" Url="html/Events_T_ZU_Collections_ObjectModel_IRangeObservableCollection_1.htm">
+            <HelpTOCNode Title="CollectionChanged Event" Url="html/E_ZU_Collections_ObjectModel_IRangeObservableCollection_1_CollectionChanged.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f5b6cf1d-3ac9-44cc-baa8-b32a3f7e331b" Title="ZU.ComponentModel" Url="html/N_ZU_ComponentModel.htm">
+      <HelpTOCNode Id="a399e90d-eb29-4c8a-9a54-a8d5063680a6" Title="IInstantiateProperty Interface" Url="html/T_ZU_ComponentModel_IInstantiateProperty.htm">
+        <HelpTOCNode Id="17500b99-7c5e-4d59-a59e-d0686fd5fce0" Title="IInstantiateProperty Methods" Url="html/Methods_T_ZU_ComponentModel_IInstantiateProperty.htm">
+          <HelpTOCNode Title="InstantiateProperty Method " Url="html/M_ZU_ComponentModel_IInstantiateProperty_InstantiateProperty.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="36f18e80-0aa9-4f53-9818-b3df009eef7e" Title="ZU.Configuration.Settings" Url="html/N_ZU_Configuration_Settings.htm">
+      <HelpTOCNode Title="AppMode Enumeration" Url="html/T_ZU_Configuration_Settings_AppMode.htm" />
+      <HelpTOCNode Id="85e76624-bfff-41cb-a2c0-6ab740bac031" Title="IAppAccount Interface" Url="html/T_ZU_Configuration_Settings_IAppAccount.htm">
+        <HelpTOCNode Id="6c9924fc-8dd7-4885-b107-08edae5d8c09" Title="IAppAccount Properties" Url="html/Properties_T_ZU_Configuration_Settings_IAppAccount.htm">
+          <HelpTOCNode Title="AccountId Property " Url="html/P_ZU_Configuration_Settings_IAppAccount_AccountId.htm" />
+          <HelpTOCNode Title="AccountTitle Property " Url="html/P_ZU_Configuration_Settings_IAppAccount_AccountTitle.htm" />
+          <HelpTOCNode Title="App Property " Url="html/P_ZU_Configuration_Settings_IAppAccount_App.htm" />
+          <HelpTOCNode Title="CloudAppUserRecordId Property " Url="html/P_ZU_Configuration_Settings_IAppAccount_CloudAppUserRecordId.htm" />
+          <HelpTOCNode Title="Email Property " Url="html/P_ZU_Configuration_Settings_IAppAccount_Email.htm" />
+          <HelpTOCNode Title="Secret Property " Url="html/P_ZU_Configuration_Settings_IAppAccount_Secret.htm" />
+          <HelpTOCNode Title="Token Property " Url="html/P_ZU_Configuration_Settings_IAppAccount_Token.htm" />
+          <HelpTOCNode Title="UserId Property " Url="html/P_ZU_Configuration_Settings_IAppAccount_UserId.htm" />
+          <HelpTOCNode Title="UserPassword Property " Url="html/P_ZU_Configuration_Settings_IAppAccount_UserPassword.htm" />
+          <HelpTOCNode Title="UserTitle Property " Url="html/P_ZU_Configuration_Settings_IAppAccount_UserTitle.htm" />
+          <HelpTOCNode Title="Value1 Property " Url="html/P_ZU_Configuration_Settings_IAppAccount_Value1.htm" />
+          <HelpTOCNode Title="Value2 Property " Url="html/P_ZU_Configuration_Settings_IAppAccount_Value2.htm" />
+          <HelpTOCNode Title="Value3 Property " Url="html/P_ZU_Configuration_Settings_IAppAccount_Value3.htm" />
+          <HelpTOCNode Title="Value4 Property " Url="html/P_ZU_Configuration_Settings_IAppAccount_Value4.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="0f0b0218-e239-4444-a4d2-752345a66279" Title="IAppSettings Interface" Url="html/T_ZU_Configuration_Settings_IAppSettings.htm">
+        <HelpTOCNode Id="014d9ec3-a9c2-4550-8329-9d7b75c729e8" Title="IAppSettings Properties" Url="html/Properties_T_ZU_Configuration_Settings_IAppSettings.htm">
+          <HelpTOCNode Title="Accounts Property " Url="html/P_ZU_Configuration_Settings_IAppSettings_Accounts.htm" />
+          <HelpTOCNode Title="AppId Property " Url="html/P_ZU_Configuration_Settings_IAppSettings_AppId.htm" />
+          <HelpTOCNode Title="AppUserId Property " Url="html/P_ZU_Configuration_Settings_IAppSettings_AppUserId.htm" />
+          <HelpTOCNode Title="AppUserIdSavedToCloud Property " Url="html/P_ZU_Configuration_Settings_IAppSettings_AppUserIdSavedToCloud.htm" />
+          <HelpTOCNode Title="CloudAppUserRecordId Property " Url="html/P_ZU_Configuration_Settings_IAppSettings_CloudAppUserRecordId.htm" />
+          <HelpTOCNode Title="Settings Property " Url="html/P_ZU_Configuration_Settings_IAppSettings_Settings.htm" />
+          <HelpTOCNode Title="SettingsFilePath Property " Url="html/P_ZU_Configuration_Settings_IAppSettings_SettingsFilePath.htm" />
+          <HelpTOCNode Title="TLBirth Property " Url="html/P_ZU_Configuration_Settings_IAppSettings_TLBirth.htm" />
+          <HelpTOCNode Title="TLChange Property " Url="html/P_ZU_Configuration_Settings_IAppSettings_TLChange.htm" />
+          <HelpTOCNode Title="UIDChanger Property " Url="html/P_ZU_Configuration_Settings_IAppSettings_UIDChanger.htm" />
+          <HelpTOCNode Title="UIDOwner Property " Url="html/P_ZU_Configuration_Settings_IAppSettings_UIDOwner.htm" />
+          <HelpTOCNode Title="Version Property " Url="html/P_ZU_Configuration_Settings_IAppSettings_Version.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b852e272-cd81-4eb1-9bdd-6ebbeefed853" Title="IConfigurationManager Interface" Url="html/T_ZU_Configuration_Settings_IConfigurationManager.htm">
+        <HelpTOCNode Id="72743aa5-e6f2-4bbb-8d0b-dc8bc0ef0c52" Title="IConfigurationManager Methods" Url="html/Methods_T_ZU_Configuration_Settings_IConfigurationManager.htm">
+          <HelpTOCNode Title="IsFileExtensionNonIndexable Method " Url="html/M_ZU_Configuration_Settings_IConfigurationManager_IsFileExtensionNonIndexable.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1cc20cf5-6c9e-47a3-93d7-5a29827f5a80" Title="IConfigurationSettings Interface" Url="html/T_ZU_Configuration_Settings_IConfigurationSettings.htm">
+        <HelpTOCNode Id="cc3487f6-cbba-457c-bf69-4a920c1494ac" Title="IConfigurationSettings Properties" Url="html/Properties_T_ZU_Configuration_Settings_IConfigurationSettings.htm">
+          <HelpTOCNode Title="AppMode Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_AppMode.htm" />
+          <HelpTOCNode Title="AvoidMemoryCleansing Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_AvoidMemoryCleansing.htm" />
+          <HelpTOCNode Title="DateChanged Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_DateChanged.htm" />
+          <HelpTOCNode Title="DateCreated Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_DateCreated.htm" />
+          <HelpTOCNode Title="EnableEmptyProjectsCreation Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_EnableEmptyProjectsCreation.htm" />
+          <HelpTOCNode Title="IsRegistered Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_IsRegistered.htm" />
+          <HelpTOCNode Title="LargeFileSizeThreshold Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_LargeFileSizeThreshold.htm" />
+          <HelpTOCNode Title="LastTimeUpdateChecked Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_LastTimeUpdateChecked.htm" />
+          <HelpTOCNode Title="LastUpdateCheckErrorMessage Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_LastUpdateCheckErrorMessage.htm" />
+          <HelpTOCNode Title="LastUpdateCheckResult Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_LastUpdateCheckResult.htm" />
+          <HelpTOCNode Title="LoadTerminal Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_LoadTerminal.htm" />
+          <HelpTOCNode Title="LoginProvider Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_LoginProvider.htm" />
+          <HelpTOCNode Title="MainWindowHeight Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_MainWindowHeight.htm" />
+          <HelpTOCNode Title="MainWindowLeft Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_MainWindowLeft.htm" />
+          <HelpTOCNode Title="MainWindowState Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_MainWindowState.htm" />
+          <HelpTOCNode Title="MainWindowTop Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_MainWindowTop.htm" />
+          <HelpTOCNode Title="MainWindowWidth Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_MainWindowWidth.htm" />
+          <HelpTOCNode Title="MaximumDownloadTimeInterval Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_MaximumDownloadTimeInterval.htm" />
+          <HelpTOCNode Title="MetaspaceFolder Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_MetaspaceFolder.htm" />
+          <HelpTOCNode Title="NotificationAppRunsInBackgroundShown Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_NotificationAppRunsInBackgroundShown.htm" />
+          <HelpTOCNode Title="OutputRedisLogToTerminal Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_OutputRedisLogToTerminal.htm" />
+          <HelpTOCNode Title="PopupDontShutdownAppShown Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_PopupDontShutdownAppShown.htm" />
+          <HelpTOCNode Title="PopupTrackYourProjectFilesShown Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_PopupTrackYourProjectFilesShown.htm" />
+          <HelpTOCNode Title="PopupTrackYourProjectsShown Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_PopupTrackYourProjectsShown.htm" />
+          <HelpTOCNode Title="PopupUseFiltersShown Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_PopupUseFiltersShown.htm" />
+          <HelpTOCNode Title="ReadabilityParserToken Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_ReadabilityParserToken.htm" />
+          <HelpTOCNode Title="SaveChangesHistory Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_SaveChangesHistory.htm" />
+          <HelpTOCNode Title="SettingsFilePath Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_SettingsFilePath.htm" />
+          <HelpTOCNode Title="SetupUrl Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_SetupUrl.htm" />
+          <HelpTOCNode Title="ShowCurrentVisualClusterNameInBreadcrumbBar Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_ShowCurrentVisualClusterNameInBreadcrumbBar.htm" />
+          <HelpTOCNode Title="ShowImageTitles Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_ShowImageTitles.htm" />
+          <HelpTOCNode Title="ShowMinimap Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_ShowMinimap.htm" />
+          <HelpTOCNode Title="ShowPDFThumbnails Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_ShowPDFThumbnails.htm" />
+          <HelpTOCNode Title="ShowPeople Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_ShowPeople.htm" />
+          <HelpTOCNode Title="ShowQueryPane Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_ShowQueryPane.htm" />
+          <HelpTOCNode Title="ShowRulesAlerts Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_ShowRulesAlerts.htm" />
+          <HelpTOCNode Title="ShowViewsPane Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_ShowViewsPane.htm" />
+          <HelpTOCNode Title="SkipDiskThumbnailCache Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_SkipDiskThumbnailCache.htm" />
+          <HelpTOCNode Title="SkipLargeFilesForIndexing Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_SkipLargeFilesForIndexing.htm" />
+          <HelpTOCNode Title="SpiralVisualizationWidth Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_SpiralVisualizationWidth.htm" />
+          <HelpTOCNode Title="StorageProvider Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_StorageProvider.htm" />
+          <HelpTOCNode Title="SupportSavingFiles Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_SupportSavingFiles.htm" />
+          <HelpTOCNode Title="UID Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_UID.htm" />
+          <HelpTOCNode Title="UserId Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_UserId.htm" />
+          <HelpTOCNode Title="UserTitle Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_UserTitle.htm" />
+          <HelpTOCNode Title="UseSemanticProcessing Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_UseSemanticProcessing.htm" />
+          <HelpTOCNode Title="ZetInstallRoot Property " Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_ZetInstallRoot.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c269c6fd-0683-4b26-ab77-9527bb430bce" Title="ZU.Core Namespaces" Url="html/G_ZU_Core.htm">
+      <HelpTOCNode Id="031721c0-78c9-4786-9b71-5fc972da01cb" Title="ZU.Core" Url="html/N_ZU_Core.htm">
+        <HelpTOCNode Id="2c9296f5-695b-44a7-9a67-dc0dda09c987" Title="CurrentModelContext Class" Url="html/T_ZU_Core_CurrentModelContext.htm">
+          <HelpTOCNode Id="ce12f936-e899-4a9a-8735-89846fcb3cea" Title="CurrentModelContext Fields" Url="html/Fields_T_ZU_Core_CurrentModelContext.htm">
+            <HelpTOCNode Title="UID Field" Url="html/F_ZU_Core_CurrentModelContext_UID.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="EntityAction Enumeration" Url="html/T_ZU_Core_EntityAction.htm" />
+        <HelpTOCNode Id="abb5103b-b3ee-48e6-95af-41414a2ec9bb" Title="EntityEventArgs Class" Url="html/T_ZU_Core_EntityEventArgs.htm">
+          <HelpTOCNode Title="EntityEventArgs Constructor " Url="html/M_ZU_Core_EntityEventArgs__ctor.htm" />
+          <HelpTOCNode Id="f247ba61-1667-4b36-8c24-21f395094705" Title="EntityEventArgs Properties" Url="html/Properties_T_ZU_Core_EntityEventArgs.htm">
+            <HelpTOCNode Title="Action Property " Url="html/P_ZU_Core_EntityEventArgs_Action.htm" />
+            <HelpTOCNode Title="Entity Property " Url="html/P_ZU_Core_EntityEventArgs_Entity.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="EntityEventArgs Methods" Url="html/Methods_T_ZU_Core_EntityEventArgs.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6c4de8b4-9190-4c52-bdc0-ebe226893fc0" Title="IAppSourceBoundList Interface" Url="html/T_ZU_Core_IAppSourceBoundList.htm">
+          <HelpTOCNode Id="bdab5723-df1c-465b-a137-fec76486ab25" Title="IAppSourceBoundList Properties" Url="html/Properties_T_ZU_Core_IAppSourceBoundList.htm">
+            <HelpTOCNode Title="Entities Property " Url="html/P_ZU_Core_IAppSourceBoundList_Entities.htm" />
+            <HelpTOCNode Title="ListEntity Property " Url="html/P_ZU_Core_IAppSourceBoundList_ListEntity.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="ebd60b1f-bf90-489b-b160-134d85dab4fa" Title="IAppSourceBoundList Methods" Url="html/Methods_T_ZU_Core_IAppSourceBoundList.htm">
+            <HelpTOCNode Title="CompareTo Method " Url="html/M_ZU_Core_IAppSourceBoundList_CompareTo.htm" />
+            <HelpTOCNode Title="Equals Method " Url="html/M_ZU_Core_IAppSourceBoundList_Equals.htm" />
+            <HelpTOCNode Title="GetHashCode Method " Url="html/M_ZU_Core_IAppSourceBoundList_GetHashCode.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="0c2fc009-6e19-4bfc-a668-486af2c8de6c" Title="IEntity Interface" Url="html/T_ZU_Core_IEntity.htm">
+          <HelpTOCNode Id="2430c66a-18b1-4af4-a62f-c77770901035" Title="IEntity Properties" Url="html/Properties_T_ZU_Core_IEntity.htm">
+            <HelpTOCNode Title="AppId Property " Url="html/P_ZU_Core_IEntity_AppId.htm" />
+            <HelpTOCNode Title="AppSourceEntityListId Property " Url="html/P_ZU_Core_IEntity_AppSourceEntityListId.htm" />
+            <HelpTOCNode Title="AppSourceEntityListIdSpecified Property " Url="html/P_ZU_Core_IEntity_AppSourceEntityListIdSpecified.htm" />
+            <HelpTOCNode Title="AsEntityView Property " Url="html/P_ZU_Core_IEntity_AsEntityView.htm" />
+            <HelpTOCNode Title="CalendarEntryDate Property " Url="html/P_ZU_Core_IEntity_CalendarEntryDate.htm" />
+            <HelpTOCNode Title="CanBePartOfVisualCluster Property " Url="html/P_ZU_Core_IEntity_CanBePartOfVisualCluster.htm" />
+            <HelpTOCNode Title="CanParticipateInTopographicClusterVisualization Property " Url="html/P_ZU_Core_IEntity_CanParticipateInTopographicClusterVisualization.htm" />
+            <HelpTOCNode Title="Checksum Property " Url="html/P_ZU_Core_IEntity_Checksum.htm" />
+            <HelpTOCNode Title="ClusterId Property " Url="html/P_ZU_Core_IEntity_ClusterId.htm" />
+            <HelpTOCNode Title="Created Property " Url="html/P_ZU_Core_IEntity_Created.htm" />
+            <HelpTOCNode Title="DefaultAppSourceBoundListsIds Property " Url="html/P_ZU_Core_IEntity_DefaultAppSourceBoundListsIds.htm" />
+            <HelpTOCNode Title="DefaultAppSourceBoundListsIdsSpecified Property " Url="html/P_ZU_Core_IEntity_DefaultAppSourceBoundListsIdsSpecified.htm" />
+            <HelpTOCNode Title="Description Property " Url="html/P_ZU_Core_IEntity_Description.htm" />
+            <HelpTOCNode Title="Distance Property " Url="html/P_ZU_Core_IEntity_Distance.htm" />
+            <HelpTOCNode Title="EntitySelf Property " Url="html/P_ZU_Core_IEntity_EntitySelf.htm" />
+            <HelpTOCNode Title="EventDay Property " Url="html/P_ZU_Core_IEntity_EventDay.htm" />
+            <HelpTOCNode Title="EventMonth Property " Url="html/P_ZU_Core_IEntity_EventMonth.htm" />
+            <HelpTOCNode Title="EventYear Property " Url="html/P_ZU_Core_IEntity_EventYear.htm" />
+            <HelpTOCNode Title="FullPath Property " Url="html/P_ZU_Core_IEntity_FullPath.htm" />
+            <HelpTOCNode Title="FullText Property " Url="html/P_ZU_Core_IEntity_FullText.htm" />
+            <HelpTOCNode Title="HoldingAppSourceBoundList Property " Url="html/P_ZU_Core_IEntity_HoldingAppSourceBoundList.htm" />
+            <HelpTOCNode Title="HoldingAppSourceBoundListId Property " Url="html/P_ZU_Core_IEntity_HoldingAppSourceBoundListId.htm" />
+            <HelpTOCNode Title="HoldingList Property " Url="html/P_ZU_Core_IEntity_HoldingList.htm" />
+            <HelpTOCNode Title="HoldingListId Property " Url="html/P_ZU_Core_IEntity_HoldingListId.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_ZU_Core_IEntity_Id.htm" />
+            <HelpTOCNode Title="Index Property " Url="html/P_ZU_Core_IEntity_Index.htm" />
+            <HelpTOCNode Title="IsActivityHighlighted Property " Url="html/P_ZU_Core_IEntity_IsActivityHighlighted.htm" />
+            <HelpTOCNode Title="IsAppSourceBoundList Property " Url="html/P_ZU_Core_IEntity_IsAppSourceBoundList.htm" />
+            <HelpTOCNode Title="IsBeingResized Property " Url="html/P_ZU_Core_IEntity_IsBeingResized.htm" />
+            <HelpTOCNode Title="IsChanged Property " Url="html/P_ZU_Core_IEntity_IsChanged.htm" />
+            <HelpTOCNode Title="IsCluster Property " Url="html/P_ZU_Core_IEntity_IsCluster.htm" />
+            <HelpTOCNode Title="IsFTIndexingRequired Property " Url="html/P_ZU_Core_IEntity_IsFTIndexingRequired.htm" />
+            <HelpTOCNode Title="IsFullTextIndexable Property " Url="html/P_ZU_Core_IEntity_IsFullTextIndexable.htm" />
+            <HelpTOCNode Title="IsHidden Property " Url="html/P_ZU_Core_IEntity_IsHidden.htm" />
+            <HelpTOCNode Title="IsKnown Property " Url="html/P_ZU_Core_IEntity_IsKnown.htm" />
+            <HelpTOCNode Title="IsLinkedItemNoLongerAvailable Property " Url="html/P_ZU_Core_IEntity_IsLinkedItemNoLongerAvailable.htm" />
+            <HelpTOCNode Title="IsList Property " Url="html/P_ZU_Core_IEntity_IsList.htm" />
+            <HelpTOCNode Title="IsLive Property " Url="html/P_ZU_Core_IEntity_IsLive.htm" />
+            <HelpTOCNode Title="IsNotInSpace Property " Url="html/P_ZU_Core_IEntity_IsNotInSpace.htm" />
+            <HelpTOCNode Title="IsPartOfAppSourceBoundList Property " Url="html/P_ZU_Core_IEntity_IsPartOfAppSourceBoundList.htm" />
+            <HelpTOCNode Title="IsPartOfList Property " Url="html/P_ZU_Core_IEntity_IsPartOfList.htm" />
+            <HelpTOCNode Title="IsReadOnly Property " Url="html/P_ZU_Core_IEntity_IsReadOnly.htm" />
+            <HelpTOCNode Title="IsRenderable Property " Url="html/P_ZU_Core_IEntity_IsRenderable.htm" />
+            <HelpTOCNode Title="IsSearchResult Property " Url="html/P_ZU_Core_IEntity_IsSearchResult.htm" />
+            <HelpTOCNode Title="IsStylusInputInProgress Property " Url="html/P_ZU_Core_IEntity_IsStylusInputInProgress.htm" />
+            <HelpTOCNode Title="IsTaggedAsImportant Property " Url="html/P_ZU_Core_IEntity_IsTaggedAsImportant.htm" />
+            <HelpTOCNode Title="Keyphrases Property " Url="html/P_ZU_Core_IEntity_Keyphrases.htm" />
+            <HelpTOCNode Title="Kind Property " Url="html/P_ZU_Core_IEntity_Kind.htm" />
+            <HelpTOCNode Title="LargeThumbnail Property " Url="html/P_ZU_Core_IEntity_LargeThumbnail.htm" />
+            <HelpTOCNode Title="LastModified Property " Url="html/P_ZU_Core_IEntity_LastModified.htm" />
+            <HelpTOCNode Title="LastModifiedBy Property " Url="html/P_ZU_Core_IEntity_LastModifiedBy.htm" />
+            <HelpTOCNode Title="LinkedItemNetworkOperationStatus Property " Url="html/P_ZU_Core_IEntity_LinkedItemNetworkOperationStatus.htm" />
+            <HelpTOCNode Title="MetaId Property " Url="html/P_ZU_Core_IEntity_MetaId.htm" />
+            <HelpTOCNode Title="ModelContext Property " Url="html/P_ZU_Core_IEntity_ModelContext.htm" />
+            <HelpTOCNode Title="NewKeyphrases Property " Url="html/P_ZU_Core_IEntity_NewKeyphrases.htm" />
+            <HelpTOCNode Title="Properties Property " Url="html/P_ZU_Core_IEntity_Properties.htm" />
+            <HelpTOCNode Title="Props Property " Url="html/P_ZU_Core_IEntity_Props.htm" />
+            <HelpTOCNode Title="PropsDict Property " Url="html/P_ZU_Core_IEntity_PropsDict.htm" />
+            <HelpTOCNode Title="RedCount Property " Url="html/P_ZU_Core_IEntity_RedCount.htm" />
+            <HelpTOCNode Title="Related Property " Url="html/P_ZU_Core_IEntity_Related.htm" />
+            <HelpTOCNode Title="RelatedMessagesAvailable Property " Url="html/P_ZU_Core_IEntity_RelatedMessagesAvailable.htm" />
+            <HelpTOCNode Title="RelatedMessagesCount Property " Url="html/P_ZU_Core_IEntity_RelatedMessagesCount.htm" />
+            <HelpTOCNode Title="ReviewStatus Property " Url="html/P_ZU_Core_IEntity_ReviewStatus.htm" />
+            <HelpTOCNode Title="Score Property " Url="html/P_ZU_Core_IEntity_Score.htm" />
+            <HelpTOCNode Title="SemanticAction Property " Url="html/P_ZU_Core_IEntity_SemanticAction.htm" />
+            <HelpTOCNode Title="ShowInSpace Property " Url="html/P_ZU_Core_IEntity_ShowInSpace.htm" />
+            <HelpTOCNode Title="SystemWideUniqueId Property " Url="html/P_ZU_Core_IEntity_SystemWideUniqueId.htm" />
+            <HelpTOCNode Title="Tag Property " Url="html/P_ZU_Core_IEntity_Tag.htm" />
+            <HelpTOCNode Title="Thumbnail Property " Url="html/P_ZU_Core_IEntity_Thumbnail.htm" />
+            <HelpTOCNode Title="ThumbnailUri Property " Url="html/P_ZU_Core_IEntity_ThumbnailUri.htm" />
+            <HelpTOCNode Title="Title Property " Url="html/P_ZU_Core_IEntity_Title.htm" />
+            <HelpTOCNode Title="TLChange Property " Url="html/P_ZU_Core_IEntity_TLChange.htm" />
+            <HelpTOCNode Title="UnreadDocumentsCount Property " Url="html/P_ZU_Core_IEntity_UnreadDocumentsCount.htm" />
+            <HelpTOCNode Title="UnreadEmailCount Property " Url="html/P_ZU_Core_IEntity_UnreadEmailCount.htm" />
+            <HelpTOCNode Title="UnreadStatus Property " Url="html/P_ZU_Core_IEntity_UnreadStatus.htm" />
+            <HelpTOCNode Title="Uri Property " Url="html/P_ZU_Core_IEntity_Uri.htm" />
+            <HelpTOCNode Title="Uris Property " Url="html/P_ZU_Core_IEntity_Uris.htm" />
+            <HelpTOCNode Title="YellowCount Property " Url="html/P_ZU_Core_IEntity_YellowCount.htm" />
+            <HelpTOCNode Title="ZIndex Property " Url="html/P_ZU_Core_IEntity_ZIndex.htm" />
+            <HelpTOCNode Title="ZLod Property " Url="html/P_ZU_Core_IEntity_ZLod.htm" />
+            <HelpTOCNode Title="ZPos Property " Url="html/P_ZU_Core_IEntity_ZPos.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="820b1aab-3f1d-4966-b273-603beb56fbfb" Title="IEntity Methods" Url="html/Methods_T_ZU_Core_IEntity.htm">
+            <HelpTOCNode Title="AddRelatedEntity Method " Url="html/M_ZU_Core_IEntity_AddRelatedEntity.htm" />
+            <HelpTOCNode Title="AddTo Method " Url="html/M_ZU_Core_IEntity_AddTo.htm" />
+            <HelpTOCNode Title="Changed Method " Url="html/M_ZU_Core_IEntity_Changed.htm" />
+            <HelpTOCNode Title="CompareTo Method " Url="html/M_ZU_Core_IEntity_CompareTo.htm" />
+            <HelpTOCNode Title="DeepClone Method " Url="html/M_ZU_Core_IEntity_DeepClone.htm" />
+            <HelpTOCNode Title="Delete Method " Url="html/M_ZU_Core_IEntity_Delete.htm" />
+            <HelpTOCNode Title="DoneProps Method " Url="html/M_ZU_Core_IEntity_DoneProps.htm" />
+            <HelpTOCNode Title="DonePropsChanged Method " Url="html/M_ZU_Core_IEntity_DonePropsChanged.htm" />
+            <HelpTOCNode Title="Equals Method " Url="html/M_ZU_Core_IEntity_Equals.htm" />
+            <HelpTOCNode Title="GetActivityHistory Method " Url="html/M_ZU_Core_IEntity_GetActivityHistory.htm" />
+            <HelpTOCNode Title="GetHashCode Method " Url="html/M_ZU_Core_IEntity_GetHashCode.htm" />
+            <HelpTOCNode Title="GetProp(T) Method " Url="html/M_ZU_Core_IEntity_GetProp__1.htm" />
+            <HelpTOCNode Title="InitDynamicProperties Method " Url="html/M_ZU_Core_IEntity_InitDynamicProperties.htm" />
+            <HelpTOCNode Title="InitProps Method " Url="html/M_ZU_Core_IEntity_InitProps.htm" />
+            <HelpTOCNode Title="InitPropsChanged Method " Url="html/M_ZU_Core_IEntity_InitPropsChanged.htm" />
+            <HelpTOCNode Title="InstantiateProperty Method " Url="html/M_ZU_Core_IEntity_InstantiateProperty.htm" />
+            <HelpTOCNode Title="IsCurrentUser Method " Url="html/M_ZU_Core_IEntity_IsCurrentUser.htm" />
+            <HelpTOCNode Title="IsUserIdentifactor Method " Url="html/M_ZU_Core_IEntity_IsUserIdentifactor.htm" />
+            <HelpTOCNode Title="Merge Method " Url="html/M_ZU_Core_IEntity_Merge.htm" />
+            <HelpTOCNode Title="Refresh Method " Url="html/M_ZU_Core_IEntity_Refresh.htm" />
+            <HelpTOCNode Title="SaveChanges Method " Url="html/M_ZU_Core_IEntity_SaveChanges.htm" />
+            <HelpTOCNode Title="SetDateTime Method " Url="html/M_ZU_Core_IEntity_SetDateTime.htm" />
+            <HelpTOCNode Title="ShouldSerializeAppSourceEntityListId Method " Url="html/M_ZU_Core_IEntity_ShouldSerializeAppSourceEntityListId.htm" />
+            <HelpTOCNode Title="ShouldSerializeDefaultAppSourceBoundListsIds Method " Url="html/M_ZU_Core_IEntity_ShouldSerializeDefaultAppSourceBoundListsIds.htm" />
+            <HelpTOCNode Id="27c59f46-3476-4dc4-9e96-800879fa0685" Title="ToEntityRef Method " Url="html/Overload_ZU_Core_IEntity_ToEntityRef.htm">
+              <HelpTOCNode Title="ToEntityRef Method " Url="html/M_ZU_Core_IEntity_ToEntityRef.htm" />
+              <HelpTOCNode Title="ToEntityRef Method (String, RelationDirection, Double, EntityFragmentState)" Url="html/M_ZU_Core_IEntity_ToEntityRef_1.htm" />
+            </HelpTOCNode>
+            <HelpTOCNode Title="ToString Method " Url="html/M_ZU_Core_IEntity_ToString.htm" />
+            <HelpTOCNode Title="Unpin Method " Url="html/M_ZU_Core_IEntity_Unpin.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="09316e46-8202-4d58-bda1-8d45a5e84134" Title="IEntity Events" Url="html/Events_T_ZU_Core_IEntity.htm">
+            <HelpTOCNode Title="PropertyChanged Event" Url="html/E_ZU_Core_IEntity_PropertyChanged.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="36ae487a-2167-4bee-8934-16b3196b5b23" Title="IEntityList Interface" Url="html/T_ZU_Core_IEntityList.htm">
+          <HelpTOCNode Id="b52cf92b-417d-46f9-bd62-12cd2b358139" Title="IEntityList Properties" Url="html/Properties_T_ZU_Core_IEntityList.htm">
+            <HelpTOCNode Title="Entities Property " Url="html/P_ZU_Core_IEntityList_Entities.htm" />
+            <HelpTOCNode Title="ListEntity Property " Url="html/P_ZU_Core_IEntityList_ListEntity.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="eff39737-e6a7-49e4-b342-b24c0f76ae37" Title="IEntityList Methods" Url="html/Methods_T_ZU_Core_IEntityList.htm">
+            <HelpTOCNode Title="CompareTo Method " Url="html/M_ZU_Core_IEntityList_CompareTo.htm" />
+            <HelpTOCNode Title="Equals Method " Url="html/M_ZU_Core_IEntityList_Equals.htm" />
+            <HelpTOCNode Title="GetHashCode Method " Url="html/M_ZU_Core_IEntityList_GetHashCode.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="8a4d0642-635a-40b0-aac5-5f068a6da12e" Title="IJob Interface" Url="html/T_ZU_Core_IJob.htm">
+          <HelpTOCNode Id="2d6bf361-8863-42fc-8d85-7ae463bda86f" Title="IJob Methods" Url="html/Methods_T_ZU_Core_IJob.htm">
+            <HelpTOCNode Title="Start Method " Url="html/M_ZU_Core_IJob_Start.htm" />
+            <HelpTOCNode Title="Stop Method " Url="html/M_ZU_Core_IJob_Stop.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="ac4ecdeb-31f9-40d2-8a40-1b14cb7e8526" Title="IModel Interface" Url="html/T_ZU_Core_IModel.htm">
+          <HelpTOCNode Id="79eab94e-2d91-4e60-8428-eb01d7049399" Title="IModel Properties" Url="html/Properties_T_ZU_Core_IModel.htm">
+            <HelpTOCNode Title="AppSourceBoundLists Property " Url="html/P_ZU_Core_IModel_AppSourceBoundLists.htm" />
+            <HelpTOCNode Title="AsEntityView Property " Url="html/P_ZU_Core_IModel_AsEntityView.htm" />
+            <HelpTOCNode Title="BaseFolder Property " Url="html/P_ZU_Core_IModel_BaseFolder.htm" />
+            <HelpTOCNode Title="Deleted Property " Url="html/P_ZU_Core_IModel_Deleted.htm" />
+            <HelpTOCNode Title="DTLastSave Property " Url="html/P_ZU_Core_IModel_DTLastSave.htm" />
+            <HelpTOCNode Title="Entities Property " Url="html/P_ZU_Core_IModel_Entities.htm" />
+            <HelpTOCNode Title="HighlihgtedEntites Property " Url="html/P_ZU_Core_IModel_HighlihgtedEntites.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_ZU_Core_IModel_Id.htm" />
+            <HelpTOCNode Title="IsAppSpace Property " Url="html/P_ZU_Core_IModel_IsAppSpace.htm" />
+            <HelpTOCNode Title="IsRoot Property " Url="html/P_ZU_Core_IModel_IsRoot.htm" />
+            <HelpTOCNode Title="KnownEntities Property " Url="html/P_ZU_Core_IModel_KnownEntities.htm" />
+            <HelpTOCNode Title="Lists Property " Url="html/P_ZU_Core_IModel_Lists.htm" />
+            <HelpTOCNode Title="Lod Property " Url="html/P_ZU_Core_IModel_Lod.htm" />
+            <HelpTOCNode Title="Message Property " Url="html/P_ZU_Core_IModel_Message.htm" />
+            <HelpTOCNode Title="MessageEntity Property " Url="html/P_ZU_Core_IModel_MessageEntity.htm" />
+            <HelpTOCNode Title="ModelKind Property " Url="html/P_ZU_Core_IModel_ModelKind.htm" />
+            <HelpTOCNode Title="SIM Property " Url="html/P_ZU_Core_IModel_SIM.htm" />
+            <HelpTOCNode Title="SpaceEntity Property " Url="html/P_ZU_Core_IModel_SpaceEntity.htm" />
+            <HelpTOCNode Title="StorageContext Property " Url="html/P_ZU_Core_IModel_StorageContext.htm" />
+            <HelpTOCNode Title="Title Property " Url="html/P_ZU_Core_IModel_Title.htm" />
+            <HelpTOCNode Title="UID Property " Url="html/P_ZU_Core_IModel_UID.htm" />
+            <HelpTOCNode Title="UnreadEntitiesCount Property " Url="html/P_ZU_Core_IModel_UnreadEntitiesCount.htm" />
+            <HelpTOCNode Title="VisualClusters Property " Url="html/P_ZU_Core_IModel_VisualClusters.htm" />
+            <HelpTOCNode Title="VisualClustersIndexer Property " Url="html/P_ZU_Core_IModel_VisualClustersIndexer.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="90146189-50a3-4fdd-9295-9cf1be585dcd" Title="IModel Methods" Url="html/Methods_T_ZU_Core_IModel.htm">
+            <HelpTOCNode Title="Add Method " Url="html/M_ZU_Core_IModel_Add.htm" />
+            <HelpTOCNode Title="AddEntityLinkToFile Method " Url="html/M_ZU_Core_IModel_AddEntityLinkToFile.htm" />
+            <HelpTOCNode Title="CanShareFolder Method " Url="html/M_ZU_Core_IModel_CanShareFolder.htm" />
+            <HelpTOCNode Title="Clear Method " Url="html/M_ZU_Core_IModel_Clear.htm" />
+            <HelpTOCNode Title="ClearSearchResultsHighlight Method " Url="html/M_ZU_Core_IModel_ClearSearchResultsHighlight.htm" />
+            <HelpTOCNode Title="ContainsEntityWithId Method " Url="html/M_ZU_Core_IModel_ContainsEntityWithId.htm" />
+            <HelpTOCNode Title="ContainsKeyInLookupUriEntity Method " Url="html/M_ZU_Core_IModel_ContainsKeyInLookupUriEntity.htm" />
+            <HelpTOCNode Title="CreateAppSourceBoundList Method " Url="html/M_ZU_Core_IModel_CreateAppSourceBoundList.htm" />
+            <HelpTOCNode Title="CreateList Method " Url="html/M_ZU_Core_IModel_CreateList.htm" />
+            <HelpTOCNode Title="Done Method " Url="html/M_ZU_Core_IModel_Done.htm" />
+            <HelpTOCNode Title="DoneProvider Method " Url="html/M_ZU_Core_IModel_DoneProvider.htm" />
+            <HelpTOCNode Title="GetActivityHistory Method " Url="html/M_ZU_Core_IModel_GetActivityHistory.htm" />
+            <HelpTOCNode Title="GetEntitiesAt Method " Url="html/M_ZU_Core_IModel_GetEntitiesAt.htm" />
+            <HelpTOCNode Title="GetEntitiesFromList Method " Url="html/M_ZU_Core_IModel_GetEntitiesFromList.htm" />
+            <HelpTOCNode Title="GetEntityById Method " Url="html/M_ZU_Core_IModel_GetEntityById.htm" />
+            <HelpTOCNode Title="GetEntityStorageRecordAt Method " Url="html/M_ZU_Core_IModel_GetEntityStorageRecordAt.htm" />
+            <HelpTOCNode Title="GetFullModelPath Method " Url="html/M_ZU_Core_IModel_GetFullModelPath.htm" />
+            <HelpTOCNode Title="GetSyncRootFolder Method " Url="html/M_ZU_Core_IModel_GetSyncRootFolder.htm" />
+            <HelpTOCNode Title="Init Method " Url="html/M_ZU_Core_IModel_Init.htm" />
+            <HelpTOCNode Title="InitProvider Method " Url="html/M_ZU_Core_IModel_InitProvider.htm" />
+            <HelpTOCNode Title="IsFolderShared Method " Url="html/M_ZU_Core_IModel_IsFolderShared.htm" />
+            <HelpTOCNode Title="IsPartOfAppSourceBoundList Method " Url="html/M_ZU_Core_IModel_IsPartOfAppSourceBoundList.htm" />
+            <HelpTOCNode Title="IsPartOfList Method " Url="html/M_ZU_Core_IModel_IsPartOfList.htm" />
+            <HelpTOCNode Title="IsSaveNeeded Method " Url="html/M_ZU_Core_IModel_IsSaveNeeded.htm" />
+            <HelpTOCNode Title="IsSyncFolder Method " Url="html/M_ZU_Core_IModel_IsSyncFolder.htm" />
+            <HelpTOCNode Title="Load Method " Url="html/M_ZU_Core_IModel_Load.htm" />
+            <HelpTOCNode Id="c140b774-408d-49a2-a2ac-5c97aad19aa4" Title="LoadEntityJson Method " Url="html/Overload_ZU_Core_IModel_LoadEntityJson.htm">
+              <HelpTOCNode Title="LoadEntityJson Method (String)" Url="html/M_ZU_Core_IModel_LoadEntityJson.htm" />
+              <HelpTOCNode Title="LoadEntityJson Method (String, Boolean)" Url="html/M_ZU_Core_IModel_LoadEntityJson_1.htm" />
+            </HelpTOCNode>
+            <HelpTOCNode Title="NotifyEntityAddedToVisualCluster Method " Url="html/M_ZU_Core_IModel_NotifyEntityAddedToVisualCluster.htm" />
+            <HelpTOCNode Title="NotifyEntityRemovedFromVisualCluster Method " Url="html/M_ZU_Core_IModel_NotifyEntityRemovedFromVisualCluster.htm" />
+            <HelpTOCNode Title="OnEntityChange Method " Url="html/M_ZU_Core_IModel_OnEntityChange.htm" />
+            <HelpTOCNode Title="OnEntityDynamicPropChanged Method " Url="html/M_ZU_Core_IModel_OnEntityDynamicPropChanged.htm" />
+            <HelpTOCNode Title="PerformCleanup Method " Url="html/M_ZU_Core_IModel_PerformCleanup.htm" />
+            <HelpTOCNode Id="391ccc5e-18f6-4690-9da5-d8a3e0dbe314" Title="Purge Method " Url="html/Overload_ZU_Core_IModel_Purge.htm">
+              <HelpTOCNode Title="Purge Method (IEntity)" Url="html/M_ZU_Core_IModel_Purge.htm" />
+              <HelpTOCNode Title="Purge Method (IEntity, String)" Url="html/M_ZU_Core_IModel_Purge_1.htm" />
+            </HelpTOCNode>
+            <HelpTOCNode Title="Remove Method " Url="html/M_ZU_Core_IModel_Remove.htm" />
+            <HelpTOCNode Title="Save Method " Url="html/M_ZU_Core_IModel_Save.htm" />
+            <HelpTOCNode Title="SaveEntity Method " Url="html/M_ZU_Core_IModel_SaveEntity.htm" />
+            <HelpTOCNode Title="ShareFolder Method " Url="html/M_ZU_Core_IModel_ShareFolder.htm" />
+            <HelpTOCNode Title="TryAddEntitiesToAppSourceBoundList Method " Url="html/M_ZU_Core_IModel_TryAddEntitiesToAppSourceBoundList.htm" />
+            <HelpTOCNode Title="TryAddEntitiesToList Method " Url="html/M_ZU_Core_IModel_TryAddEntitiesToList.htm" />
+            <HelpTOCNode Title="TryAddEntityToAppSourceBoundList Method " Url="html/M_ZU_Core_IModel_TryAddEntityToAppSourceBoundList.htm" />
+            <HelpTOCNode Title="TryAddEntityToList Method " Url="html/M_ZU_Core_IModel_TryAddEntityToList.htm" />
+            <HelpTOCNode Title="TryBuildVisualClustersIndex Method " Url="html/M_ZU_Core_IModel_TryBuildVisualClustersIndex.htm" />
+            <HelpTOCNode Title="TryGetEntitiesForUri Method " Url="html/M_ZU_Core_IModel_TryGetEntitiesForUri.htm" />
+            <HelpTOCNode Title="TryGetValue Method " Url="html/M_ZU_Core_IModel_TryGetValue.htm" />
+            <HelpTOCNode Title="TryGetVisualCluster Method " Url="html/M_ZU_Core_IModel_TryGetVisualCluster.htm" />
+            <HelpTOCNode Title="TryHighlightEntityAsActivity Method " Url="html/M_ZU_Core_IModel_TryHighlightEntityAsActivity.htm" />
+            <HelpTOCNode Title="TryHighlightEntityAsSortResult Method " Url="html/M_ZU_Core_IModel_TryHighlightEntityAsSortResult.htm" />
+            <HelpTOCNode Title="TryReadVisualClustersIndex Method " Url="html/M_ZU_Core_IModel_TryReadVisualClustersIndex.htm" />
+            <HelpTOCNode Title="TryRemoveEntityFromAppSourceBoundList Method " Url="html/M_ZU_Core_IModel_TryRemoveEntityFromAppSourceBoundList.htm" />
+            <HelpTOCNode Title="TryRemoveEntityFromList Method " Url="html/M_ZU_Core_IModel_TryRemoveEntityFromList.htm" />
+            <HelpTOCNode Title="TryResolve Method " Url="html/M_ZU_Core_IModel_TryResolve.htm" />
+            <HelpTOCNode Title="TrySetEntityAsSearchResult Method " Url="html/M_ZU_Core_IModel_TrySetEntityAsSearchResult.htm" />
+            <HelpTOCNode Title="TryUpdateSpatialIndex Method " Url="html/M_ZU_Core_IModel_TryUpdateSpatialIndex.htm" />
+            <HelpTOCNode Title="TryUpdateVisualClustersIndex Method " Url="html/M_ZU_Core_IModel_TryUpdateVisualClustersIndex.htm" />
+            <HelpTOCNode Title="UpdateUnreadIndex Method " Url="html/M_ZU_Core_IModel_UpdateUnreadIndex.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="3914a39a-8a42-4b78-a7d5-86543856a988" Title="IModel Events" Url="html/Events_T_ZU_Core_IModel.htm">
+            <HelpTOCNode Title="OnEntityAdded Event" Url="html/E_ZU_Core_IModel_OnEntityAdded.htm" />
+            <HelpTOCNode Title="OnEntityDeleted Event" Url="html/E_ZU_Core_IModel_OnEntityDeleted.htm" />
+            <HelpTOCNode Title="OnEntityDynamicPropertyChanged Event" Url="html/E_ZU_Core_IModel_OnEntityDynamicPropertyChanged.htm" />
+            <HelpTOCNode Title="OnEntityPositionChanged Event" Url="html/E_ZU_Core_IModel_OnEntityPositionChanged.htm" />
+            <HelpTOCNode Title="OnEntityPropertyChanged Event" Url="html/E_ZU_Core_IModel_OnEntityPropertyChanged.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="cf281e50-d099-465c-b97a-83d42d1b5976" Title="IService Interface" Url="html/T_ZU_Core_IService.htm">
+          <HelpTOCNode Id="996725ba-97a9-4925-8073-6b1434c46dea" Title="IService Properties" Url="html/Properties_T_ZU_Core_IService.htm">
+            <HelpTOCNode Title="IsStarted Property " Url="html/P_ZU_Core_IService_IsStarted.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="b24879a5-093f-4e87-9d45-004da29087be" Title="IService Methods" Url="html/Methods_T_ZU_Core_IService.htm">
+            <HelpTOCNode Title="Start Method " Url="html/M_ZU_Core_IService_Start.htm" />
+            <HelpTOCNode Title="Stop Method " Url="html/M_ZU_Core_IService_Stop.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="888b4e6d-34ea-446a-946a-8e496b4c4bae" Title="ISystemInformationModel Interface" Url="html/T_ZU_Core_ISystemInformationModel.htm">
+          <HelpTOCNode Id="de9ea07f-5c80-431d-b040-d1e7226d0b6d" Title="ISystemInformationModel Properties" Url="html/Properties_T_ZU_Core_ISystemInformationModel.htm">
+            <HelpTOCNode Title="AppEntityKindDefinitions Property " Url="html/P_ZU_Core_ISystemInformationModel_AppEntityKindDefinitions.htm" />
+            <HelpTOCNode Title="BootTime Property " Url="html/P_ZU_Core_ISystemInformationModel_BootTime.htm" />
+            <HelpTOCNode Title="ConfigurationSettings Property " Url="html/P_ZU_Core_ISystemInformationModel_ConfigurationSettings.htm" />
+            <HelpTOCNode Title="CurrentModel Property " Url="html/P_ZU_Core_ISystemInformationModel_CurrentModel.htm" />
+            <HelpTOCNode Title="Dispatcher Property " Url="html/P_ZU_Core_ISystemInformationModel_Dispatcher.htm" />
+            <HelpTOCNode Title="FPS Property " Url="html/P_ZU_Core_ISystemInformationModel_FPS.htm" />
+            <HelpTOCNode Title="FullTextIndexCache Property " Url="html/P_ZU_Core_ISystemInformationModel_FullTextIndexCache.htm" />
+            <HelpTOCNode Title="IsInitialized Property " Url="html/P_ZU_Core_ISystemInformationModel_IsInitialized.htm" />
+            <HelpTOCNode Title="Models Property " Url="html/P_ZU_Core_ISystemInformationModel_Models.htm" />
+            <HelpTOCNode Title="Owner Property " Url="html/P_ZU_Core_ISystemInformationModel_Owner.htm" />
+            <HelpTOCNode Title="RootModel Property " Url="html/P_ZU_Core_ISystemInformationModel_RootModel.htm" />
+            <HelpTOCNode Title="SemanticPipelineProcessor Property " Url="html/P_ZU_Core_ISystemInformationModel_SemanticPipelineProcessor.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="37de7f16-9a79-48c8-aee6-2084c82b7626" Title="ISystemInformationModel Methods" Url="html/Methods_T_ZU_Core_ISystemInformationModel.htm">
+            <HelpTOCNode Title="AddScheduledTask Method " Url="html/M_ZU_Core_ISystemInformationModel_AddScheduledTask.htm" />
+            <HelpTOCNode Title="AddSyncAgent Method " Url="html/M_ZU_Core_ISystemInformationModel_AddSyncAgent.htm" />
+            <HelpTOCNode Title="CanBePartOfVisualCluster Method " Url="html/M_ZU_Core_ISystemInformationModel_CanBePartOfVisualCluster.htm" />
+            <HelpTOCNode Title="CanParticipateInTopographicClusterVisualization Method " Url="html/M_ZU_Core_ISystemInformationModel_CanParticipateInTopographicClusterVisualization.htm" />
+            <HelpTOCNode Title="CreateAndLoadNewModel Method " Url="html/M_ZU_Core_ISystemInformationModel_CreateAndLoadNewModel.htm" />
+            <HelpTOCNode Title="CreateEntity Method " Url="html/M_ZU_Core_ISystemInformationModel_CreateEntity.htm" />
+            <HelpTOCNode Id="2bafcce7-fe5e-48da-98d1-dc4f7f1b703d" Title="CreateKeyphrase Method " Url="html/Overload_ZU_Core_ISystemInformationModel_CreateKeyphrase.htm">
+              <HelpTOCNode Title="CreateKeyphrase Method (String, Double)" Url="html/M_ZU_Core_ISystemInformationModel_CreateKeyphrase.htm" />
+              <HelpTOCNode Title="CreateKeyphrase Method (String, Double, Int32, EntityFragmentState)" Url="html/M_ZU_Core_ISystemInformationModel_CreateKeyphrase_1.htm" />
+            </HelpTOCNode>
+            <HelpTOCNode Title="CreateSpaceEntity Method " Url="html/M_ZU_Core_ISystemInformationModel_CreateSpaceEntity.htm" />
+            <HelpTOCNode Title="CreateSyncAgent Method " Url="html/M_ZU_Core_ISystemInformationModel_CreateSyncAgent.htm" />
+            <HelpTOCNode Title="Dispose Method " Url="html/M_ZU_Core_ISystemInformationModel_Dispose.htm" />
+            <HelpTOCNode Title="EntityOpen Method " Url="html/M_ZU_Core_ISystemInformationModel_EntityOpen.htm" />
+            <HelpTOCNode Title="FileShouldBeProcessed Method " Url="html/M_ZU_Core_ISystemInformationModel_FileShouldBeProcessed.htm" />
+            <HelpTOCNode Title="GetAccountName Method " Url="html/M_ZU_Core_ISystemInformationModel_GetAccountName.htm" />
+            <HelpTOCNode Title="GetChildrenEntitiesCount Method " Url="html/M_ZU_Core_ISystemInformationModel_GetChildrenEntitiesCount.htm" />
+            <HelpTOCNode Title="GetCurrentUserEntity Method " Url="html/M_ZU_Core_ISystemInformationModel_GetCurrentUserEntity.htm" />
+            <HelpTOCNode Title="GetEntitiesLinkedWithAsEntityViews Method " Url="html/M_ZU_Core_ISystemInformationModel_GetEntitiesLinkedWithAsEntityViews.htm" />
+            <HelpTOCNode Title="GetEntitiesLinkedWithAsEntityViewsAsync Method " Url="html/M_ZU_Core_ISystemInformationModel_GetEntitiesLinkedWithAsEntityViewsAsync.htm" />
+            <HelpTOCNode Title="GetEntityKindDiplayName Method " Url="html/M_ZU_Core_ISystemInformationModel_GetEntityKindDiplayName.htm" />
+            <HelpTOCNode Title="GetEntityOfSpace Method " Url="html/M_ZU_Core_ISystemInformationModel_GetEntityOfSpace.htm" />
+            <HelpTOCNode Title="GetEntityViewFromActivityHistoryItem Method " Url="html/M_ZU_Core_ISystemInformationModel_GetEntityViewFromActivityHistoryItem.htm" />
+            <HelpTOCNode Title="GetEntityViewFromEntity Method " Url="html/M_ZU_Core_ISystemInformationModel_GetEntityViewFromEntity.htm" />
+            <HelpTOCNode Title="GetEntityViewFromEntityRef Method " Url="html/M_ZU_Core_ISystemInformationModel_GetEntityViewFromEntityRef.htm" />
+            <HelpTOCNode Title="GetReferencedEntities Method " Url="html/M_ZU_Core_ISystemInformationModel_GetReferencedEntities.htm" />
+            <HelpTOCNode Title="GetReferencingEntities Method " Url="html/M_ZU_Core_ISystemInformationModel_GetReferencingEntities.htm" />
+            <HelpTOCNode Title="GetRelatedPeopleAsEntityViews Method " Url="html/M_ZU_Core_ISystemInformationModel_GetRelatedPeopleAsEntityViews.htm" />
+            <HelpTOCNode Title="GetStats Method " Url="html/M_ZU_Core_ISystemInformationModel_GetStats.htm" />
+            <HelpTOCNode Title="GetSyncTaskByKey Method " Url="html/M_ZU_Core_ISystemInformationModel_GetSyncTaskByKey.htm" />
+            <HelpTOCNode Title="GetTaskSchedulerFactory Method " Url="html/M_ZU_Core_ISystemInformationModel_GetTaskSchedulerFactory.htm" />
+            <HelpTOCNode Title="GetUnknownPerson Method " Url="html/M_ZU_Core_ISystemInformationModel_GetUnknownPerson.htm" />
+            <HelpTOCNode Title="GetUserEntityTitle Method " Url="html/M_ZU_Core_ISystemInformationModel_GetUserEntityTitle.htm" />
+            <HelpTOCNode Title="GetValidSpacePath Method " Url="html/M_ZU_Core_ISystemInformationModel_GetValidSpacePath.htm" />
+            <HelpTOCNode Title="GetZetUniversePerson Method " Url="html/M_ZU_Core_ISystemInformationModel_GetZetUniversePerson.htm" />
+            <HelpTOCNode Title="HasSyncTaskByKey Method " Url="html/M_ZU_Core_ISystemInformationModel_HasSyncTaskByKey.htm" />
+            <HelpTOCNode Title="IdToShortString Method " Url="html/M_ZU_Core_ISystemInformationModel_IdToShortString.htm" />
+            <HelpTOCNode Title="InitializeAppManager Method " Url="html/M_ZU_Core_ISystemInformationModel_InitializeAppManager.htm" />
+            <HelpTOCNode Title="InitializeSemanticProcessor Method " Url="html/M_ZU_Core_ISystemInformationModel_InitializeSemanticProcessor.htm" />
+            <HelpTOCNode Title="IsEntityContainer Method " Url="html/M_ZU_Core_ISystemInformationModel_IsEntityContainer.htm" />
+            <HelpTOCNode Title="IsEntityLinkingToExternalItem Method " Url="html/M_ZU_Core_ISystemInformationModel_IsEntityLinkingToExternalItem.htm" />
+            <HelpTOCNode Title="IsFileExtensionNonIndexable Method " Url="html/M_ZU_Core_ISystemInformationModel_IsFileExtensionNonIndexable.htm" />
+            <HelpTOCNode Title="PerformCleanup Method " Url="html/M_ZU_Core_ISystemInformationModel_PerformCleanup.htm" />
+            <HelpTOCNode Title="SetLastChangedModelAsCurrent Method " Url="html/M_ZU_Core_ISystemInformationModel_SetLastChangedModelAsCurrent.htm" />
+            <HelpTOCNode Title="StopScheduledTasksExecution Method " Url="html/M_ZU_Core_ISystemInformationModel_StopScheduledTasksExecution.htm" />
+            <HelpTOCNode Title="TryRemoveScheduledTask Method " Url="html/M_ZU_Core_ISystemInformationModel_TryRemoveScheduledTask.htm" />
+            <HelpTOCNode Id="a1ba87f6-2a0e-411c-8d3a-be91652a3feb" Title="TryResolve Method " Url="html/Overload_ZU_Core_ISystemInformationModel_TryResolve.htm">
+              <HelpTOCNode Title="TryResolve Method (String, IEntity)" Url="html/M_ZU_Core_ISystemInformationModel_TryResolve_1.htm" />
+              <HelpTOCNode Title="TryResolve Method (EntityRef, IEntity)" Url="html/M_ZU_Core_ISystemInformationModel_TryResolve_2.htm" />
+              <HelpTOCNode Title="TryResolve Method (String, String, IEntity)" Url="html/M_ZU_Core_ISystemInformationModel_TryResolve.htm" />
+            </HelpTOCNode>
+            <HelpTOCNode Title="TryUpdateFullTextIndex Method " Url="html/M_ZU_Core_ISystemInformationModel_TryUpdateFullTextIndex.htm" />
+            <HelpTOCNode Title="UpdateCurrentModel Method " Url="html/M_ZU_Core_ISystemInformationModel_UpdateCurrentModel.htm" />
+            <HelpTOCNode Title="UpdateHighFreqKeyphrasesForVisualCluster Method " Url="html/M_ZU_Core_ISystemInformationModel_UpdateHighFreqKeyphrasesForVisualCluster.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="25ddd45c-a7bf-4d81-8ff4-3f48679bddc1" Title="ISystemInformationModel Events" Url="html/Events_T_ZU_Core_ISystemInformationModel.htm">
+            <HelpTOCNode Title="OnAllProjectSpacesLoaded Event" Url="html/E_ZU_Core_ISystemInformationModel_OnAllProjectSpacesLoaded.htm" />
+            <HelpTOCNode Title="OnProjectSpaceChanged Event" Url="html/E_ZU_Core_ISystemInformationModel_OnProjectSpaceChanged.htm" />
+            <HelpTOCNode Title="SystemPropertyChanged Event" Url="html/E_ZU_Core_ISystemInformationModel_SystemPropertyChanged.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="8b5ad478-8bca-4c0e-8e3b-a51b635ce053" Title="ITimelined Interface" Url="html/T_ZU_Core_ITimelined.htm">
+          <HelpTOCNode Id="9291fe86-12a1-4976-b990-20455c241db6" Title="ITimelined Properties" Url="html/Properties_T_ZU_Core_ITimelined.htm">
+            <HelpTOCNode Title="TLBirth Property " Url="html/P_ZU_Core_ITimelined_TLBirth.htm" />
+            <HelpTOCNode Title="TLDeath Property " Url="html/P_ZU_Core_ITimelined_TLDeath.htm" />
+            <HelpTOCNode Title="UIdChanger Property " Url="html/P_ZU_Core_ITimelined_UIdChanger.htm" />
+            <HelpTOCNode Title="UIdOwner Property " Url="html/P_ZU_Core_ITimelined_UIdOwner.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="06386ef6-c900-4cad-958e-4dae043db916" Title="ITimelined Methods" Url="html/Methods_T_ZU_Core_ITimelined.htm">
+            <HelpTOCNode Title="Merge Method " Url="html/M_ZU_Core_ITimelined_Merge.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="a143adc5-37a3-41a4-b965-bbab560a3760" Title="IUserAction Interface" Url="html/T_ZU_Core_IUserAction.htm">
+          <HelpTOCNode Id="5ff40490-8561-46aa-9bbd-458853e91053" Title="IUserAction Properties" Url="html/Properties_T_ZU_Core_IUserAction.htm">
+            <HelpTOCNode Title="Args Property " Url="html/P_ZU_Core_IUserAction_Args.htm" />
+            <HelpTOCNode Title="LastModifiedTime Property " Url="html/P_ZU_Core_IUserAction_LastModifiedTime.htm" />
+            <HelpTOCNode Title="SemanticAction Property " Url="html/P_ZU_Core_IUserAction_SemanticAction.htm" />
+            <HelpTOCNode Title="StorageRecordKey Property " Url="html/P_ZU_Core_IUserAction_StorageRecordKey.htm" />
+            <HelpTOCNode Title="UID Property " Url="html/P_ZU_Core_IUserAction_UID.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="5871e224-93da-4bfa-8baa-cc1c725777a1" Title="IUserAction Methods" Url="html/Methods_T_ZU_Core_IUserAction.htm">
+            <HelpTOCNode Title="ToShortString Method " Url="html/M_ZU_Core_IUserAction_ToShortString.htm" />
+            <HelpTOCNode Id="181b37b4-6b6a-46df-9b47-4188f2e38a29" Title="ToString Method " Url="html/Overload_ZU_Core_IUserAction_ToString.htm">
+              <HelpTOCNode Title="ToString Method " Url="html/M_ZU_Core_IUserAction_ToString.htm" />
+              <HelpTOCNode Title="ToString Method (DateTime)" Url="html/M_ZU_Core_IUserAction_ToString_1.htm" />
+            </HelpTOCNode>
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="ModelEvents Class" Url="html/T_ZU_Core_ModelEvents.htm" />
+        <HelpTOCNode Title="ModelEvents.OnEntityAddedEventHandler Delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityAddedEventHandler.htm" />
+        <HelpTOCNode Title="ModelEvents.OnEntityAddedToVisualClusterEventHandler Delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityAddedToVisualClusterEventHandler.htm" />
+        <HelpTOCNode Title="ModelEvents.OnEntityDeletedEventHandler Delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityDeletedEventHandler.htm" />
+        <HelpTOCNode Title="ModelEvents.OnEntityDynamicPropertyChangedEventHandler Delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityDynamicPropertyChangedEventHandler.htm" />
+        <HelpTOCNode Title="ModelEvents.OnEntityPositionChangedEventHandler Delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityPositionChangedEventHandler.htm" />
+        <HelpTOCNode Title="ModelEvents.OnEntityPropertyChangedEventHandler Delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityPropertyChangedEventHandler.htm" />
+        <HelpTOCNode Title="ModelEvents.OnEntityRemovedFromVisualClusterEventHandler Delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityRemovedFromVisualClusterEventHandler.htm" />
+        <HelpTOCNode Title="ModelEvents.OnFileBasedEntityFileChangedEventHandler Delegate" Url="html/T_ZU_Core_ModelEvents_OnFileBasedEntityFileChangedEventHandler.htm" />
+        <HelpTOCNode Title="ModelEvents.OnVisualClusterCreatedEventHandler Delegate" Url="html/T_ZU_Core_ModelEvents_OnVisualClusterCreatedEventHandler.htm" />
+        <HelpTOCNode Title="ModelEvents.OnVisualClusterDeletedEventHandler Delegate" Url="html/T_ZU_Core_ModelEvents_OnVisualClusterDeletedEventHandler.htm" />
+        <HelpTOCNode Title="ModelEvents.OnVisualClusterMovedEventHandler Delegate" Url="html/T_ZU_Core_ModelEvents_OnVisualClusterMovedEventHandler.htm" />
+        <HelpTOCNode Title="ModelKind Enumeration" Url="html/T_ZU_Core_ModelKind.htm" />
+        <HelpTOCNode Title="ModelKinds Enumeration" Url="html/T_ZU_Core_ModelKinds.htm" />
+        <HelpTOCNode Title="OnProjectSpaceChangedEventHandler Delegate" Url="html/T_ZU_Core_OnProjectSpaceChangedEventHandler.htm" />
+        <HelpTOCNode Id="c718dec7-410f-4dbe-b07c-0b723178d3a6" Title="Property Class" Url="html/T_ZU_Core_Property.htm">
+          <HelpTOCNode Title="Property Constructor " Url="html/M_ZU_Core_Property__ctor.htm" />
+          <HelpTOCNode Id="0f4597ab-6457-4487-9f16-714554a3b853" Title="Property Properties" Url="html/Properties_T_ZU_Core_Property.htm">
+            <HelpTOCNode Title="AppId Property " Url="html/P_ZU_Core_Property_AppId.htm" />
+            <HelpTOCNode Title="Confidence Property " Url="html/P_ZU_Core_Property_Confidence.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_ZU_Core_Property_Id.htm" />
+            <HelpTOCNode Title="TLBirth Property " Url="html/P_ZU_Core_Property_TLBirth.htm" />
+            <HelpTOCNode Title="TLDeath Property " Url="html/P_ZU_Core_Property_TLDeath.htm" />
+            <HelpTOCNode Title="UIdChanger Property " Url="html/P_ZU_Core_Property_UIdChanger.htm" />
+            <HelpTOCNode Title="UIdOwner Property " Url="html/P_ZU_Core_Property_UIdOwner.htm" />
+            <HelpTOCNode Title="Value Property " Url="html/P_ZU_Core_Property_Value.htm" />
+            <HelpTOCNode Title="Weight Property " Url="html/P_ZU_Core_Property_Weight.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="f59fdd57-81f6-43db-81cf-896ae770ef79" Title="Property Methods" Url="html/Methods_T_ZU_Core_Property.htm">
+            <HelpTOCNode Title="Merge Method " Url="html/M_ZU_Core_Property_Merge.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Property Events" Url="html/Events_T_ZU_Core_Property.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3fd91a89-7cb0-45a1-ad86-a14168d981d6" Title="VisualCluster Class" Url="html/T_ZU_Core_VisualCluster.htm">
+          <HelpTOCNode Title="VisualCluster Constructor " Url="html/M_ZU_Core_VisualCluster__ctor.htm" />
+          <HelpTOCNode Id="2e195a5a-11fa-470d-90a9-c89d38757f2b" Title="VisualCluster Properties" Url="html/Properties_T_ZU_Core_VisualCluster.htm">
+            <HelpTOCNode Title="Entities Property " Url="html/P_ZU_Core_VisualCluster_Entities.htm" />
+            <HelpTOCNode Title="IsKnown Property " Url="html/P_ZU_Core_VisualCluster_IsKnown.htm" />
+            <HelpTOCNode Title="IsTopicNew Property " Url="html/P_ZU_Core_VisualCluster_IsTopicNew.htm" />
+            <HelpTOCNode Title="LastModifiedTime Property " Url="html/P_ZU_Core_VisualCluster_LastModifiedTime.htm" />
+            <HelpTOCNode Title="Title Property " Url="html/P_ZU_Core_VisualCluster_Title.htm" />
+            <HelpTOCNode Title="Topic Property " Url="html/P_ZU_Core_VisualCluster_Topic.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="fbba0145-09e6-4ecb-839b-be094e0ee818" Title="VisualCluster Methods" Url="html/Methods_T_ZU_Core_VisualCluster.htm">
+            <HelpTOCNode Title="Add Method " Url="html/M_ZU_Core_VisualCluster_Add.htm" />
+            <HelpTOCNode Title="CompareTo Method " Url="html/M_ZU_Core_VisualCluster_CompareTo.htm" />
+            <HelpTOCNode Title="Equals Method " Url="html/M_ZU_Core_VisualCluster_Equals.htm" />
+            <HelpTOCNode Title="Remove Method " Url="html/M_ZU_Core_VisualCluster_Remove.htm" />
+            <HelpTOCNode Title="ToString Method " Url="html/M_ZU_Core_VisualCluster_ToString.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="VisualCluster Events" Url="html/Events_T_ZU_Core_VisualCluster.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="58f52b20-6901-43ff-9272-88899cc14245" Title="ZU.Core.Apps" Url="html/N_ZU_Core_Apps.htm">
+        <HelpTOCNode Id="ba555433-e844-4380-8036-9204018f85c2" Title="AccountAddedEventArgs Class" Url="html/T_ZU_Core_Apps_AccountAddedEventArgs.htm">
+          <HelpTOCNode Title="AccountAddedEventArgs Constructor " Url="html/M_ZU_Core_Apps_AccountAddedEventArgs__ctor.htm" />
+          <HelpTOCNode Id="058f10c9-9c03-4a3a-b491-f4ce06395318" Title="AccountAddedEventArgs Properties" Url="html/Properties_T_ZU_Core_Apps_AccountAddedEventArgs.htm">
+            <HelpTOCNode Title="Account Property " Url="html/P_ZU_Core_Apps_AccountAddedEventArgs_Account.htm" />
+            <HelpTOCNode Title="IsAdded Property " Url="html/P_ZU_Core_Apps_AccountAddedEventArgs_IsAdded.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="AccountAddedEventArgs Methods" Url="html/Methods_T_ZU_Core_Apps_AccountAddedEventArgs.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="AppAccountAddedEventHandler Delegate" Url="html/T_ZU_Core_Apps_AppAccountAddedEventHandler.htm" />
+        <HelpTOCNode Id="1d5ecef1-1849-4c99-af29-ec0bb05af359" Title="AppEntityKindDefinition Class" Url="html/T_ZU_Core_Apps_AppEntityKindDefinition.htm">
+          <HelpTOCNode Title="AppEntityKindDefinition Constructor " Url="html/M_ZU_Core_Apps_AppEntityKindDefinition__ctor.htm" />
+          <HelpTOCNode Id="01c8d08c-89b7-4d56-8393-f844ed5d45f3" Title="AppEntityKindDefinition Properties" Url="html/Properties_T_ZU_Core_Apps_AppEntityKindDefinition.htm">
+            <HelpTOCNode Title="AppId Property " Url="html/P_ZU_Core_Apps_AppEntityKindDefinition_AppId.htm" />
+            <HelpTOCNode Title="AppTitle Property " Url="html/P_ZU_Core_Apps_AppEntityKindDefinition_AppTitle.htm" />
+            <HelpTOCNode Title="CanBePartOfVisualCluster Property " Url="html/P_ZU_Core_Apps_AppEntityKindDefinition_CanBePartOfVisualCluster.htm" />
+            <HelpTOCNode Title="CanParticipateInTopographicClusterVisualization Property " Url="html/P_ZU_Core_Apps_AppEntityKindDefinition_CanParticipateInTopographicClusterVisualization.htm" />
+            <HelpTOCNode Title="DefaultThumbnail Property " Url="html/P_ZU_Core_Apps_AppEntityKindDefinition_DefaultThumbnail.htm" />
+            <HelpTOCNode Title="DisplayNamePlural Property " Url="html/P_ZU_Core_Apps_AppEntityKindDefinition_DisplayNamePlural.htm" />
+            <HelpTOCNode Title="DisplayNameSingular Property " Url="html/P_ZU_Core_Apps_AppEntityKindDefinition_DisplayNameSingular.htm" />
+            <HelpTOCNode Title="FullTextAliases Property " Url="html/P_ZU_Core_Apps_AppEntityKindDefinition_FullTextAliases.htm" />
+            <HelpTOCNode Title="Kind Property " Url="html/P_ZU_Core_Apps_AppEntityKindDefinition_Kind.htm" />
+            <HelpTOCNode Title="ParentKind Property " Url="html/P_ZU_Core_Apps_AppEntityKindDefinition_ParentKind.htm" />
+            <HelpTOCNode Title="Template Property " Url="html/P_ZU_Core_Apps_AppEntityKindDefinition_Template.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="AppEntityKindDefinition Methods" Url="html/Methods_T_ZU_Core_Apps_AppEntityKindDefinition.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="cac9279f-f528-490e-9956-cd8a5a43c725" Title="AppPaneBase Class" Url="html/T_ZU_Core_Apps_AppPaneBase.htm">
+          <HelpTOCNode Title="AppPaneBase Constructor " Url="html/M_ZU_Core_Apps_AppPaneBase__ctor.htm" />
+          <HelpTOCNode Id="db132082-284a-42bd-876b-34bf2d11736d" Title="AppPaneBase Properties" Url="html/Properties_T_ZU_Core_Apps_AppPaneBase.htm">
+            <HelpTOCNode Title="Account Property " Url="html/P_ZU_Core_Apps_AppPaneBase_Account.htm" />
+            <HelpTOCNode Title="App Property " Url="html/P_ZU_Core_Apps_AppPaneBase_App.htm" />
+            <HelpTOCNode Title="IsPaneVisible Property " Url="html/P_ZU_Core_Apps_AppPaneBase_IsPaneVisible.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="bb98b75a-0c3a-479a-a184-986aff554dda" Title="AppPaneBase Methods" Url="html/Methods_T_ZU_Core_Apps_AppPaneBase.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_ZU_Core_Apps_AppPaneBase_Dispose.htm" />
+            <HelpTOCNode Title="HidePane Method " Url="html/M_ZU_Core_Apps_AppPaneBase_HidePane.htm" />
+            <HelpTOCNode Title="Initialize Method " Url="html/M_ZU_Core_Apps_AppPaneBase_Initialize.htm" />
+            <HelpTOCNode Title="ShowPane Method " Url="html/M_ZU_Core_Apps_AppPaneBase_ShowPane.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="AppPaneBase Events" Url="html/Events_T_ZU_Core_Apps_AppPaneBase.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1838da80-8a45-4ff3-9f0b-5559b3078eb4" Title="IApp Interface" Url="html/T_ZU_Core_Apps_IApp.htm">
+          <HelpTOCNode Id="ddc76da5-773a-459b-8661-b33bf9e1f631" Title="IApp Properties" Url="html/Properties_T_ZU_Core_Apps_IApp.htm">
+            <HelpTOCNode Title="Accounts Property " Url="html/P_ZU_Core_Apps_IApp_Accounts.htm" />
+            <HelpTOCNode Title="AppButtonInfo Property " Url="html/P_ZU_Core_Apps_IApp_AppButtonInfo.htm" />
+            <HelpTOCNode Title="AreMultipleAccountsAllowed Property " Url="html/P_ZU_Core_Apps_IApp_AreMultipleAccountsAllowed.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_ZU_Core_Apps_IApp_Id.htm" />
+            <HelpTOCNode Title="IsAdded Property " Url="html/P_ZU_Core_Apps_IApp_IsAdded.htm" />
+            <HelpTOCNode Title="IsDataImportSupported Property " Url="html/P_ZU_Core_Apps_IApp_IsDataImportSupported.htm" />
+            <HelpTOCNode Title="IsSignedIn Property " Url="html/P_ZU_Core_Apps_IApp_IsSignedIn.htm" />
+            <HelpTOCNode Title="Publisher Property " Url="html/P_ZU_Core_Apps_IApp_Publisher.htm" />
+            <HelpTOCNode Title="Status Property " Url="html/P_ZU_Core_Apps_IApp_Status.htm" />
+            <HelpTOCNode Title="Title Property " Url="html/P_ZU_Core_Apps_IApp_Title.htm" />
+            <HelpTOCNode Title="Version Property " Url="html/P_ZU_Core_Apps_IApp_Version.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="2f8a8c39-a579-4cff-b884-5ea179bf7cf0" Title="IApp Methods" Url="html/Methods_T_ZU_Core_Apps_IApp.htm">
+            <HelpTOCNode Title="GetAppPane Method " Url="html/M_ZU_Core_Apps_IApp_GetAppPane.htm" />
+            <HelpTOCNode Title="Initialize Method " Url="html/M_ZU_Core_Apps_IApp_Initialize.htm" />
+            <HelpTOCNode Title="ProcessGenericNotification Method " Url="html/M_ZU_Core_Apps_IApp_ProcessGenericNotification.htm" />
+            <HelpTOCNode Title="SaveSettings Method " Url="html/M_ZU_Core_Apps_IApp_SaveSettings.htm" />
+            <HelpTOCNode Title="ShowAddDialog Method " Url="html/M_ZU_Core_Apps_IApp_ShowAddDialog.htm" />
+            <HelpTOCNode Title="ShowSettingsDialog Method " Url="html/M_ZU_Core_Apps_IApp_ShowSettingsDialog.htm" />
+            <HelpTOCNode Title="TryRemove Method " Url="html/M_ZU_Core_Apps_IApp_TryRemove.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="7d2a02da-30e9-43d5-b628-d3e694a47f50" Title="IApp Events" Url="html/Events_T_ZU_Core_Apps_IApp.htm">
+            <HelpTOCNode Title="Added Event" Url="html/E_ZU_Core_Apps_IApp_Added.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="6e2b6c9a-2221-4e6d-9086-d7f32947515e" Title="IAppButtonInfo Interface" Url="html/T_ZU_Core_Apps_IAppButtonInfo.htm">
+          <HelpTOCNode Id="5cf4e329-ab42-4fc7-ba92-f17396ac1094" Title="IAppButtonInfo Properties" Url="html/Properties_T_ZU_Core_Apps_IAppButtonInfo.htm">
+            <HelpTOCNode Title="IconPathGeomeryString Property " Url="html/P_ZU_Core_Apps_IAppButtonInfo_IconPathGeomeryString.htm" />
+            <HelpTOCNode Title="Tooltip Property " Url="html/P_ZU_Core_Apps_IAppButtonInfo_Tooltip.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="540e9e16-ef9f-4f20-9d69-aaeaf4da6cdb" Title="IAppManager Interface" Url="html/T_ZU_Core_Apps_IAppManager.htm">
+          <HelpTOCNode Id="ef6af8ff-c2ee-49c7-926f-f4230c0d0b7c" Title="IAppManager Methods" Url="html/Methods_T_ZU_Core_Apps_IAppManager.htm">
+            <HelpTOCNode Title="CreateAppAccount Method " Url="html/M_ZU_Core_Apps_IAppManager_CreateAppAccount.htm" />
+            <HelpTOCNode Title="CreateAppButtonInfo Method " Url="html/M_ZU_Core_Apps_IAppManager_CreateAppButtonInfo.htm" />
+            <HelpTOCNode Title="GetAppSettings Method " Url="html/M_ZU_Core_Apps_IAppManager_GetAppSettings.htm" />
+            <HelpTOCNode Title="RegisterApp Method " Url="html/M_ZU_Core_Apps_IAppManager_RegisterApp.htm" />
+            <HelpTOCNode Title="RegisterKind Method " Url="html/M_ZU_Core_Apps_IAppManager_RegisterKind.htm" />
+            <HelpTOCNode Title="RegisterRelationship Method " Url="html/M_ZU_Core_Apps_IAppManager_RegisterRelationship.htm" />
+            <HelpTOCNode Title="TrySaveAppSettings Method " Url="html/M_ZU_Core_Apps_IAppManager_TrySaveAppSettings.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="OnEntityOpen Delegate" Url="html/T_ZU_Core_Apps_OnEntityOpen.htm" />
+        <HelpTOCNode Title="OnInformationStructureChangedEventHandler Delegate" Url="html/T_ZU_Core_Apps_OnInformationStructureChangedEventHandler.htm" />
+        <HelpTOCNode Id="5d3c1eea-a830-4697-a2bf-ae732ac853f0" Title="SignInStatusChangedEventArgs Class" Url="html/T_ZU_Core_Apps_SignInStatusChangedEventArgs.htm">
+          <HelpTOCNode Title="SignInStatusChangedEventArgs Constructor " Url="html/M_ZU_Core_Apps_SignInStatusChangedEventArgs__ctor.htm" />
+          <HelpTOCNode Id="4f46eb78-ae60-40d8-b10b-71ab059f1360" Title="SignInStatusChangedEventArgs Properties" Url="html/Properties_T_ZU_Core_Apps_SignInStatusChangedEventArgs.htm">
+            <HelpTOCNode Title="IsSignedIn Property " Url="html/P_ZU_Core_Apps_SignInStatusChangedEventArgs_IsSignedIn.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="SignInStatusChangedEventArgs Methods" Url="html/Methods_T_ZU_Core_Apps_SignInStatusChangedEventArgs.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SignInStatusChangedEventHandler Delegate" Url="html/T_ZU_Core_Apps_SignInStatusChangedEventHandler.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d0c19645-4993-466b-9d28-ee50472ef084" Title="ZU.Core.Configuration" Url="html/N_ZU_Core_Configuration.htm">
+        <HelpTOCNode Id="6a217bf1-918a-4e0e-a5c9-2985af955640" Title="IConfiguration Interface" Url="html/T_ZU_Core_Configuration_IConfiguration.htm">
+          <HelpTOCNode Id="aee5ccaa-1355-4b8a-a84d-f4e1cda29e69" Title="IConfiguration Properties" Url="html/Properties_T_ZU_Core_Configuration_IConfiguration.htm">
+            <HelpTOCNode Title="Model Property " Url="html/P_ZU_Core_Configuration_IConfiguration_Model.htm" />
+            <HelpTOCNode Title="UID Property " Url="html/P_ZU_Core_Configuration_IConfiguration_UID.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="815bfc8b-cb0b-4518-8e91-1ca13fdc60bc" Title="ZU.Core.Structured" Url="html/N_ZU_Core_Structured.htm">
+        <HelpTOCNode Title="ReviewStatus Enumeration" Url="html/T_ZU_Core_Structured_ReviewStatus.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5b5256d3-ebb1-4552-a81c-3662300503fe" Title="ZU.Core.Sync" Url="html/N_ZU_Core_Sync.htm">
+        <HelpTOCNode Title="ILocalEntityStore Interface" Url="html/T_ZU_Core_Sync_ILocalEntityStore.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="78a410e9-52e8-4eb6-801e-2293161dc0f2" Title="ZU.Core.Tasks" Url="html/N_ZU_Core_Tasks.htm">
+        <HelpTOCNode Id="547897c5-a67c-4f54-8e10-42fcc62485c7" Title="IOneTimeTrigger Interface" Url="html/T_ZU_Core_Tasks_IOneTimeTrigger.htm">
+          <HelpTOCNode Id="36bfa5a4-2206-4ba8-a5bb-dc1e764a834e" Title="IOneTimeTrigger Properties" Url="html/Properties_T_ZU_Core_Tasks_IOneTimeTrigger.htm">
+            <HelpTOCNode Title="StartAt Property " Url="html/P_ZU_Core_Tasks_IOneTimeTrigger_StartAt.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="2038b8da-6598-4c67-b997-f87d7d6556bd" Title="IRepeatableTrigger Interface" Url="html/T_ZU_Core_Tasks_IRepeatableTrigger.htm">
+          <HelpTOCNode Id="9196050d-dbaf-4ca4-8b53-371447146314" Title="IRepeatableTrigger Properties" Url="html/Properties_T_ZU_Core_Tasks_IRepeatableTrigger.htm">
+            <HelpTOCNode Title="Interval Property " Url="html/P_ZU_Core_Tasks_IRepeatableTrigger_Interval.htm" />
+            <HelpTOCNode Title="NeedsToRun Property " Url="html/P_ZU_Core_Tasks_IRepeatableTrigger_NeedsToRun.htm" />
+            <HelpTOCNode Title="RunFirstTime Property " Url="html/P_ZU_Core_Tasks_IRepeatableTrigger_RunFirstTime.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="03127ba4-f182-4296-933b-568d7ed23da6" Title="IScheduledTask Interface" Url="html/T_ZU_Core_Tasks_IScheduledTask.htm">
+          <HelpTOCNode Id="6ce4107a-2a88-430c-9cad-6ed9a661465b" Title="IScheduledTask Properties" Url="html/Properties_T_ZU_Core_Tasks_IScheduledTask.htm">
+            <HelpTOCNode Title="IsAsync Property " Url="html/P_ZU_Core_Tasks_IScheduledTask_IsAsync.htm" />
+            <HelpTOCNode Title="IsEnabled Property " Url="html/P_ZU_Core_Tasks_IScheduledTask_IsEnabled.htm" />
+            <HelpTOCNode Title="Owner Property " Url="html/P_ZU_Core_Tasks_IScheduledTask_Owner.htm" />
+            <HelpTOCNode Title="Priority Property " Url="html/P_ZU_Core_Tasks_IScheduledTask_Priority.htm" />
+            <HelpTOCNode Title="Task Property " Url="html/P_ZU_Core_Tasks_IScheduledTask_Task.htm" />
+            <HelpTOCNode Title="TaskId Property " Url="html/P_ZU_Core_Tasks_IScheduledTask_TaskId.htm" />
+            <HelpTOCNode Title="Title Property " Url="html/P_ZU_Core_Tasks_IScheduledTask_Title.htm" />
+            <HelpTOCNode Title="Trigger Property " Url="html/P_ZU_Core_Tasks_IScheduledTask_Trigger.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="afeacfba-32be-4069-9ab3-3f7172ae6081" Title="IScheduledTask Methods" Url="html/Methods_T_ZU_Core_Tasks_IScheduledTask.htm">
+            <HelpTOCNode Title="CompareTo Method " Url="html/M_ZU_Core_Tasks_IScheduledTask_CompareTo.htm" />
+            <HelpTOCNode Title="Equals Method " Url="html/M_ZU_Core_Tasks_IScheduledTask_Equals.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="43012d01-87b2-49e0-b5e5-44842d378200" Title="ITaskSchedulerFactory Interface" Url="html/T_ZU_Core_Tasks_ITaskSchedulerFactory.htm">
+          <HelpTOCNode Id="34b91a7f-3851-4d7d-beb8-feb21d24b2b6" Title="ITaskSchedulerFactory Methods" Url="html/Methods_T_ZU_Core_Tasks_ITaskSchedulerFactory.htm">
+            <HelpTOCNode Title="CreateOneTimeTrigger Method " Url="html/M_ZU_Core_Tasks_ITaskSchedulerFactory_CreateOneTimeTrigger.htm" />
+            <HelpTOCNode Title="CreateRepeatableTrigger Method " Url="html/M_ZU_Core_Tasks_ITaskSchedulerFactory_CreateRepeatableTrigger.htm" />
+            <HelpTOCNode Title="CreateScheduledTask Method " Url="html/M_ZU_Core_Tasks_ITaskSchedulerFactory_CreateScheduledTask.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="21209464-6f4d-4d1e-9d36-3d31ee3ae958" Title="ITrigger Interface" Url="html/T_ZU_Core_Tasks_ITrigger.htm">
+          <HelpTOCNode Id="6e9bdee5-11bc-489d-ab13-f90eb8d87cb5" Title="ITrigger Properties" Url="html/Properties_T_ZU_Core_Tasks_ITrigger.htm">
+            <HelpTOCNode Title="TaskId Property " Url="html/P_ZU_Core_Tasks_ITrigger_TaskId.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="15de0a25-7f0a-4ea2-99d3-c54ef557d812" Title="ZU.Core.Update" Url="html/N_ZU_Core_Update.htm">
+        <HelpTOCNode Title="AppUpdateStatus Enumeration" Url="html/T_ZU_Core_Update_AppUpdateStatus.htm" />
+        <HelpTOCNode Title="UpdateCheckStates Enumeration" Url="html/T_ZU_Core_Update_UpdateCheckStates.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="827320e3-5b64-419b-b40e-db2b7a5f7b65" Title="ZU.Plugins" Url="html/N_ZU_Plugins.htm">
+      <HelpTOCNode Id="6e096377-0f5a-45fb-9421-0973705a7f97" Title="FullTextExtractionResult Class" Url="html/T_ZU_Plugins_FullTextExtractionResult.htm">
+        <HelpTOCNode Title="FullTextExtractionResult Constructor " Url="html/M_ZU_Plugins_FullTextExtractionResult__ctor.htm" />
+        <HelpTOCNode Id="09e60f75-ec56-4fdf-93f5-1841801cb490" Title="FullTextExtractionResult Properties" Url="html/Properties_T_ZU_Plugins_FullTextExtractionResult.htm">
+          <HelpTOCNode Title="FullText Property " Url="html/P_ZU_Plugins_FullTextExtractionResult_FullText.htm" />
+          <HelpTOCNode Title="Succeeded Property " Url="html/P_ZU_Plugins_FullTextExtractionResult_Succeeded.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="FullTextExtractionResult Methods" Url="html/Methods_T_ZU_Plugins_FullTextExtractionResult.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5c5d2265-1525-4089-b064-5b25e58f9cd1" Title="IFileStorageApp Interface" Url="html/T_ZU_Plugins_IFileStorageApp.htm">
+        <HelpTOCNode Title="IFileStorageApp Properties" Url="html/Properties_T_ZU_Plugins_IFileStorageApp.htm" />
+        <HelpTOCNode Id="e8a82e9a-99c3-44a3-a6c5-e6bec293787c" Title="IFileStorageApp Methods" Url="html/Methods_T_ZU_Plugins_IFileStorageApp.htm">
+          <HelpTOCNode Title="ImportShellItem Method " Url="html/M_ZU_Plugins_IFileStorageApp_ImportShellItem.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="IFileStorageApp Events" Url="html/Events_T_ZU_Plugins_IFileStorageApp.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="49359f3e-741f-46cf-89aa-aad9fa8a12c1" Title="IFullTextSearchExtractionProcessor Interface" Url="html/T_ZU_Plugins_IFullTextSearchExtractionProcessor.htm">
+        <HelpTOCNode Id="563878f5-3aa1-4c3f-8384-8aae3c095ac2" Title="IFullTextSearchExtractionProcessor Methods" Url="html/Methods_T_ZU_Plugins_IFullTextSearchExtractionProcessor.htm">
+          <HelpTOCNode Title="CanExtractFromKind Method " Url="html/M_ZU_Plugins_IFullTextSearchExtractionProcessor_CanExtractFromKind.htm" />
+          <HelpTOCNode Title="TryExtract Method " Url="html/M_ZU_Plugins_IFullTextSearchExtractionProcessor_TryExtract.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="a26e3166-76e9-4682-87f8-59d252ed2a71" Title="ILocalFolderApp Interface" Url="html/T_ZU_Plugins_ILocalFolderApp.htm">
+        <HelpTOCNode Title="ILocalFolderApp Properties" Url="html/Properties_T_ZU_Plugins_ILocalFolderApp.htm" />
+        <HelpTOCNode Id="b75fb44b-b378-4588-bb4f-3e1eb6bf0422" Title="ILocalFolderApp Methods" Url="html/Methods_T_ZU_Plugins_ILocalFolderApp.htm">
+          <HelpTOCNode Title="IsShellItemRootedInAppRoot Method " Url="html/M_ZU_Plugins_ILocalFolderApp_IsShellItemRootedInAppRoot.htm" />
+          <HelpTOCNode Title="OnShellItemChanged Method " Url="html/M_ZU_Plugins_ILocalFolderApp_OnShellItemChanged.htm" />
+          <HelpTOCNode Title="OnShellItemCreated Method " Url="html/M_ZU_Plugins_ILocalFolderApp_OnShellItemCreated.htm" />
+          <HelpTOCNode Title="OnShellItemDeleted Method " Url="html/M_ZU_Plugins_ILocalFolderApp_OnShellItemDeleted.htm" />
+          <HelpTOCNode Title="OnShellItemRenamed Method " Url="html/M_ZU_Plugins_ILocalFolderApp_OnShellItemRenamed.htm" />
+          <HelpTOCNode Title="StopWatchingShellItem Method " Url="html/M_ZU_Plugins_ILocalFolderApp_StopWatchingShellItem.htm" />
+          <HelpTOCNode Title="TryGetSharedFolderAppItemDataContainerFromShellItem Method " Url="html/M_ZU_Plugins_ILocalFolderApp_TryGetSharedFolderAppItemDataContainerFromShellItem.htm" />
+          <HelpTOCNode Title="TryWatchShellItem Method " Url="html/M_ZU_Plugins_ILocalFolderApp_TryWatchShellItem.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ILocalFolderApp Events" Url="html/Events_T_ZU_Plugins_ILocalFolderApp.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="273faf57-2948-417f-baa3-aa41a861b93b" Title="ISharedFolderApp Interface" Url="html/T_ZU_Plugins_ISharedFolderApp.htm">
+        <HelpTOCNode Title="ISharedFolderApp Properties" Url="html/Properties_T_ZU_Plugins_ISharedFolderApp.htm" />
+        <HelpTOCNode Id="cb80e5d1-d234-4909-bbc7-6bfe65d74fe9" Title="ISharedFolderApp Methods" Url="html/Methods_T_ZU_Plugins_ISharedFolderApp.htm">
+          <HelpTOCNode Title="TryShareShellItem Method " Url="html/M_ZU_Plugins_ISharedFolderApp_TryShareShellItem.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ISharedFolderApp Events" Url="html/Events_T_ZU_Plugins_ISharedFolderApp.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fcbcaf60-0b28-4b4f-8333-8e18008f1039" Title="IZetApp Interface" Url="html/T_ZU_Plugins_IZetApp.htm">
+        <HelpTOCNode Id="7134bea3-9e0f-448a-ba23-b44a91689283" Title="IZetApp Properties" Url="html/Properties_T_ZU_Plugins_IZetApp.htm">
+          <HelpTOCNode Title="Accounts Property " Url="html/P_ZU_Plugins_IZetApp_Accounts.htm" />
+          <HelpTOCNode Title="AppButtonInfo Property " Url="html/P_ZU_Plugins_IZetApp_AppButtonInfo.htm" />
+          <HelpTOCNode Title="AreMultipleAccountsAllowed Property " Url="html/P_ZU_Plugins_IZetApp_AreMultipleAccountsAllowed.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_ZU_Plugins_IZetApp_Id.htm" />
+          <HelpTOCNode Title="IsAdded Property " Url="html/P_ZU_Plugins_IZetApp_IsAdded.htm" />
+          <HelpTOCNode Title="IsDataImportSupported Property " Url="html/P_ZU_Plugins_IZetApp_IsDataImportSupported.htm" />
+          <HelpTOCNode Title="IsSignedIn Property " Url="html/P_ZU_Plugins_IZetApp_IsSignedIn.htm" />
+          <HelpTOCNode Title="Publisher Property " Url="html/P_ZU_Plugins_IZetApp_Publisher.htm" />
+          <HelpTOCNode Title="Status Property " Url="html/P_ZU_Plugins_IZetApp_Status.htm" />
+          <HelpTOCNode Title="Title Property " Url="html/P_ZU_Plugins_IZetApp_Title.htm" />
+          <HelpTOCNode Title="Version Property " Url="html/P_ZU_Plugins_IZetApp_Version.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ee96f639-2d1f-4211-b5d5-d40d1afbe3a6" Title="IZetApp Methods" Url="html/Methods_T_ZU_Plugins_IZetApp.htm">
+          <HelpTOCNode Title="GetAppPane Method " Url="html/M_ZU_Plugins_IZetApp_GetAppPane.htm" />
+          <HelpTOCNode Title="GetCurrentAppSettings Method " Url="html/M_ZU_Plugins_IZetApp_GetCurrentAppSettings.htm" />
+          <HelpTOCNode Title="ProcessGenericNotification Method " Url="html/M_ZU_Plugins_IZetApp_ProcessGenericNotification.htm" />
+          <HelpTOCNode Title="ShowAddDialog Method " Url="html/M_ZU_Plugins_IZetApp_ShowAddDialog.htm" />
+          <HelpTOCNode Title="ShowSettingsDialog Method " Url="html/M_ZU_Plugins_IZetApp_ShowSettingsDialog.htm" />
+          <HelpTOCNode Title="Shutdown Method " Url="html/M_ZU_Plugins_IZetApp_Shutdown.htm" />
+          <HelpTOCNode Title="TryRemove Method " Url="html/M_ZU_Plugins_IZetApp_TryRemove.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c799589a-a715-42e2-8c4b-1a49d64a18c4" Title="IZetApp Events" Url="html/Events_T_ZU_Plugins_IZetApp.htm">
+          <HelpTOCNode Title="Added Event" Url="html/E_ZU_Plugins_IZetApp_Added.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="a2e89662-8b58-487a-a673-aaf9cff307c1" Title="IZetHost Interface" Url="html/T_ZU_Plugins_IZetHost.htm">
+        <HelpTOCNode Id="338f8647-a806-48e1-a4e3-6ffd7a0ae8d8" Title="IZetHost Properties" Url="html/Properties_T_ZU_Plugins_IZetHost.htm">
+          <HelpTOCNode Title="AppManager Property " Url="html/P_ZU_Plugins_IZetHost_AppManager.htm" />
+          <HelpTOCNode Title="Frame Property " Url="html/P_ZU_Plugins_IZetHost_Frame.htm" />
+          <HelpTOCNode Title="SIM Property " Url="html/P_ZU_Plugins_IZetHost_SIM.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="IZetHost Methods" Url="html/Methods_T_ZU_Plugins_IZetHost.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b0870228-3544-4eb2-8e99-389d7ec3fb7b" Title="IZetProcessor Interface" Url="html/T_ZU_Plugins_IZetProcessor.htm">
+        <HelpTOCNode Id="c8c31196-c3c0-4d0e-89e2-5a6d2ff8ef8c" Title="IZetProcessor Properties" Url="html/Properties_T_ZU_Plugins_IZetProcessor.htm">
+          <HelpTOCNode Title="Name Property " Url="html/P_ZU_Plugins_IZetProcessor_Name.htm" />
+          <HelpTOCNode Title="Status Property " Url="html/P_ZU_Plugins_IZetProcessor_Status.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="286c7890-6fc0-4ee6-9289-857487740f5d" Title="IZetProcessor Methods" Url="html/Methods_T_ZU_Plugins_IZetProcessor.htm">
+          <HelpTOCNode Title="Shutdown Method " Url="html/M_ZU_Plugins_IZetProcessor_Shutdown.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2604ac36-c0a3-45b8-bca3-1d3b51a152de" Title="ZU.Semantic Namespaces" Url="html/G_ZU_Semantic.htm">
+      <HelpTOCNode Id="b83c4a52-ce83-4899-b98b-a58c6a5fbc95" Title="ZU.Semantic" Url="html/N_ZU_Semantic.htm">
+        <HelpTOCNode Id="d838534e-ba30-4f6f-9daf-477a97142df0" Title="EntityRef Class" Url="html/T_ZU_Semantic_EntityRef.htm">
+          <HelpTOCNode Title="EntityRef Constructor " Url="html/M_ZU_Semantic_EntityRef__ctor.htm" />
+          <HelpTOCNode Id="339a87bb-15ca-45c6-8f4d-c14cabd9f076" Title="EntityRef Properties" Url="html/Properties_T_ZU_Semantic_EntityRef.htm">
+            <HelpTOCNode Title="AgentIdChanger Property " Url="html/P_ZU_Semantic_EntityRef_AgentIdChanger.htm" />
+            <HelpTOCNode Title="Confidence Property " Url="html/P_ZU_Semantic_EntityRef_Confidence.htm" />
+            <HelpTOCNode Title="Direction Property " Url="html/P_ZU_Semantic_EntityRef_Direction.htm" />
+            <HelpTOCNode Title="EntityId Property " Url="html/P_ZU_Semantic_EntityRef_EntityId.htm" />
+            <HelpTOCNode Title="ModelId Property " Url="html/P_ZU_Semantic_EntityRef_ModelId.htm" />
+            <HelpTOCNode Title="Relation Property " Url="html/P_ZU_Semantic_EntityRef_Relation.htm" />
+            <HelpTOCNode Title="RelationshipEntityId Property " Url="html/P_ZU_Semantic_EntityRef_RelationshipEntityId.htm" />
+            <HelpTOCNode Title="RelationshipModelId Property " Url="html/P_ZU_Semantic_EntityRef_RelationshipModelId.htm" />
+            <HelpTOCNode Title="State Property " Url="html/P_ZU_Semantic_EntityRef_State.htm" />
+            <HelpTOCNode Title="TLChange Property " Url="html/P_ZU_Semantic_EntityRef_TLChange.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="d68e91a7-f8cc-43d8-a76a-50766432f4c3" Title="EntityRef Methods" Url="html/Methods_T_ZU_Semantic_EntityRef.htm">
+            <HelpTOCNode Title="CompareTo Method " Url="html/M_ZU_Semantic_EntityRef_CompareTo.htm" />
+            <HelpTOCNode Id="c3b619da-cf63-44bb-a2ed-3827470ffd88" Title="Equals Method " Url="html/Overload_ZU_Semantic_EntityRef_Equals.htm">
+              <HelpTOCNode Title="Equals Method (Object)" Url="html/M_ZU_Semantic_EntityRef_Equals.htm" />
+              <HelpTOCNode Title="Equals Method (IEntity)" Url="html/M_ZU_Semantic_EntityRef_Equals_1.htm" />
+            </HelpTOCNode>
+            <HelpTOCNode Title="GetHashCode Method " Url="html/M_ZU_Semantic_EntityRef_GetHashCode.htm" />
+            <HelpTOCNode Title="IsEmpty Method " Url="html/M_ZU_Semantic_EntityRef_IsEmpty.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="49f1faad-7849-4528-a054-4d88db25633f" Title="EntityRefExtensions Class" Url="html/T_ZU_Semantic_EntityRefExtensions.htm">
+          <HelpTOCNode Id="a84368e3-4590-417c-969c-5ddeb029e92d" Title="EntityRefExtensions Methods" Url="html/Methods_T_ZU_Semantic_EntityRefExtensions.htm">
+            <HelpTOCNode Title="IdToShortGuid Method " Url="html/M_ZU_Semantic_EntityRefExtensions_IdToShortGuid.htm" />
+            <HelpTOCNode Title="IdToShortString Method " Url="html/M_ZU_Semantic_EntityRefExtensions_IdToShortString.htm" />
+            <HelpTOCNode Title="IsLive Method " Url="html/M_ZU_Semantic_EntityRefExtensions_IsLive.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="RelationDirection Enumeration" Url="html/T_ZU_Semantic_RelationDirection.htm" />
+        <HelpTOCNode Title="RelationKind Enumeration" Url="html/T_ZU_Semantic_RelationKind.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="90e63056-4a79-4cab-ab12-712339695830" Title="ZU.Semantic.Core" Url="html/N_ZU_Semantic_Core.htm">
+        <HelpTOCNode Title="ContainerKinds Enumeration" Url="html/T_ZU_Semantic_Core_ContainerKinds.htm" />
+        <HelpTOCNode Title="EntityFragmentState Enumeration" Url="html/T_ZU_Semantic_Core_EntityFragmentState.htm" />
+        <HelpTOCNode Title="LinkedItemNetworkOperationStatus Enumeration" Url="html/T_ZU_Semantic_Core_LinkedItemNetworkOperationStatus.htm" />
+        <HelpTOCNode Title="SemanticActionKinds Enumeration" Url="html/T_ZU_Semantic_Core_SemanticActionKinds.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5f3f650c-ee14-4b67-be26-1c8801a44bfa" Title="ZU.Semantic.Core.Indexing" Url="html/N_ZU_Semantic_Core_Indexing.htm">
+        <HelpTOCNode Id="99789595-9c24-4647-a584-da71bbf0f5af" Title="IIndexer Interface" Url="html/T_ZU_Semantic_Core_Indexing_IIndexer.htm">
+          <HelpTOCNode Id="86e26d22-27d6-4a37-9b2d-5d888a884350" Title="IIndexer Methods" Url="html/Methods_T_ZU_Semantic_Core_Indexing_IIndexer.htm">
+            <HelpTOCNode Title="TryBuildIndex Method " Url="html/M_ZU_Semantic_Core_Indexing_IIndexer_TryBuildIndex.htm" />
+            <HelpTOCNode Title="TryUpdateIndex Method " Url="html/M_ZU_Semantic_Core_Indexing_IIndexer_TryUpdateIndex.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3d2bad3a-2062-4d71-be75-118977ca5c5c" Title="ZU.Semantic.Keyphrases" Url="html/N_ZU_Semantic_Keyphrases.htm">
+        <HelpTOCNode Id="8877431f-713e-4d12-a76e-3efd48b7d6ce" Title="IKeyphrase Interface" Url="html/T_ZU_Semantic_Keyphrases_IKeyphrase.htm">
+          <HelpTOCNode Id="94873969-3672-41e0-80f5-41c18d1f14d5" Title="IKeyphrase Properties" Url="html/Properties_T_ZU_Semantic_Keyphrases_IKeyphrase.htm">
+            <HelpTOCNode Title="CalculatedRank Property " Url="html/P_ZU_Semantic_Keyphrases_IKeyphrase_CalculatedRank.htm" />
+            <HelpTOCNode Title="DocFreq Property " Url="html/P_ZU_Semantic_Keyphrases_IKeyphrase_DocFreq.htm" />
+            <HelpTOCNode Title="IsClusterLevelKeyphrase Property " Url="html/P_ZU_Semantic_Keyphrases_IKeyphrase_IsClusterLevelKeyphrase.htm" />
+            <HelpTOCNode Title="IsLive Property " Url="html/P_ZU_Semantic_Keyphrases_IKeyphrase_IsLive.htm" />
+            <HelpTOCNode Title="Phrase Property " Url="html/P_ZU_Semantic_Keyphrases_IKeyphrase_Phrase.htm" />
+            <HelpTOCNode Title="Rank Property " Url="html/P_ZU_Semantic_Keyphrases_IKeyphrase_Rank.htm" />
+            <HelpTOCNode Title="State Property " Url="html/P_ZU_Semantic_Keyphrases_IKeyphrase_State.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="aee71658-6df1-48af-bf36-51c7d6b29adc" Title="IKeyphrase Methods" Url="html/Methods_T_ZU_Semantic_Keyphrases_IKeyphrase.htm">
+            <HelpTOCNode Title="CompareTo Method " Url="html/M_ZU_Semantic_Keyphrases_IKeyphrase_CompareTo.htm" />
+            <HelpTOCNode Title="Equals Method " Url="html/M_ZU_Semantic_Keyphrases_IKeyphrase_Equals.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="9089fa28-bb81-4d3f-8257-5df624e604a6" Title="IParagraph Interface" Url="html/T_ZU_Semantic_Keyphrases_IParagraph.htm">
+          <HelpTOCNode Id="391e37de-5254-4d92-91df-1c2aa18b263f" Title="IParagraph Properties" Url="html/Properties_T_ZU_Semantic_Keyphrases_IParagraph.htm">
+            <HelpTOCNode Title="Sentences Property " Url="html/P_ZU_Semantic_Keyphrases_IParagraph_Sentences.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="43684bb9-9ee2-4c9f-b440-864e24df1f4a" Title="ISentence Interface" Url="html/T_ZU_Semantic_Keyphrases_ISentence.htm">
+          <HelpTOCNode Id="682cea80-9148-4b8b-8ac3-d12f831a9698" Title="ISentence Properties" Url="html/Properties_T_ZU_Semantic_Keyphrases_ISentence.htm">
+            <HelpTOCNode Title="Words Property " Url="html/P_ZU_Semantic_Keyphrases_ISentence_Words.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="a838a3ca-1108-482c-beab-decb6ccc1c7c" Title="ITitle Interface" Url="html/T_ZU_Semantic_Keyphrases_ITitle.htm">
+          <HelpTOCNode Id="d3af781b-986b-437e-bad3-28176c2548ec" Title="ITitle Properties" Url="html/Properties_T_ZU_Semantic_Keyphrases_ITitle.htm">
+            <HelpTOCNode Title="Count Property " Url="html/P_ZU_Semantic_Keyphrases_ITitle_Count.htm" />
+            <HelpTOCNode Title="Text Property " Url="html/P_ZU_Semantic_Keyphrases_ITitle_Text.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="f6f356ce-3c2d-4000-91ba-0b80753150f9" Title="IWord Interface" Url="html/T_ZU_Semantic_Keyphrases_IWord.htm">
+          <HelpTOCNode Id="24395af1-922f-47b7-b3ba-3e0331d01a31" Title="IWord Properties" Url="html/Properties_T_ZU_Semantic_Keyphrases_IWord.htm">
+            <HelpTOCNode Title="Stem Property " Url="html/P_ZU_Semantic_Keyphrases_IWord_Stem.htm" />
+            <HelpTOCNode Title="Text Property " Url="html/P_ZU_Semantic_Keyphrases_IWord_Text.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="bcca237e-003c-43f9-9d46-5bb5778507f7" Title="ZU.Semantic.Processors" Url="html/N_ZU_Semantic_Processors.htm">
+        <HelpTOCNode Id="2e3d1e69-3c8c-48c6-9a4f-68ce4a5c849f" Title="ISemanticPipelineProcessor Interface" Url="html/T_ZU_Semantic_Processors_ISemanticPipelineProcessor.htm">
+          <HelpTOCNode Id="a238e751-a5ba-405e-b893-38206fac323e" Title="ISemanticPipelineProcessor Properties" Url="html/Properties_T_ZU_Semantic_Processors_ISemanticPipelineProcessor.htm">
+            <HelpTOCNode Title="IsPaused Property " Url="html/P_ZU_Semantic_Processors_ISemanticPipelineProcessor_IsPaused.htm" />
+            <HelpTOCNode Title="Processors Property " Url="html/P_ZU_Semantic_Processors_ISemanticPipelineProcessor_Processors.htm" />
+            <HelpTOCNode Title="SIM Property " Url="html/P_ZU_Semantic_Processors_ISemanticPipelineProcessor_SIM.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="1acfcaab-220b-469c-a51a-2f647c97b21c" Title="ISemanticPipelineProcessor Methods" Url="html/Methods_T_ZU_Semantic_Processors_ISemanticPipelineProcessor.htm">
+            <HelpTOCNode Id="8b2dca58-7d80-4f35-9799-5ac690aef136" Title="AddTopic Method " Url="html/Overload_ZU_Semantic_Processors_ISemanticPipelineProcessor_AddTopic.htm">
+              <HelpTOCNode Title="AddTopic Method (String)" Url="html/M_ZU_Semantic_Processors_ISemanticPipelineProcessor_AddTopic.htm" />
+              <HelpTOCNode Title="AddTopic Method (String, String)" Url="html/M_ZU_Semantic_Processors_ISemanticPipelineProcessor_AddTopic_1.htm" />
+            </HelpTOCNode>
+            <HelpTOCNode Title="Continue Method " Url="html/M_ZU_Semantic_Processors_ISemanticPipelineProcessor_Continue.htm" />
+            <HelpTOCNode Title="Pause Method " Url="html/M_ZU_Semantic_Processors_ISemanticPipelineProcessor_Pause.htm" />
+            <HelpTOCNode Title="Publish Method " Url="html/M_ZU_Semantic_Processors_ISemanticPipelineProcessor_Publish.htm" />
+            <HelpTOCNode Title="RegisterProcessor Method " Url="html/M_ZU_Semantic_Processors_ISemanticPipelineProcessor_RegisterProcessor.htm" />
+            <HelpTOCNode Title="ReportFailedProcessing Method " Url="html/M_ZU_Semantic_Processors_ISemanticPipelineProcessor_ReportFailedProcessing.htm" />
+            <HelpTOCNode Title="ReportSuccessfulProcessing Method " Url="html/M_ZU_Semantic_Processors_ISemanticPipelineProcessor_ReportSuccessfulProcessing.htm" />
+            <HelpTOCNode Title="Shutdown Method " Url="html/M_ZU_Semantic_Processors_ISemanticPipelineProcessor_Shutdown.htm" />
+            <HelpTOCNode Title="Subscribe Method " Url="html/M_ZU_Semantic_Processors_ISemanticPipelineProcessor_Subscribe.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="OnPublishedDelegate Delegate" Url="html/T_ZU_Semantic_Processors_OnPublishedDelegate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="123351c6-ba6d-4296-88e2-68b87ca8941f" Title="ZU.Semantic.Spatial" Url="html/N_ZU_Semantic_Spatial.htm">
+        <HelpTOCNode Id="88f93a3b-bea8-4038-8b2f-b1fb9cbd7f6c" Title="ISpatialItemsSource Interface" Url="html/T_ZU_Semantic_Spatial_ISpatialItemsSource.htm">
+          <HelpTOCNode Id="3bd7e517-7a95-4bc2-a8eb-58d27ca90b4d" Title="ISpatialItemsSource Properties" Url="html/Properties_T_ZU_Semantic_Spatial_ISpatialItemsSource.htm">
+            <HelpTOCNode Title="Extent Property " Url="html/P_ZU_Semantic_Spatial_ISpatialItemsSource_Extent.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="544abc41-f0b8-4619-a474-b42ebe22b603" Title="ISpatialItemsSource Methods" Url="html/Methods_T_ZU_Semantic_Spatial_ISpatialItemsSource.htm">
+            <HelpTOCNode Title="Query Method " Url="html/M_ZU_Semantic_Spatial_ISpatialItemsSource_Query.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="da47d632-83bf-4924-ad51-1c32f01deb7e" Title="ISpatialItemsSource Events" Url="html/Events_T_ZU_Semantic_Spatial_ISpatialItemsSource.htm">
+            <HelpTOCNode Title="ExtentChanged Event" Url="html/E_ZU_Semantic_Spatial_ISpatialItemsSource_ExtentChanged.htm" />
+            <HelpTOCNode Title="QueryInvalidated Event" Url="html/E_ZU_Semantic_Spatial_ISpatialItemsSource_QueryInvalidated.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="d5c80b38-0e75-4c9f-9d93-27de5e2b7140" Title="ZU.Semantic.Spatial.Collections" Url="html/N_ZU_Semantic_Spatial_Collections.htm">
+        <HelpTOCNode Id="0009bd33-e315-41d7-9f32-88cd51a65676" Title="ISpatialRangeObservableCollection(T) Interface" Url="html/T_ZU_Semantic_Spatial_Collections_ISpatialRangeObservableCollection_1.htm">
+          <HelpTOCNode Id="c1d6561b-4a2f-4d4a-9432-f5aee53b9292" Title="ISpatialRangeObservableCollection(T) Properties" Url="html/Properties_T_ZU_Semantic_Spatial_Collections_ISpatialRangeObservableCollection_1.htm">
+            <HelpTOCNode Title="Extent Property " Url="html/P_ZU_Semantic_Spatial_Collections_ISpatialRangeObservableCollection_1_Extent.htm" />
+            <HelpTOCNode Title="Scale Property " Url="html/P_ZU_Semantic_Spatial_Collections_ISpatialRangeObservableCollection_1_Scale.htm" />
+            <HelpTOCNode Title="SpatialIndex Property " Url="html/P_ZU_Semantic_Spatial_Collections_ISpatialRangeObservableCollection_1_SpatialIndex.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="d67f4c66-bb3b-4045-bfe0-8205132d7779" Title="ISpatialRangeObservableCollection(T) Methods" Url="html/Methods_T_ZU_Semantic_Spatial_Collections_ISpatialRangeObservableCollection_1.htm">
+            <HelpTOCNode Title="Query Method " Url="html/M_ZU_Semantic_Spatial_Collections_ISpatialRangeObservableCollection_1_Query.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="71b3d04a-d3cc-4ae8-8bc3-38798daf2cc5" Title="ISpatialRangeObservableCollection(T) Events" Url="html/Events_T_ZU_Semantic_Spatial_Collections_ISpatialRangeObservableCollection_1.htm">
+            <HelpTOCNode Title="ExtentChanged Event" Url="html/E_ZU_Semantic_Spatial_Collections_ISpatialRangeObservableCollection_1_ExtentChanged.htm" />
+            <HelpTOCNode Title="QueryInvalidated Event" Url="html/E_ZU_Semantic_Spatial_Collections_ISpatialRangeObservableCollection_1_QueryInvalidated.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="15cde394-7b64-46fb-9f42-d7609d0f316d" Title="ZU.Semantic.Spatial.Indexing" Url="html/N_ZU_Semantic_Spatial_Indexing.htm">
+        <HelpTOCNode Id="951f3aeb-4188-4785-8b46-38a268482d07" Title="IVisualClustersIndexer Interface" Url="html/T_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer.htm">
+          <HelpTOCNode Id="70229290-3041-4856-ac4a-aebb63b4cb4f" Title="IVisualClustersIndexer Properties" Url="html/Properties_T_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer.htm">
+            <HelpTOCNode Title="Epsilon Property " Url="html/P_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_Epsilon.htm" />
+            <HelpTOCNode Title="IsInitialized Property " Url="html/P_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_IsInitialized.htm" />
+            <HelpTOCNode Title="KnownVisualClusters Property " Url="html/P_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_KnownVisualClusters.htm" />
+            <HelpTOCNode Title="LogResults Property " Url="html/P_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_LogResults.htm" />
+            <HelpTOCNode Title="Model Property " Url="html/P_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_Model.htm" />
+            <HelpTOCNode Title="UID Property " Url="html/P_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_UID.htm" />
+            <HelpTOCNode Title="VisualClusters Property " Url="html/P_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_VisualClusters.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="9a7eb0ad-ea8e-42e5-8a8a-c68cd4524d94" Title="IVisualClustersIndexer Methods" Url="html/Methods_T_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer.htm">
+            <HelpTOCNode Title="CleanupAfterEntityWasDeleted Method " Url="html/M_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_CleanupAfterEntityWasDeleted.htm" />
+            <HelpTOCNode Title="GetNearestEntities Method " Url="html/M_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_GetNearestEntities.htm" />
+            <HelpTOCNode Id="48e85cfb-50cc-4fa4-b21c-16a34d76caf3" Title="GetNearestEntitiesWithinRadius Method " Url="html/Overload_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_GetNearestEntitiesWithinRadius.htm">
+              <HelpTOCNode Title="GetNearestEntitiesWithinRadius Method (IEntity, List(IEntity), List(IEntity), Double)" Url="html/M_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_GetNearestEntitiesWithinRadius.htm" />
+              <HelpTOCNode Title="GetNearestEntitiesWithinRadius Method (IEntity, String, List(IEntity), Double)" Url="html/M_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_GetNearestEntitiesWithinRadius_1.htm" />
+            </HelpTOCNode>
+            <HelpTOCNode Title="TryBuildIndex Method " Url="html/M_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_TryBuildIndex.htm" />
+            <HelpTOCNode Title="TryGetVisualCluster Method " Url="html/M_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_TryGetVisualCluster.htm" />
+            <HelpTOCNode Title="TryGetVisualClusterPositionForTopEntity Method " Url="html/M_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_TryGetVisualClusterPositionForTopEntity.htm" />
+            <HelpTOCNode Title="TryReadIndex Method " Url="html/M_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_TryReadIndex.htm" />
+            <HelpTOCNode Title="TryUpdateIndex Method " Url="html/M_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_TryUpdateIndex.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="af96a413-c38d-4d73-aab0-d9b76d07ee17" Title="IVisualClustersIndexer Events" Url="html/Events_T_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer.htm">
+            <HelpTOCNode Title="VisualClusterChanged Event" Url="html/E_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_VisualClusterChanged.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3ee9bf0a-c717-4fea-8cd9-9ad8b9668eac" Title="ZU.Semantic.Text" Url="html/N_ZU_Semantic_Text.htm">
+        <HelpTOCNode Id="d32da4d7-2d58-48c4-a74e-fd5ccd2e27ec" Title="KindMetadataAttribute Class" Url="html/T_ZU_Semantic_Text_KindMetadataAttribute.htm">
+          <HelpTOCNode Title="KindMetadataAttribute Constructor " Url="html/M_ZU_Semantic_Text_KindMetadataAttribute__ctor.htm" />
+          <HelpTOCNode Id="eb41093f-1c60-4303-bf4c-e527d0578e77" Title="KindMetadataAttribute Properties" Url="html/Properties_T_ZU_Semantic_Text_KindMetadataAttribute.htm">
+            <HelpTOCNode Title="IsAbstract Property " Url="html/P_ZU_Semantic_Text_KindMetadataAttribute_IsAbstract.htm" />
+            <HelpTOCNode Title="IsHidden Property " Url="html/P_ZU_Semantic_Text_KindMetadataAttribute_IsHidden.htm" />
+            <HelpTOCNode Title="KindAliases Property " Url="html/P_ZU_Semantic_Text_KindMetadataAttribute_KindAliases.htm" />
+            <HelpTOCNode Title="KindDescription Property " Url="html/P_ZU_Semantic_Text_KindMetadataAttribute_KindDescription.htm" />
+            <HelpTOCNode Title="KindParent Property " Url="html/P_ZU_Semantic_Text_KindMetadataAttribute_KindParent.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="KindMetadataAttribute Methods" Url="html/Methods_T_ZU_Semantic_Text_KindMetadataAttribute.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9275597b-5b89-4554-b74d-6947d34cc745" Title="ZU.Storage Namespaces" Url="html/G_ZU_Storage.htm">
+      <HelpTOCNode Id="90f47cb7-7426-4cd0-aff8-656b8dece635" Title="ZU.Storage" Url="html/N_ZU_Storage.htm">
+        <HelpTOCNode Id="f821b56e-a19d-48c0-84e9-a376b363f448" Title="IStorageContext Interface" Url="html/T_ZU_Storage_IStorageContext.htm">
+          <HelpTOCNode Id="470b5488-5462-48c6-b83f-729460e33688" Title="IStorageContext Properties" Url="html/Properties_T_ZU_Storage_IStorageContext.htm">
+            <HelpTOCNode Title="Model Property " Url="html/P_ZU_Storage_IStorageContext_Model.htm" />
+            <HelpTOCNode Title="StorageProvider Property " Url="html/P_ZU_Storage_IStorageContext_StorageProvider.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="4e257329-dc79-4797-80bd-db697fdbf055" Title="IStorageContext Methods" Url="html/Methods_T_ZU_Storage_IStorageContext.htm">
+            <HelpTOCNode Title="AddEntity Method " Url="html/M_ZU_Storage_IStorageContext_AddEntity.htm" />
+            <HelpTOCNode Title="AddStorageRecordKeyToIndex Method " Url="html/M_ZU_Storage_IStorageContext_AddStorageRecordKeyToIndex.htm" />
+            <HelpTOCNode Title="Close Method " Url="html/M_ZU_Storage_IStorageContext_Close.htm" />
+            <HelpTOCNode Title="GetActivityHistory Method " Url="html/M_ZU_Storage_IStorageContext_GetActivityHistory.htm" />
+            <HelpTOCNode Title="GetEntityStorageRecordAt Method " Url="html/M_ZU_Storage_IStorageContext_GetEntityStorageRecordAt.htm" />
+            <HelpTOCNode Title="InitIndex Method " Url="html/M_ZU_Storage_IStorageContext_InitIndex.htm" />
+            <HelpTOCNode Title="Load Method " Url="html/M_ZU_Storage_IStorageContext_Load.htm" />
+            <HelpTOCNode Title="LoadEntity Method " Url="html/M_ZU_Storage_IStorageContext_LoadEntity.htm" />
+            <HelpTOCNode Title="Purge Method " Url="html/M_ZU_Storage_IStorageContext_Purge.htm" />
+            <HelpTOCNode Title="SaveEntity Method " Url="html/M_ZU_Storage_IStorageContext_SaveEntity.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="f1ef7268-ef6b-40c4-9791-5ecadd200433" Title="IStorageProvider Interface" Url="html/T_ZU_Storage_IStorageProvider.htm">
+          <HelpTOCNode Id="a9f26d41-fd97-47fc-843a-c6e89ae86326" Title="IStorageProvider Properties" Url="html/Properties_T_ZU_Storage_IStorageProvider.htm">
+            <HelpTOCNode Title="Context Property " Url="html/P_ZU_Storage_IStorageProvider_Context.htm" />
+            <HelpTOCNode Title="Exists Property " Url="html/P_ZU_Storage_IStorageProvider_Exists.htm" />
+            <HelpTOCNode Title="IsFolderBased Property " Url="html/P_ZU_Storage_IStorageProvider_IsFolderBased.htm" />
+            <HelpTOCNode Title="StorePath Property " Url="html/P_ZU_Storage_IStorageProvider_StorePath.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="c47acbc3-e8bb-4bc7-adfb-e49ab9e5a3b8" Title="IStorageProvider Methods" Url="html/Methods_T_ZU_Storage_IStorageProvider.htm">
+            <HelpTOCNode Title="Close Method " Url="html/M_ZU_Storage_IStorageProvider_Close.htm" />
+            <HelpTOCNode Title="GetAllStorageRecords Method " Url="html/M_ZU_Storage_IStorageProvider_GetAllStorageRecords.htm" />
+            <HelpTOCNode Title="ImportStorageRecords Method " Url="html/M_ZU_Storage_IStorageProvider_ImportStorageRecords.htm" />
+            <HelpTOCNode Title="Load Method " Url="html/M_ZU_Storage_IStorageProvider_Load.htm" />
+            <HelpTOCNode Title="LoadEntitiesByKeys Method " Url="html/M_ZU_Storage_IStorageProvider_LoadEntitiesByKeys.htm" />
+            <HelpTOCNode Title="LoadEntityByKey Method " Url="html/M_ZU_Storage_IStorageProvider_LoadEntityByKey.htm" />
+            <HelpTOCNode Title="LoadEntityByKeyAsJson Method " Url="html/M_ZU_Storage_IStorageProvider_LoadEntityByKeyAsJson.htm" />
+            <HelpTOCNode Title="Purge Method " Url="html/M_ZU_Storage_IStorageProvider_Purge.htm" />
+            <HelpTOCNode Title="Save Method " Url="html/M_ZU_Storage_IStorageProvider_Save.htm" />
+            <HelpTOCNode Title="SaveEntity Method " Url="html/M_ZU_Storage_IStorageProvider_SaveEntity.htm" />
+            <HelpTOCNode Title="UpdateUIdForEntity Method " Url="html/M_ZU_Storage_IStorageProvider_UpdateUIdForEntity.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="StorageRecordKinds Enumeration" Url="html/T_ZU_Storage_StorageRecordKinds.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="40c98faf-79e4-40d9-8e52-c66f49c82332" Title="ZU.Storage.Migration" Url="html/N_ZU_Storage_Migration.htm">
+        <HelpTOCNode Id="c320ae5b-30d0-47fc-a744-ffe7a15fd91b" Title="IMigrationProvider Interface" Url="html/T_ZU_Storage_Migration_IMigrationProvider.htm">
+          <HelpTOCNode Id="67eb02e1-36c2-476d-8836-36cf5afcee4d" Title="IMigrationProvider Methods" Url="html/Methods_T_ZU_Storage_Migration_IMigrationProvider.htm">
+            <HelpTOCNode Title="ReportProgress Method " Url="html/M_ZU_Storage_Migration_IMigrationProvider_ReportProgress.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="MigrationPhase Enumeration" Url="html/T_ZU_Storage_Migration_MigrationPhase.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d5cbb7cd-585a-4640-83e6-0301004471ea" Title="ZU.Sync" Url="html/N_ZU_Sync.htm">
+      <HelpTOCNode Id="f954f275-43b8-4909-9ce7-696c071f6816" Title="ISyncAgent Interface" Url="html/T_ZU_Sync_ISyncAgent.htm">
+        <HelpTOCNode Id="4c6e2d1b-d19d-4faf-8c87-56519fe9f1f6" Title="ISyncAgent Properties" Url="html/Properties_T_ZU_Sync_ISyncAgent.htm">
+          <HelpTOCNode Title="AgentId Property " Url="html/P_ZU_Sync_ISyncAgent_AgentId.htm" />
+          <HelpTOCNode Title="AgentKind Property " Url="html/P_ZU_Sync_ISyncAgent_AgentKind.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d433e7fa-4275-46b0-b6d1-c6c1b84de2e0" Title="ISyncAgent Methods" Url="html/Methods_T_ZU_Sync_ISyncAgent.htm">
+          <HelpTOCNode Title="CompareTo Method " Url="html/M_ZU_Sync_ISyncAgent_CompareTo.htm" />
+          <HelpTOCNode Title="Equals Method " Url="html/M_ZU_Sync_ISyncAgent_Equals.htm" />
+          <HelpTOCNode Title="GetHashCode Method " Url="html/M_ZU_Sync_ISyncAgent_GetHashCode.htm" />
+          <HelpTOCNode Title="Synchronize Method " Url="html/M_ZU_Sync_ISyncAgent_Synchronize.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="SyncAgentKind Enumeration" Url="html/T_ZU_Sync_SyncAgentKind.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f29c2116-a4a2-47ef-9b49-a6cc69a70da6" Title="ZU.Telemetry" Url="html/N_ZU_Telemetry.htm">
+      <HelpTOCNode Title="OperationKind Enumeration" Url="html/T_ZU_Telemetry_OperationKind.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="048fd23a-cad3-4717-9b4d-6ed4f0281d67" Title="ZU.WPF Namespaces" Url="html/G_ZU_WPF.htm">
+      <HelpTOCNode Id="1ccd8884-6a78-4209-9ca1-322ce17960c3" Title="ZU.WPF" Url="html/N_ZU_WPF.htm">
+        <HelpTOCNode Id="8fa5077a-6842-45c1-b1a2-0f8025f9d9f7" Title="IFrame Interface" Url="html/T_ZU_WPF_IFrame.htm">
+          <HelpTOCNode Id="11331263-3cfb-4b33-8ca1-d2232330d81c" Title="IFrame Properties" Url="html/Properties_T_ZU_WPF_IFrame.htm">
+            <HelpTOCNode Title="SelectedEntities Property " Url="html/P_ZU_WPF_IFrame_SelectedEntities.htm" />
+            <HelpTOCNode Title="SelectedIndex Property " Url="html/P_ZU_WPF_IFrame_SelectedIndex.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="09624d94-483f-4b53-80d4-60f324f12da0" Title="IFrame Methods" Url="html/Methods_T_ZU_WPF_IFrame.htm">
+            <HelpTOCNode Id="ed4a6eb0-ef88-4c5e-b05e-ae1ebead1da1" Title="Telemetry Method " Url="html/Overload_ZU_WPF_IFrame_Telemetry.htm">
+              <HelpTOCNode Title="Telemetry Method (Exception)" Url="html/M_ZU_WPF_IFrame_Telemetry.htm" />
+              <HelpTOCNode Title="Telemetry Method (OperationKind, String)" Url="html/M_ZU_WPF_IFrame_Telemetry_1.htm" />
+            </HelpTOCNode>
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="492e05c8-bc82-4fa7-a1b6-54edc1437789" Title="IThumbnailProvider Interface" Url="html/T_ZU_WPF_IThumbnailProvider.htm">
+          <HelpTOCNode Id="f938f910-e9d9-4580-9dc7-6eb7e7e48248" Title="IThumbnailProvider Properties" Url="html/Properties_T_ZU_WPF_IThumbnailProvider.htm">
+            <HelpTOCNode Title="Empty Property " Url="html/P_ZU_WPF_IThumbnailProvider_Empty.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="a1619a35-22e7-40ce-b781-c8be3ec03f4e" Title="IThumbnailProvider Methods" Url="html/Methods_T_ZU_WPF_IThumbnailProvider.htm">
+            <HelpTOCNode Id="4cfec9a4-edf5-4418-b647-4122a12328d0" Title="ClearThumbnail Method " Url="html/Overload_ZU_WPF_IThumbnailProvider_ClearThumbnail.htm">
+              <HelpTOCNode Title="ClearThumbnail Method (IEntity)" Url="html/M_ZU_WPF_IThumbnailProvider_ClearThumbnail.htm" />
+              <HelpTOCNode Title="ClearThumbnail Method (IEntity, Boolean)" Url="html/M_ZU_WPF_IThumbnailProvider_ClearThumbnail_1.htm" />
+            </HelpTOCNode>
+            <HelpTOCNode Title="DownloadAndSetThumbnail Method " Url="html/M_ZU_WPF_IThumbnailProvider_DownloadAndSetThumbnail.htm" />
+            <HelpTOCNode Title="GetThumbnail Method " Url="html/M_ZU_WPF_IThumbnailProvider_GetThumbnail.htm" />
+            <HelpTOCNode Title="NotifyEntityToUpdateThumbnail Method " Url="html/M_ZU_WPF_IThumbnailProvider_NotifyEntityToUpdateThumbnail.htm" />
+            <HelpTOCNode Title="ToNormalThumbnailSize Method " Url="html/M_ZU_WPF_IThumbnailProvider_ToNormalThumbnailSize.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="a1c5f58c-a9ee-40ea-a807-ac551268dfec" Title="ThumbnailProviderFactory Class" Url="html/T_ZU_WPF_ThumbnailProviderFactory.htm">
+          <HelpTOCNode Id="06e08e11-5631-45bc-a42d-7541d8783055" Title="ThumbnailProviderFactory Properties" Url="html/Properties_T_ZU_WPF_ThumbnailProviderFactory.htm">
+            <HelpTOCNode Title="Instance Property " Url="html/P_ZU_WPF_ThumbnailProviderFactory_Instance.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="bda61685-5818-4e90-ba00-dda2ee70944d" Title="ZU.WPF.Data" Url="html/N_ZU_WPF_Data.htm">
+        <HelpTOCNode Id="891943a8-382f-4a39-b4cc-5727085d9900" Title="AppSourceBoundFileSystemDataContainer Class" Url="html/T_ZU_WPF_Data_AppSourceBoundFileSystemDataContainer.htm">
+          <HelpTOCNode Id="fad57f63-282d-4cf8-b1e4-e2253bd51434" Title="AppSourceBoundFileSystemDataContainer Constructor " Url="html/Overload_ZU_WPF_Data_AppSourceBoundFileSystemDataContainer__ctor.htm">
+            <HelpTOCNode Title="AppSourceBoundFileSystemDataContainer Constructor (DataAction, List(String), String, Point, Double)" Url="html/M_ZU_WPF_Data_AppSourceBoundFileSystemDataContainer__ctor.htm" />
+            <HelpTOCNode Title="AppSourceBoundFileSystemDataContainer Constructor (DataAction, List(String), String, Point, Double, InputType)" Url="html/M_ZU_WPF_Data_AppSourceBoundFileSystemDataContainer__ctor_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="b9a37157-394b-4888-a6f8-9570d0782332" Title="AppSourceBoundFileSystemDataContainer Properties" Url="html/Properties_T_ZU_WPF_Data_AppSourceBoundFileSystemDataContainer.htm">
+            <HelpTOCNode Title="Action Property " Url="html/P_ZU_WPF_Data_AppSourceBoundFileSystemDataContainer_Action.htm" />
+            <HelpTOCNode Title="EntitiesIds Property " Url="html/P_ZU_WPF_Data_AppSourceBoundFileSystemDataContainer_EntitiesIds.htm" />
+            <HelpTOCNode Title="InputType Property " Url="html/P_ZU_WPF_Data_AppSourceBoundFileSystemDataContainer_InputType.htm" />
+            <HelpTOCNode Title="ModelBase Property " Url="html/P_ZU_WPF_Data_AppSourceBoundFileSystemDataContainer_ModelBase.htm" />
+            <HelpTOCNode Title="Offset Property " Url="html/P_ZU_WPF_Data_AppSourceBoundFileSystemDataContainer_Offset.htm" />
+            <HelpTOCNode Title="ParentList Property " Url="html/P_ZU_WPF_Data_AppSourceBoundFileSystemDataContainer_ParentList.htm" />
+            <HelpTOCNode Title="Scale Property " Url="html/P_ZU_WPF_Data_AppSourceBoundFileSystemDataContainer_Scale.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="AppSourceBoundFileSystemDataContainer Methods" Url="html/Methods_T_ZU_WPF_Data_AppSourceBoundFileSystemDataContainer.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="711149e0-52a4-4f2d-b7c0-6edc2f3286c4" Title="AppSpaceItemToProjectSpaceDataContainer Class" Url="html/T_ZU_WPF_Data_AppSpaceItemToProjectSpaceDataContainer.htm">
+          <HelpTOCNode Title="AppSpaceItemToProjectSpaceDataContainer Constructor " Url="html/M_ZU_WPF_Data_AppSpaceItemToProjectSpaceDataContainer__ctor.htm" />
+          <HelpTOCNode Id="0b8ad997-04b8-4593-97bd-1e9ea9d5a9cf" Title="AppSpaceItemToProjectSpaceDataContainer Properties" Url="html/Properties_T_ZU_WPF_Data_AppSpaceItemToProjectSpaceDataContainer.htm">
+            <HelpTOCNode Title="AppId Property " Url="html/P_ZU_WPF_Data_AppSpaceItemToProjectSpaceDataContainer_AppId.htm" />
+            <HelpTOCNode Title="EntityId Property " Url="html/P_ZU_WPF_Data_AppSpaceItemToProjectSpaceDataContainer_EntityId.htm" />
+            <HelpTOCNode Title="EntityKind Property " Url="html/P_ZU_WPF_Data_AppSpaceItemToProjectSpaceDataContainer_EntityKind.htm" />
+            <HelpTOCNode Title="IsContainer Property " Url="html/P_ZU_WPF_Data_AppSpaceItemToProjectSpaceDataContainer_IsContainer.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="AppSpaceItemToProjectSpaceDataContainer Methods" Url="html/Methods_T_ZU_WPF_Data_AppSpaceItemToProjectSpaceDataContainer.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="DataAction Enumeration" Url="html/T_ZU_WPF_Data_DataAction.htm" />
+        <HelpTOCNode Id="e893dbf5-7142-4bb1-af56-9300ce48461e" Title="DataContainer Class" Url="html/T_ZU_WPF_Data_DataContainer.htm">
+          <HelpTOCNode Id="fea88819-af2a-49e5-9201-aba93201494f" Title="DataContainer Constructor " Url="html/Overload_ZU_WPF_Data_DataContainer__ctor.htm">
+            <HelpTOCNode Title="DataContainer Constructor (DataAction, List(String), String, Point, Double)" Url="html/M_ZU_WPF_Data_DataContainer__ctor.htm" />
+            <HelpTOCNode Title="DataContainer Constructor (DataAction, List(String), String, Point, Double, InputType)" Url="html/M_ZU_WPF_Data_DataContainer__ctor_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="465f4f8c-63e5-48e4-bda8-5d61379e5ffd" Title="DataContainer Properties" Url="html/Properties_T_ZU_WPF_Data_DataContainer.htm">
+            <HelpTOCNode Title="Action Property " Url="html/P_ZU_WPF_Data_DataContainer_Action.htm" />
+            <HelpTOCNode Title="EntitiesIds Property " Url="html/P_ZU_WPF_Data_DataContainer_EntitiesIds.htm" />
+            <HelpTOCNode Title="InputType Property " Url="html/P_ZU_WPF_Data_DataContainer_InputType.htm" />
+            <HelpTOCNode Title="ModelBase Property " Url="html/P_ZU_WPF_Data_DataContainer_ModelBase.htm" />
+            <HelpTOCNode Title="Offset Property " Url="html/P_ZU_WPF_Data_DataContainer_Offset.htm" />
+            <HelpTOCNode Title="ParentList Property " Url="html/P_ZU_WPF_Data_DataContainer_ParentList.htm" />
+            <HelpTOCNode Title="Scale Property " Url="html/P_ZU_WPF_Data_DataContainer_Scale.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="DataContainer Methods" Url="html/Methods_T_ZU_WPF_Data_DataContainer.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1c323e0c-372d-4194-bdb0-b8515e92c7ca" Title="DataFormats Class" Url="html/T_ZU_WPF_Data_DataFormats.htm">
+          <HelpTOCNode Title="DataFormats Constructor " Url="html/M_ZU_WPF_Data_DataFormats__ctor.htm" />
+          <HelpTOCNode Title="DataFormats Methods" Url="html/Methods_T_ZU_WPF_Data_DataFormats.htm" />
+          <HelpTOCNode Id="560b4f74-ddc1-41dd-81f0-d5df2150598b" Title="DataFormats Fields" Url="html/Fields_T_ZU_WPF_Data_DataFormats.htm">
+            <HelpTOCNode Title="AppSourceBoundFileSystemDataContainer Field" Url="html/F_ZU_WPF_Data_DataFormats_AppSourceBoundFileSystemDataContainer.htm" />
+            <HelpTOCNode Title="AppSpaceItemToProjectSpaceDataContainer Field" Url="html/F_ZU_WPF_Data_DataFormats_AppSpaceItemToProjectSpaceDataContainer.htm" />
+            <HelpTOCNode Title="DataContainer Field" Url="html/F_ZU_WPF_Data_DataFormats_DataContainer.htm" />
+            <HelpTOCNode Title="Entity Field" Url="html/F_ZU_WPF_Data_DataFormats_Entity.htm" />
+            <HelpTOCNode Title="SharedFolderAppItemDataContainer Field" Url="html/F_ZU_WPF_Data_DataFormats_SharedFolderAppItemDataContainer.htm" />
+            <HelpTOCNode Title="UnifiedListSearchToZoomableSpaceDragDropContainer Field" Url="html/F_ZU_WPF_Data_DataFormats_UnifiedListSearchToZoomableSpaceDragDropContainer.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="d0def607-bda4-4c9e-b3dd-ed3c35951a8f" Title="SharedFolderAppItemDataContainer Class" Url="html/T_ZU_WPF_Data_SharedFolderAppItemDataContainer.htm">
+          <HelpTOCNode Title="SharedFolderAppItemDataContainer Constructor " Url="html/M_ZU_WPF_Data_SharedFolderAppItemDataContainer__ctor.htm" />
+          <HelpTOCNode Id="e966299d-84e7-44ce-90f2-83ac24475a3f" Title="SharedFolderAppItemDataContainer Properties" Url="html/Properties_T_ZU_WPF_Data_SharedFolderAppItemDataContainer.htm">
+            <HelpTOCNode Title="AccountId Property " Url="html/P_ZU_WPF_Data_SharedFolderAppItemDataContainer_AccountId.htm" />
+            <HelpTOCNode Title="ContainerEntityKind Property " Url="html/P_ZU_WPF_Data_SharedFolderAppItemDataContainer_ContainerEntityKind.htm" />
+            <HelpTOCNode Title="FileSystemPath Property " Url="html/P_ZU_WPF_Data_SharedFolderAppItemDataContainer_FileSystemPath.htm" />
+            <HelpTOCNode Title="IsFolder Property " Url="html/P_ZU_WPF_Data_SharedFolderAppItemDataContainer_IsFolder.htm" />
+            <HelpTOCNode Title="RootFolder Property " Url="html/P_ZU_WPF_Data_SharedFolderAppItemDataContainer_RootFolder.htm" />
+            <HelpTOCNode Title="Title Property " Url="html/P_ZU_WPF_Data_SharedFolderAppItemDataContainer_Title.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="SharedFolderAppItemDataContainer Methods" Url="html/Methods_T_ZU_WPF_Data_SharedFolderAppItemDataContainer.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="28440d75-599c-44e3-bafd-989493245c7a" Title="UnifiedListSearchToZoomableSpaceDragDropContainer Class" Url="html/T_ZU_WPF_Data_UnifiedListSearchToZoomableSpaceDragDropContainer.htm">
+          <HelpTOCNode Title="UnifiedListSearchToZoomableSpaceDragDropContainer Constructor " Url="html/M_ZU_WPF_Data_UnifiedListSearchToZoomableSpaceDragDropContainer__ctor.htm" />
+          <HelpTOCNode Id="6f770e70-0ac1-4eb1-ba4c-379a84176e5e" Title="UnifiedListSearchToZoomableSpaceDragDropContainer Properties" Url="html/Properties_T_ZU_WPF_Data_UnifiedListSearchToZoomableSpaceDragDropContainer.htm">
+            <HelpTOCNode Title="Action Property " Url="html/P_ZU_WPF_Data_UnifiedListSearchToZoomableSpaceDragDropContainer_Action.htm" />
+            <HelpTOCNode Title="EntityReferences Property " Url="html/P_ZU_WPF_Data_UnifiedListSearchToZoomableSpaceDragDropContainer_EntityReferences.htm" />
+            <HelpTOCNode Title="InputType Property " Url="html/P_ZU_WPF_Data_UnifiedListSearchToZoomableSpaceDragDropContainer_InputType.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="UnifiedListSearchToZoomableSpaceDragDropContainer Methods" Url="html/Methods_T_ZU_WPF_Data_UnifiedListSearchToZoomableSpaceDragDropContainer.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c4974f62-28ed-4cb4-9f84-343ac57b618b" Title="ZU.WPF.Data.Schemas" Url="html/N_ZU_WPF_Data_Schemas.htm">
+        <HelpTOCNode Id="a5ff41e2-3b41-4070-b764-721ca6fde255" Title="IEntityView Interface" Url="html/T_ZU_WPF_Data_Schemas_IEntityView.htm">
+          <HelpTOCNode Id="ed8d07af-6b55-4ec7-b3f5-f1c85dddaefb" Title="IEntityView Properties" Url="html/Properties_T_ZU_WPF_Data_Schemas_IEntityView.htm">
+            <HelpTOCNode Title="ActionName Property " Url="html/P_ZU_WPF_Data_Schemas_IEntityView_ActionName.htm" />
+            <HelpTOCNode Title="Entity Property " Url="html/P_ZU_WPF_Data_Schemas_IEntityView_Entity.htm" />
+            <HelpTOCNode Title="IsSystem Property " Url="html/P_ZU_WPF_Data_Schemas_IEntityView_IsSystem.htm" />
+            <HelpTOCNode Title="Kind Property " Url="html/P_ZU_WPF_Data_Schemas_IEntityView_Kind.htm" />
+            <HelpTOCNode Title="Thumbnail Property " Url="html/P_ZU_WPF_Data_Schemas_IEntityView_Thumbnail.htm" />
+            <HelpTOCNode Title="TLChange Property " Url="html/P_ZU_WPF_Data_Schemas_IEntityView_TLChange.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="c4e3a969-e679-4568-9b05-3f988dbfca0e" Title="IEntityView Methods" Url="html/Methods_T_ZU_WPF_Data_Schemas_IEntityView.htm">
+            <HelpTOCNode Title="CompareTo Method " Url="html/M_ZU_WPF_Data_Schemas_IEntityView_CompareTo.htm" />
+            <HelpTOCNode Title="Equals Method " Url="html/M_ZU_WPF_Data_Schemas_IEntityView_Equals.htm" />
+            <HelpTOCNode Title="GetHashCode Method " Url="html/M_ZU_WPF_Data_Schemas_IEntityView_GetHashCode.htm" />
+            <HelpTOCNode Title="InstantiateProperty Method " Url="html/M_ZU_WPF_Data_Schemas_IEntityView_InstantiateProperty.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="IEntityView Events" Url="html/Events_T_ZU_WPF_Data_Schemas_IEntityView.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="575337cd-6939-497f-904f-ca11a233308b" Title="Version History" Url="html/21d8718e-1300-4395-9b34-3b24ca1870e0.htm">
+    <HelpTOCNode Title="Version 2.0.5971.29607" Url="html/22d8acf8-13da-42e9-afd3-29265d034a21.htm" />
+  </HelpTOCNode>
+</HelpTOC>
