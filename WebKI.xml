@@ -2108,8 +2108,8 @@
   <HelpKINode Title="KindMetadataAttribute.KindParent property" Url="html/P_ZU_Semantic_Text_KindMetadataAttribute_KindParent.htm" />
   <HelpKINode Title="KindParent property" Url="html/P_ZU_Semantic_Text_KindMetadataAttribute_KindParent.htm" />
   <HelpKINode Title="Kinds class">
-    <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Kinds.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Topics_Incoming_Kinds.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Kinds.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_ZU_Constants_Kinds.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_ZU_Constants_Kinds.htm" />
   </HelpKINode>
@@ -2863,8 +2863,8 @@
   </HelpKINode>
   <HelpKINode Title="UIDChanger property" Url="html/P_ZU_Configuration_Settings_IAppSettings_UIDChanger.htm" />
   <HelpKINode Title="UIdOwner property">
-    <HelpKINode Title="ITimelined.UIdOwner Property " Url="html/P_ZU_Core_ITimelined_UIdOwner.htm" />
     <HelpKINode Title="Property.UIdOwner Property " Url="html/P_ZU_Core_Property_UIdOwner.htm" />
+    <HelpKINode Title="ITimelined.UIdOwner Property " Url="html/P_ZU_Core_ITimelined_UIdOwner.htm" />
   </HelpKINode>
   <HelpKINode Title="UIDOwner property" Url="html/P_ZU_Configuration_Settings_IAppSettings_UIDOwner.htm" />
   <HelpKINode Title="UnableToCreateMetaspaceAndOrUserFolder field" Url="html/F_ZU_Constants_Application_ErrorCodes_UnableToCreateMetaspaceAndOrUserFolder.htm" />
