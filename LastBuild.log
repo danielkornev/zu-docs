@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.4.9.0" projectFile="C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\ZUSDK_docs.shfbproj" started="5/7/2016 6:42:44 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.4.9.0" projectFile="C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\ZUSDK_docs.shfbproj" started="5/7/2016 7:05:57 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -13,38 +13,41 @@ Loading and initializing plug-ins...
 Lightweight Website Style Version 2016.4.9.0
 Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved
 Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
-</buildStep>
-<buildStep step="ClearWorkFolder">
-Clearing working folder...
 -------------------------------
 Clearing any prior web/markdown output...
-    Ignoring read-only/hidden folder C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\zu-docs\.git
+    Did not delete folder &#39;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\zu-docs\.git&#39; as it contains read-only or hidden folders/files
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
 Source: C:\stuff\dev\ZUSDK\ZUSDK\ZU.Core.Developer\ZU.Core.Developer.csproj
     Found project &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZU.Core.Developer\ZU.Core.Developer.csproj&#39;
+Source: C:\stuff\dev\ZUSDK\ZUSDK\ZU.Core.Developer\bin\debug\ZU.Core.Developer.XML
+Source: C:\stuff\dev\ZUSDK\ZUSDK\ZU.Core.Developer\bin\debug\ZU.Core.Developer.dll
+    Found assembly &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZU.Core.Developer\bin\debug\ZU.Core.Developer.dll&#39;
 
 Parsing project files
-    Found assembly &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZU.Core.Developer\bin\debug\ZU.Core.Developer.dll&#39;
+    Ignoring duplicate assembly file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZU.Core.Developer\bin\debug\ZU.Core.Developer.dll&#39;
+    Ignoring duplicate comments file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZU.Core.Developer\bin\debug\ZU.Core.Developer.XML&#39;
 
 References to include (excluding framework assemblies):
     SAL.Flatbed, Version=1.2.7.0, Culture=neutral, PublicKeyToken=81cd27c630db6689, processorArchitecture=MSIL
-SHFB: Warning BE0062: No XML comments files found.  The help file will not contain any member comments.
+
+Copying XML comments files
+    C:\stuff\dev\ZUSDK\ZUSDK\ZU.Core.Developer\bin\debug\ZU.Core.Developer.XML -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ZU.Core.Developer.XML
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0320
+</plugIn>    Last step completed in 00:00:00.0114
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0005
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 5/7/2016 6:42:44 PM.
+Build started 5/7/2016 7:05:59 PM.
 Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -64,13 +67,13 @@ Done Building Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\Generate
 
 Build succeeded.
 
-Time Elapsed 00:00:01.57
-    Last step completed in 00:00:01.7218
+Time Elapsed 00:00:05.43
+    Last step completed in 00:00:05.5549
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
-Build started 5/7/2016 6:42:46 PM.
+Build started 5/7/2016 7:06:04 PM.
 Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2016.4.9.0)
@@ -116,12 +119,12 @@ Done Building Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\Transfor
 
 Build succeeded.
 
-Time Elapsed 00:00:01.72
-    Last step completed in 00:00:01.8211
+Time Elapsed 00:00:01.82
+    Last step completed in 00:00:01.9194
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0784
+    Last step completed in 00:00:00.0766
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -153,30 +156,30 @@ Generating conceptual topic files
     C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\Zet Universe Glossary.aml -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ddueXml\1f0604b0-ed04-4c38-8243-25d392b736af.xml
     Parsing topic file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\VersionHistory\VersionHistory.aml&#39;
     C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\VersionHistory\VersionHistory.aml -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ddueXml\21d8718e-1300-4395-9b34-3b24ca1870e0.xml
-    Parsing topic file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\VersionHistory\v1.0.0.0.aml&#39;
-    C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ddueXml\22d8acf8-13da-42e9-afd3-29265d034a21.xml
-    Last step completed in 00:00:00.1027
+    Parsing topic file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\VersionHistory\v2.0.5971.29607.aml&#39;
+    C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\VersionHistory\v2.0.5971.29607.aml -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ddueXml\22d8acf8-13da-42e9-afd3-29265d034a21.xml
+    Last step completed in 00:00:00.1070
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.0746
+    Last step completed in 00:00:00.1044
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\icons\Help.png -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\Output\Website\icons\Help.png
-    Last step completed in 00:00:00.0042
+    Last step completed in 00:00:00.0035
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 5/7/2016 6:42:48 PM.
+Build started 5/7/2016 7:06:06 PM.
 Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2016.4.9.0)
@@ -187,27 +190,29 @@ Done Building Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\Generate
 
 Build succeeded.
 
-Time Elapsed 00:00:00.19
+Time Elapsed 00:00:00.20
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2934
+    Last step completed in 00:00:00.3306
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.4009
+    Last step completed in 00:00:00.2615
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\sandcastle.config
   Updating reference topic configurations.
+    Replaced configuration for &#39;Syntax Component&#39; (instance 1) with configuration for &#39;Syntax Component&#39;
   Updating conceptual topic configurations.
+    Replacing default configuration for &#39;Syntax Component&#39; with the custom configuration
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0189
+    Last step completed in 00:00:00.0275
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildTopics.proj]
-Build started 5/7/2016 6:42:49 PM.
+Build started 5/7/2016 7:06:07 PM.
 Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2016.4.9.0)
@@ -228,7 +233,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.BasePropertyChanged.SetPr
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.BasePropertyChanged.SetProperty``1(``0,``0@,System.String)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.BasePropertyChanged.SetProperty``1(``0,``0@,System.String)] Missing &lt;param name=&quot;_field&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.BasePropertyChanged.SetProperty``1(``0,``0@,System.String)] Missing &lt;param name=&quot;_property&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.GetDescription(System.Enum)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.GetDescription(System.Enum)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.GetDescription(System.Enum)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -239,22 +243,14 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.ValueOf``1(Syst
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Application] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Application.Configuration] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.AppSpacesFolder] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.AssemblyFileName] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.SALPluginsFolder] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.SALSettingsFolder] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.SpacesFolder] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.ZetUniverseMetaspaceFolder] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.ZetUniverseOnlineInsidersCommunityUrl] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.ZetUniverseOnlineSetupUrl] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.ZetUniverseOnlineUserVoiceCommunityUrl] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.ZetUniverseProcessorsFolder] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.ZetUniverseRootFolder] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.ZetUniverseUserSettingsFile] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.ZetUniverseUserSettingsV2File] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Application.Configuration.StorageProviders] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.StorageProviders.CompoundFileStorageProvider] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.StorageProviders.FolderStorageProvider] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.Configuration.StorageProviders.NextStorageProvider] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Application.ErrorCodes] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.ErrorCodes.FailedToExtractData] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Application.ErrorCodes.FailedToMigrateData] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -270,7 +266,6 @@ BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.AppsKinds] Miss
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.AppsKinds.FileStore] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Importers] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Importers.FileSystemImporter] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Importers.FileSystemImporter.FileSystemDirectories] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Importers.Services] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Importers.Services.Dropbox] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Importers.Services.Dropbox.ProviderName] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -288,8 +283,6 @@ BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Importers.Servi
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Importers.Services.Microsoft.Outlook.ContactSchema.UpdatedTime] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Importers.Services.Microsoft.Outlook.ContactSchema.UserId] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Importers.WebPageImporter] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Importers.WebPageImporter.DefaultReadabilityParserToken] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Importers.WebPageImporter.MaximumDownloadTimeInterval] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Indexers] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Indexers.FullTextSearchIndexer] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Indexers.FullTextSearchIndexer.DocumentId] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -299,22 +292,18 @@ BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Indexers.FullTe
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Indexers.FullTextSearchIndexer.Kind] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Indexers.FullTextSearchIndexer.Title] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Indexers.FullTextSearchIndexer.VisualClusterId] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Kinds] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Agent] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Application] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Appointment] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.AppSpace] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Article] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Author] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Book] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Constants.Kinds.BuiltInKindsDictionary] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Calendar] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Call] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.Kinds.CanBePartOfVisualCluster(ZU.Core.IEntity)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.Kinds.CanBePartOfVisualCluster(ZU.Core.IEntity)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.Kinds.CanBePartOfVisualCluster(ZU.Core.IEntity)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Communication] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Document] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Email] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Folder] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.GenericFile] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -333,35 +322,22 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.Kinds.IsBuiltIn
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.Kinds.IsBuiltInKind(System.String)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.Kinds.IsBuiltInKind(System.String)] Missing &lt;param name=&quot;kind&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Kind] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Link] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.List] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Location] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Media] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Meeting] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Movie] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Music] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.MusicalPlaylist] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Organization] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.PdfDocument] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.PeopleGroup] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Person] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Picture] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Place] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.PptxDocument] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.ProjectSpace] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Property] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.RecordedTV] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Thing] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.User] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.Video] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.View] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.VisualCluster] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.WebPage] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Kinds.ZetUniverse] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.KindSelection] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.KnownEntities] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.KnownEntities.DefaultUnsortedList] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.KnownEntities.Unsorted] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Meta] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Meta.Confidence] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Meta.Confidence.EightyPercent] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -373,17 +349,9 @@ BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Properties] Mis
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.AppId] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.AppRootFolder] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.FullPath] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.SyncSource] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.Uri] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Properties.Person] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.Person.Email1] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.Person.Email10] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.Person.Email2] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.Person.Email3] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.Person.Email4] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.Person.Email5] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.Person.Email6] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.Person.Email7] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.Person.Email8] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.Person.Email9] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.Person.FirstName] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -396,7 +364,6 @@ BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Properties.WebP
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Properties.WebPage.LocalPageUri] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Relationships] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Constants.Relationships.BuiltInFromRelationshipsDictionary] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Constants.Relationships.BuiltInRelationshipsDictionary] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Relationships.CurrentZetUniverseUser] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Relationships.IsAuthoredBy] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Relationships.IsChangedBy] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -415,11 +382,9 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.G
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.GetChangeDateFromStorageRecordKey(System.String)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.GetChangeDateFromStorageRecordKey(System.String)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.GetChangeDateFromStorageRecordKey(System.String)] Missing &lt;param name=&quot;recordKey&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.GetEntityStorageRecordKey(ZU.Core.IEntity,ZU.Semantic.EntityRef)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.GetEntityStorageRecordKey(ZU.Core.IEntity,ZU.Semantic.EntityRef)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.GetEntityStorageRecordKey(ZU.Core.IEntity,ZU.Semantic.EntityRef)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.GetEntityStorageRecordKey(ZU.Core.IEntity,ZU.Semantic.EntityRef)] Missing &lt;param name=&quot;UID&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.GetEntityStorageRecordKeyWithoutUID(ZU.Core.IEntity)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.GetEntityStorageRecordKeyWithoutUID(ZU.Core.IEntity)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.GetEntityStorageRecordKeyWithoutUID(ZU.Core.IEntity)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.GetIdFromStorageRecordKey(System.String)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -431,42 +396,24 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.G
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.MyRound(System.Double)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.MyRound(System.Double)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Constants.StorageHelper.MyRound(System.Double)] Missing &lt;param name=&quot;d&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.StorageHelper.strEDateFormat] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.StorageHelper.strEDatePart] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.StorageHelper.strEIdPart] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.StorageHelper.strFilterE] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.StorageHelper.strFilterLE] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.StorageHelper.strFilterLocationALE] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.StorageHelper.StrFilterLocationE] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.StorageHelper.strFilterLocationLE] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Topics] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Topics.ActivityHistory] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Topics.ActivityHistory.SemanticActionEntries] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Topics.Classifications] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Topics.Classifications.Kinds] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Topics.Classifications.Name] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Topics.Classifications.VisualClusters] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Topics.Classifications.WebPages] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Topics.Content] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Topics.Content.FullText] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Topics.Content.Thumbnail] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Topics.Content.Title] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Topics.Incoming] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Topics.Incoming.ExtractedRelationships] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Topics.Incoming.Files] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Topics.Incoming.Keyphrases] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Topics.Incoming.Name] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Topics.Incoming.NormalizedText] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Constants.Topics.Incoming.Kinds] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Topics.Incoming.Kinds.GenericFile] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Constants.Topics.Incoming.Kinds.WebPage] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Log] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.#ctor(System.String,System.Object[])] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.#ctor(System.String,System.Object[])] Missing &lt;param name=&quot;objs&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Log] Unknown reference link target &#39;T:SAL.Flatbed.ITraceProvider&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Add(SAL.Flatbed.EventType,System.Object,System.String)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Add(SAL.Flatbed.EventType,System.Object,System.String)] Missing &lt;param name=&quot;type&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Add(SAL.Flatbed.EventType,System.Object,System.String)] Missing &lt;param name=&quot;source&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Add(SAL.Flatbed.EventType,System.Object,System.String)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:ZU.Log.Add(SAL.Flatbed.EventType,System.Object,System.String)] Unknown reference link target &#39;T:SAL.Flatbed.EventType&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:ZU.Log.Add(SAL.Flatbed.EventType,System.Object,System.String)] Unknown reference link target &#39;T:SAL.Flatbed.EventType&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:ZU.Log.Add(SAL.Flatbed.EventType,System.Object,System.String)] Unknown reference link target &#39;M:SAL.Flatbed.ITraceProvider.Add(SAL.Flatbed.EventType,System.Object,System.String)&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Add(System.Object,System.Exception)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -488,16 +435,13 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Exception(System.Stri
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Fatal(System.String,System.Object[])] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Fatal(System.String,System.Object[])] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Fatal(System.String,System.Object[])] Missing &lt;param name=&quot;objs&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Finalize] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Log.IndentLevel] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Info(System.String,System.Object[])] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Info(System.String,System.Object[])] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Info(System.String,System.Object[])] Missing &lt;param name=&quot;objs&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Log.Instance] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:ZU.Log.Instance] Unknown reference link target &#39;T:SAL.Flatbed.ITraceProvider&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.IsFatal(System.Exception)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.IsFatal(System.Exception)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.IsFatal(System.Exception)] Missing &lt;param name=&quot;exception&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:ZU.Log.Instance] Unknown reference link target &#39;T:SAL.Flatbed.ITraceProvider&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Log.Items] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Log.Locker] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Message(ZU.Log.Level,System.String,System.Object[])] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -546,7 +490,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:ZU.Log.Entry.Message] Missin
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Log.Entry.Time] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Entry.ToString] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Log.Entry.ToString] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:ZU.Log.Level] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Platform] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ZU.Platform.InputCheckInvalidate] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Platform.InputInvalidate(System.String)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -570,7 +513,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:ZU.RelationshipMetadataAttri
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.RelationshipMetadataAttribute.Description] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.RelationshipMetadataAttribute.DescriptionFrom] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.RelationshipMetadataAttribute.IsSystem] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:ZU.ShortGuid] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.ShortGuid.#ctor(System.Guid)] Missing &lt;param name=&quot;guid&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.ShortGuid.op_Implicit(ZU.ShortGuid)~System.String] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.ShortGuid.op_Implicit(ZU.ShortGuid)~System.String] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -578,12 +520,9 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.ShortGuid.op_Implicit(ZU.
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.ShortGuid.op_Implicit(ZU.ShortGuid)~System.Guid] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.ShortGuid.op_Implicit(ZU.ShortGuid)~System.Guid] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.ShortGuid.op_Implicit(ZU.ShortGuid)~System.Guid] Missing &lt;param name=&quot;shortGuid&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.ShortGuid.Parse(System.String)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.ShortGuid.Parse(System.String)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.ShortGuid.Parse(System.String)] Missing &lt;param name=&quot;shortGuid&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.ShortGuid.ToGuid] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.ShortGuid.ToGuid] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.ShortGuid.ToString] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.ShortGuid.ToString] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:ZU.Collections.Generic] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Collections.Generic.IPriorityQuadTree`1] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -660,7 +599,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:ZU.Configuration.Settings.IA
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Configuration.Settings.IAppSettings.UIDOwner] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Configuration.Settings.IAppSettings.Version] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Configuration.Settings.IConfigurationManager] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Configuration.Settings.IConfigurationManager.IsFileExtensionNonIndexable(System.String)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Configuration.Settings.IConfigurationManager.IsFileExtensionNonIndexable(System.String)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Configuration.Settings.IConfigurationManager.IsFileExtensionNonIndexable(System.String)] Missing &lt;param name=&quot;fileFullPath&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Configuration.Settings.IConfigurationSettings] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -712,8 +650,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:ZU.Configuration.Settings.IC
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Configuration.Settings.IConfigurationSettings.UseSemanticProcessing] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Configuration.Settings.IConfigurationSettings.ZetInstallRoot] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:ZU.Core] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:ZU.Core.CurrentModelContext] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ZU.Core.CurrentModelContext.UID] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Core.EntityAction] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Core.EntityEventArgs] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.EntityEventArgs.Action] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -746,23 +682,16 @@ BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.AppSourceEnt
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.AppSourceEntityListIdSpecified] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.AsEntityView] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.CalendarEntryDate] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.CanBePartOfVisualCluster] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.CanParticipateInTopographicClusterVisualization] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.Changed(System.String)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.Changed(System.String)] Missing &lt;param name=&quot;propertyName&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Checksum] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.ClusterId] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.CompareTo(System.Object)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.CompareTo(System.Object)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.CompareTo(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Created] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.DeepClone] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.DeepClone] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.DefaultAppSourceBoundListsIds] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.DefaultAppSourceBoundListsIdsSpecified] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.Delete] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Description] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Distance] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.DoneProps] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.DonePropsChanged] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.EntitySelf] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -773,7 +702,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.EventDay] Mi
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.EventMonth] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.EventYear] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.FullPath] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.FullText] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.GetActivityHistory] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.GetActivityHistory] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.GetHashCode] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -788,7 +716,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.HoldingAppSo
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.HoldingList] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.HoldingListId] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Id] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Index] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.InitDynamicProperties] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.InitProps] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.InitProps] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -804,8 +731,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.IsChanged] M
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.IsCluster] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.IsCurrentUser] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.IsCurrentUser] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.IsFTIndexingRequired] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.IsFullTextIndexable] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.IsHidden] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.IsKnown] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.IsLinkedItemNoLongerAvailable] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -818,13 +743,11 @@ BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.IsReadOnly] 
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.IsRenderable] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.IsSearchResult] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.IsStylusInputInProgress] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.IsTaggedAsImportant] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.IsUserIdentifactor] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.IsUserIdentifactor] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Keyphrases] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Kind] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.LargeThumbnail] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.LastModified] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.LastModifiedBy] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.LinkedItemNetworkOperationStatus] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.Merge(ZU.Core.ITimelined)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -837,29 +760,23 @@ BuildAssembler : warning : ShowMissingComponent: [E:ZU.Core.IEntity.PropertyChan
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Props] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.PropsDict] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.RedCount] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.Refresh] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.Refresh] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Related] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.RelatedMessagesAvailable] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.RelatedMessagesCount] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.ReviewStatus] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.SaveChanges(ZU.Semantic.Core.SemanticActionKinds)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.SaveChanges(ZU.Semantic.Core.SemanticActionKinds)] Missing &lt;param name=&quot;semanticAction&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Score] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.SemanticAction] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.SetDateTime(System.DateTime)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.SetDateTime(System.DateTime)] Missing &lt;param name=&quot;effectiveTime&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.ShouldSerializeAppSourceEntityListId] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.ShouldSerializeAppSourceEntityListId] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.ShouldSerializeDefaultAppSourceBoundListsIds] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.ShouldSerializeDefaultAppSourceBoundListsIds] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.ShowInSpace] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.SystemWideUniqueId] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Tag] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Thumbnail] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.ThumbnailUri] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Title] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.TLChange] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.ToEntityRef] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.ToEntityRef] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.ToEntityRef(System.String,ZU.Semantic.RelationDirection,System.Double,ZU.Semantic.Core.EntityFragmentState)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -870,12 +787,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.ToEntityRef(
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.ToEntityRef(System.String,ZU.Semantic.RelationDirection,System.Double,ZU.Semantic.Core.EntityFragmentState)] Missing &lt;param name=&quot;state&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.ToString] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.ToString] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IEntity.Unpin] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.UnreadDocumentsCount] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.UnreadEmailCount] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.UnreadStatus] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Uri] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.Uris] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.YellowCount] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.ZIndex] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IEntity.ZLod] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -899,16 +810,7 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.Add(ZU.Core.I
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.Add(ZU.Core.IEntity)] Missing &lt;param name=&quot;IEntity&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.AddEntityLinkToFile(System.String,System.String,System.String,ZU.Configuration.Settings.IAppAccount,System.Windows.Rect,System.Windows.Threading.Dispatcher,ZU.Core.IEntity,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.AddEntityLinkToFile(System.String,System.String,System.String,ZU.Configuration.Settings.IAppAccount,System.Windows.Rect,System.Windows.Threading.Dispatcher,ZU.Core.IEntity,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.AddEntityLinkToFile(System.String,System.String,System.String,ZU.Configuration.Settings.IAppAccount,System.Windows.Rect,System.Windows.Threading.Dispatcher,ZU.Core.IEntity,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;filePath&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.AddEntityLinkToFile(System.String,System.String,System.String,ZU.Configuration.Settings.IAppAccount,System.Windows.Rect,System.Windows.Threading.Dispatcher,ZU.Core.IEntity,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;title&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.AddEntityLinkToFile(System.String,System.String,System.String,ZU.Configuration.Settings.IAppAccount,System.Windows.Rect,System.Windows.Threading.Dispatcher,ZU.Core.IEntity,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;accountRootFolder&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.AddEntityLinkToFile(System.String,System.String,System.String,ZU.Configuration.Settings.IAppAccount,System.Windows.Rect,System.Windows.Threading.Dispatcher,ZU.Core.IEntity,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;account&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.AddEntityLinkToFile(System.String,System.String,System.String,ZU.Configuration.Settings.IAppAccount,System.Windows.Rect,System.Windows.Threading.Dispatcher,ZU.Core.IEntity,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;pos&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.AddEntityLinkToFile(System.String,System.String,System.String,ZU.Configuration.Settings.IAppAccount,System.Windows.Rect,System.Windows.Threading.Dispatcher,ZU.Core.IEntity,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;dispatcher&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.AddEntityLinkToFile(System.String,System.String,System.String,ZU.Configuration.Settings.IAppAccount,System.Windows.Rect,System.Windows.Threading.Dispatcher,ZU.Core.IEntity,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;listIEntity&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.AddEntityLinkToFile(System.String,System.String,System.String,ZU.Configuration.Settings.IAppAccount,System.Windows.Rect,System.Windows.Threading.Dispatcher,ZU.Core.IEntity,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;isToBeIncludedIntoList&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.AddEntityLinkToFile(System.String,System.String,System.String,ZU.Configuration.Settings.IAppAccount,System.Windows.Rect,System.Windows.Threading.Dispatcher,ZU.Core.IEntity,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;fileNotYetExists&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.AddEntityLinkToFile(System.String,System.String,System.String,ZU.Configuration.Settings.IAppAccount,System.Windows.Rect,System.Windows.Threading.Dispatcher,ZU.Core.IEntity,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;isNotInSpace&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.AddEntityLinkToFile(System.String,System.String,System.String,ZU.Configuration.Settings.IAppAccount,System.Windows.Rect,System.Windows.Threading.Dispatcher,ZU.Core.IEntity,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;runInUI&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IModel.AppSourceBoundLists] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.IModel.AsEntityView] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -918,7 +820,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.CanShareFolde
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.CanShareFolder(System.String)] Missing &lt;param name=&quot;fullPath&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.Clear] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.ClearSearchResultsHighlight] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.ContainsEntityWithId(System.String)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.ContainsEntityWithId(System.String)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.ContainsEntityWithId(System.String)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.ContainsKeyInLookupUriEntity(System.String)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1064,7 +965,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.TryGetEntitie
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.TryGetEntitiesForUri(System.String,System.Collections.Generic.List{ZU.Core.IEntity}@)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.TryGetEntitiesForUri(System.String,System.Collections.Generic.List{ZU.Core.IEntity}@)] Missing &lt;param name=&quot;uri&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.TryGetEntitiesForUri(System.String,System.Collections.Generic.List{ZU.Core.IEntity}@)] Missing &lt;param name=&quot;entities&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.TryGetValue(System.String,ZU.Core.IEntity@)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.TryGetValue(System.String,ZU.Core.IEntity@)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.TryGetValue(System.String,ZU.Core.IEntity@)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.IModel.TryGetValue(System.String,ZU.Core.IEntity@)] Missing &lt;param name=&quot;oldVersion&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1121,14 +1021,12 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationMo
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.AddSyncAgent(ZU.Sync.ISyncAgent,System.Guid)] Missing &lt;param name=&quot;syncAgent&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.AddSyncAgent(ZU.Sync.ISyncAgent,System.Guid)] Missing &lt;param name=&quot;taskId&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.ISystemInformationModel.AppEntityKindDefinitions] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.ISystemInformationModel.BootTime] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.CanBePartOfVisualCluster(ZU.Core.IEntity)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.CanBePartOfVisualCluster(ZU.Core.IEntity)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.CanBePartOfVisualCluster(ZU.Core.IEntity)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.CanParticipateInTopographicClusterVisualization(ZU.Core.IEntity)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.CanParticipateInTopographicClusterVisualization(ZU.Core.IEntity)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.CanParticipateInTopographicClusterVisualization(ZU.Core.IEntity)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.ISystemInformationModel.ConfigurationSettings] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.CreateAndLoadNewModel(ZU.Core.IEntity)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.CreateAndLoadNewModel(ZU.Core.IEntity)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.CreateAndLoadNewModel(ZU.Core.IEntity)] Missing &lt;param name=&quot;ent&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1154,22 +1052,17 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationMo
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.CreateSyncAgent(ZU.Sync.SyncAgentKind)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.CreateSyncAgent(ZU.Sync.SyncAgentKind)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.CreateSyncAgent(ZU.Sync.SyncAgentKind)] Missing &lt;param name=&quot;agentKind&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.ISystemInformationModel.CurrentModel] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.ISystemInformationModel.Dispatcher] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.EntityOpen(ZU.Core.IEntity)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.EntityOpen(ZU.Core.IEntity)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.FileShouldBeProcessed(System.String)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.FileShouldBeProcessed(System.String)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.FileShouldBeProcessed(System.String)] Missing &lt;param name=&quot;file&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.ISystemInformationModel.FPS] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.ISystemInformationModel.FullTextIndexCache] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetAccountName(System.String)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetAccountName(System.String)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetAccountName(System.String)] Missing &lt;param name=&quot;accountId&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetChildrenEntitiesCount(ZU.Core.IEntity)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetChildrenEntitiesCount(ZU.Core.IEntity)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetChildrenEntitiesCount(ZU.Core.IEntity)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetCurrentUserEntity] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetCurrentUserEntity] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetEntitiesLinkedWithAsEntityViews(ZU.Core.IEntity)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetEntitiesLinkedWithAsEntityViews(ZU.Core.IEntity)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1211,7 +1104,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationMo
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetSyncTaskByKey(ZU.Sync.ISyncAgent)] Missing &lt;param name=&quot;syncAgent&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetTaskSchedulerFactory] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetTaskSchedulerFactory] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetUnknownPerson] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetUnknownPerson] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetUserEntityTitle(ZU.Semantic.EntityRef)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetUserEntityTitle(ZU.Semantic.EntityRef)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1220,7 +1112,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationMo
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetValidSpacePath(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetValidSpacePath(System.String,System.String)] Missing &lt;param name=&quot;parentFolder&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetValidSpacePath(System.String,System.String)] Missing &lt;param name=&quot;proposedChildName&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetZetUniversePerson] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.GetZetUniversePerson] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.HasSyncTaskByKey(ZU.Sync.ISyncAgent)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.HasSyncTaskByKey(ZU.Sync.ISyncAgent)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1241,13 +1132,9 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationMo
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.IsFileExtensionNonIndexable(System.String)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.IsFileExtensionNonIndexable(System.String)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.IsFileExtensionNonIndexable(System.String)] Missing &lt;param name=&quot;fileFullPath&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.ISystemInformationModel.IsInitialized] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.ISystemInformationModel.Models] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [E:ZU.Core.ISystemInformationModel.OnAllProjectSpacesLoaded] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [E:ZU.Core.ISystemInformationModel.OnProjectSpaceChanged] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.ISystemInformationModel.Owner] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.PerformCleanup] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.ISystemInformationModel.RootModel] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.ISystemInformationModel.SemanticPipelineProcessor] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.SetLastChangedModelAsCurrent] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.ISystemInformationModel.StopScheduledTasksExecution] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1311,22 +1198,14 @@ BuildAssembler : warning : ShowMissingComponent: [T:ZU.Core.ModelEvents.OnVisual
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Core.ModelKind] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Core.ModelKinds] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Core.OnProjectSpaceChangedEventHandler] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:ZU.Core.Property] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Property.AppId] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Property.Confidence] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Property.Id] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.Property.Merge(ZU.Core.ITimelined)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.Property.Merge(ZU.Core.ITimelined)] Missing &lt;param name=&quot;newVer&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Property.TLBirth] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Property.TLDeath] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Property.UIdChanger] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Property.UIdOwner] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Property.Value] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Property.Weight] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Core.VisualCluster] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.VisualCluster.Add(ZU.Core.IEntity)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.VisualCluster.Add(ZU.Core.IEntity)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.VisualCluster.CompareTo(System.Object)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.VisualCluster.CompareTo(System.Object)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.VisualCluster.CompareTo(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.VisualCluster.Entities] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1368,11 +1247,8 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.Apps.AppPaneBase.Ini
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Apps.AppPaneBase.IsPaneVisible] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.Apps.AppPaneBase.ShowPane] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Core.Apps.IApp] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Apps.IApp.Accounts] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [E:ZU.Core.Apps.IApp.Added] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Apps.IApp.AppButtonInfo] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Apps.IApp.AreMultipleAccountsAllowed] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.Apps.IApp.GetAppPane(ZU.Configuration.Settings.IAppAccount)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.Apps.IApp.GetAppPane(ZU.Configuration.Settings.IAppAccount)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.Apps.IApp.GetAppPane(ZU.Configuration.Settings.IAppAccount)] Missing &lt;param name=&quot;account&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Apps.IApp.Id] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1383,8 +1259,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.Apps.IApp.Initialize
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Apps.IApp.IsAdded] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Apps.IApp.IsDataImportSupported] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Apps.IApp.IsSignedIn] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.Apps.IApp.ProcessGenericNotification] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Core.Apps.IApp.Publisher] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.Apps.IApp.SaveSettings] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.Apps.IApp.ShowAddDialog] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Core.Apps.IApp.ShowAddDialog] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1494,6 +1368,7 @@ BuildAssembler : warning : ShowMissingComponent: [T:ZU.Plugins.FullTextExtractio
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.FullTextExtractionResult.FullText] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.FullTextExtractionResult.Succeeded] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Plugins.IFileStorageApp] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IFileStorageApp] Unknown reference link target &#39;T:SAL.Flatbed.IPlugin&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IFileStorageApp] Unknown reference link target &#39;P:SAL.Flatbed.IPlugin.Host&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IFileStorageApp] Unknown reference link target &#39;T:SAL.Flatbed.IPlugin&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IFileStorageApp] Unknown reference link target &#39;M:SAL.Flatbed.IPlugin.Invoke(System.String,System.Object[])&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1525,6 +1400,7 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.IFullTextSearchEx
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.IFullTextSearchExtractionProcessor.TryExtract(ZU.Core.IEntity)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.IFullTextSearchExtractionProcessor.TryExtract(ZU.Core.IEntity)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Plugins.ILocalFolderApp] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.ILocalFolderApp] Unknown reference link target &#39;T:SAL.Flatbed.IPlugin&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.ILocalFolderApp] Unknown reference link target &#39;P:SAL.Flatbed.IPlugin.Host&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.ILocalFolderApp] Unknown reference link target &#39;T:SAL.Flatbed.IPlugin&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.ILocalFolderApp] Unknown reference link target &#39;M:SAL.Flatbed.IPlugin.Invoke(System.String,System.Object[])&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1575,6 +1451,7 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.ILocalFolderApp.T
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.ILocalFolderApp.TryWatchShellItem(System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;modelId&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.ILocalFolderApp.TryWatchShellItem(System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;blockNewShellItemsScan&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Plugins.ISharedFolderApp] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.ISharedFolderApp] Unknown reference link target &#39;T:SAL.Flatbed.IPlugin&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.ISharedFolderApp] Unknown reference link target &#39;P:SAL.Flatbed.IPlugin.Host&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.ISharedFolderApp] Unknown reference link target &#39;T:SAL.Flatbed.IPlugin&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.ISharedFolderApp] Unknown reference link target &#39;M:SAL.Flatbed.IPlugin.Invoke(System.String,System.Object[])&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1595,6 +1472,7 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.ISharedFolderApp.
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.ISharedFolderApp.TryShareShellItem(System.String)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.ISharedFolderApp.TryShareShellItem(System.String)] Missing &lt;param name=&quot;shellItemPath&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Plugins.IZetApp] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IZetApp] Unknown reference link target &#39;T:SAL.Flatbed.IPlugin&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IZetApp] Unknown reference link target &#39;P:SAL.Flatbed.IPlugin.Host&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IZetApp] Unknown reference link target &#39;T:SAL.Flatbed.IPlugin&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IZetApp] Unknown reference link target &#39;M:SAL.Flatbed.IPlugin.Invoke(System.String,System.Object[])&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1611,11 +1489,8 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:ZU.Plugins
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:ZU.Plugins.IZetApp] Unknown reference link target &#39;T:SAL.Flatbed.IPlugin&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:ZU.Plugins.IZetApp] Unknown reference link target &#39;P:SAL.Flatbed.IPlugin.Host&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:ZU.Plugins.IZetApp] Unknown reference link target &#39;T:SAL.Flatbed.IPlugin&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetApp.Accounts] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [E:ZU.Plugins.IZetApp.Added] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetApp.AppButtonInfo] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetApp.AreMultipleAccountsAllowed] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.IZetApp.GetAppPane(ZU.Configuration.Settings.IAppAccount)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.IZetApp.GetAppPane(ZU.Configuration.Settings.IAppAccount)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.IZetApp.GetAppPane(ZU.Configuration.Settings.IAppAccount)] Missing &lt;param name=&quot;account&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.IZetApp.GetCurrentAppSettings] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1624,18 +1499,15 @@ BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetApp.Id] Missi
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetApp.IsAdded] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetApp.IsDataImportSupported] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetApp.IsSignedIn] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.IZetApp.ProcessGenericNotification] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetApp.Publisher] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.IZetApp.ShowAddDialog] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.IZetApp.ShowAddDialog] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.IZetApp.ShowSettingsDialog] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.IZetApp.Shutdown] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetApp.Status] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetApp.Title] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.IZetApp.TryRemove] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.IZetApp.TryRemove] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetApp.Version] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Plugins.IZetHost] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IZetHost] Unknown reference link target &#39;T:SAL.Flatbed.IHost&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IZetHost] Unknown reference link target &#39;T:SAL.Flatbed.IHostItem&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IZetHost] Unknown reference link target &#39;P:SAL.Flatbed.IHostItem.Object&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IZetHost] Unknown reference link target &#39;T:SAL.Flatbed.IHostItem&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IZetHost] Unknown reference link target &#39;P:SAL.Flatbed.IHost.Plugins&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1676,6 +1548,7 @@ BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetHost.AppManag
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetHost.Frame] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetHost.SIM] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Plugins.IZetProcessor] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IZetProcessor] Unknown reference link target &#39;T:SAL.Flatbed.IPlugin&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IZetProcessor] Unknown reference link target &#39;P:SAL.Flatbed.IPlugin.Host&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IZetProcessor] Unknown reference link target &#39;T:SAL.Flatbed.IPlugin&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Plugins.IZetProcessor] Unknown reference link target &#39;M:SAL.Flatbed.IPlugin.Invoke(System.String,System.Object[])&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1696,14 +1569,9 @@ BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetProcessor.Nam
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Plugins.IZetProcessor.Shutdown] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Plugins.IZetProcessor.Status] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:ZU.Semantic] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:ZU.Semantic.EntityRef] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Semantic.EntityRef.AgentIdChanger] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.EntityRef.CompareTo(System.Object)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.EntityRef.CompareTo(System.Object)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.EntityRef.CompareTo(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Semantic.EntityRef.Confidence] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Semantic.EntityRef.Direction] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Semantic.EntityRef.EntityId] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.EntityRef.Equals(System.Object)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.EntityRef.Equals(System.Object)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.EntityRef.Equals(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1714,11 +1582,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.EntityRef.GetHas
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.EntityRef.GetHashCode] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.EntityRef.IsEmpty] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.EntityRef.IsEmpty] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Semantic.EntityRef.ModelId] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Semantic.EntityRef.Relation] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Semantic.EntityRef.RelationshipEntityId] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Semantic.EntityRef.RelationshipModelId] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Semantic.EntityRef.State] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Semantic.EntityRef.TLChange] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Semantic.EntityRefExtensions] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.EntityRefExtensions.IdToShortGuid(ZU.Semantic.EntityRef)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1800,13 +1663,12 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.Processors.ISema
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.Processors.ISemanticPipelineProcessor.Subscribe(ZU.Semantic.Processors.OnPublishedDelegate,System.String,System.String)] Missing &lt;param name=&quot;subscriberName&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Semantic.Processors.OnPublishedDelegate] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:ZU.Semantic.Spatial] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:ZU.Semantic.Spatial.ISpatialItemsSource] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.Semantic.Spatial.ISpatialItemsSource.Extent] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [E:ZU.Semantic.Spatial.ISpatialItemsSource.ExtentChanged] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.Spatial.ISpatialItemsSource.Query(System.Windows.Rect)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.Spatial.ISpatialItemsSource.Query(System.Windows.Rect)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.Spatial.ISpatialItemsSource.Query(System.Windows.Rect)] Missing &lt;param name=&quot;rectangle&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [E:ZU.Semantic.Spatial.ISpatialItemsSource.QueryInvalidated] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Semantic.Spatial.ISpatialItemsSource] Unknown reference link target &#39;!:ZoomableCanvas&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Semantic.Spatial.ISpatialItemsSource] Invalid reference link target &#39;!:ZoomableCanvas&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Semantic.Spatial.ISpatialItemsSource] Unknown reference link target &#39;!:ItemsControl&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Semantic.Spatial.ISpatialItemsSource] Invalid reference link target &#39;!:ItemsControl&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Semantic.Spatial.ISpatialItemsSource] Unknown reference link target &#39;!:ItemsControl.ItemsSource&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:ZU.Semantic.Spatial.ISpatialItemsSource] Invalid reference link target &#39;!:ItemsControl.ItemsSource&#39;. [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:ZU.Semantic.Spatial.Collections] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Semantic.Spatial.Collections.ISpatialRangeObservableCollection`1] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Semantic.Spatial.Collections.ISpatialRangeObservableCollection`1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1848,7 +1710,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.Spatial.Indexing
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.Spatial.Indexing.IVisualClustersIndexer.TryGetVisualCluster(ZU.Core.IEntity,ZU.Core.VisualCluster@)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.Spatial.Indexing.IVisualClustersIndexer.TryGetVisualCluster(ZU.Core.IEntity,ZU.Core.VisualCluster@)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.Spatial.Indexing.IVisualClustersIndexer.TryGetVisualCluster(ZU.Core.IEntity,ZU.Core.VisualCluster@)] Missing &lt;param name=&quot;oldCluster&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.Spatial.Indexing.IVisualClustersIndexer.TryGetVisualClusterPositionForTopEntity(ZU.Core.IEntity,System.Double,System.Double,System.Double,System.Windows.Rect@)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.Spatial.Indexing.IVisualClustersIndexer.TryGetVisualClusterPositionForTopEntity(ZU.Core.IEntity,System.Double,System.Double,System.Double,System.Windows.Rect@)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.Spatial.Indexing.IVisualClustersIndexer.TryGetVisualClusterPositionForTopEntity(ZU.Core.IEntity,System.Double,System.Double,System.Double,System.Windows.Rect@)] Missing &lt;param name=&quot;entity&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Semantic.Spatial.Indexing.IVisualClustersIndexer.TryGetVisualClusterPositionForTopEntity(ZU.Core.IEntity,System.Double,System.Double,System.Double,System.Windows.Rect@)] Missing &lt;param name=&quot;topicEntityWidth&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1877,7 +1738,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:ZU.Semantic.Text.KindMetadat
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Semantic.Text.KindMetadataAttribute.KindParent] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:ZU.Storage] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.Storage.IStorageContext] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Storage.IStorageContext.AddEntity(System.String,System.Boolean)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Storage.IStorageContext.AddEntity(System.String,System.Boolean)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Storage.IStorageContext.AddEntity(System.String,System.Boolean)] Missing &lt;param name=&quot;entityJson&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Storage.IStorageContext.AddEntity(System.String,System.Boolean)] Missing &lt;param name=&quot;enableNotifications&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -1891,10 +1751,8 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.Storage.IStorageContext.G
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Storage.IStorageContext.GetEntityStorageRecordAt(ZU.Core.IUserAction)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Storage.IStorageContext.GetEntityStorageRecordAt(ZU.Core.IUserAction)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Storage.IStorageContext.GetEntityStorageRecordAt(ZU.Core.IUserAction)] Missing &lt;param name=&quot;activityWithPreviousCluster&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Storage.IStorageContext.InitIndex] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Storage.IStorageContext.Load] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Storage.IStorageContext.Load] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ZU.Storage.IStorageContext.LoadEntity(System.String)] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Storage.IStorageContext.LoadEntity(System.String)] Missing &lt;returns&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.Storage.IStorageContext.LoadEntity(System.String)] Missing &lt;param name=&quot;entityJson&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.Storage.IStorageContext.Model] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -2005,7 +1863,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:ZU.WPF.IThumbnailProvider.To
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.WPF.ThumbnailProviderFactory] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.WPF.ThumbnailProviderFactory.Instance] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:ZU.WPF.Data] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:ZU.WPF.Data.AppSourceBoundFileSystemDataContainer] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.WPF.Data.AppSourceBoundFileSystemDataContainer.#ctor(ZU.WPF.Data.DataAction,System.Collections.Generic.List{System.String},System.String,System.Windows.Point,System.Double)] Missing &lt;param name=&quot;action&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.WPF.Data.AppSourceBoundFileSystemDataContainer.#ctor(ZU.WPF.Data.DataAction,System.Collections.Generic.List{System.String},System.String,System.Windows.Point,System.Double)] Missing &lt;param name=&quot;entitiesIds&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.WPF.Data.AppSourceBoundFileSystemDataContainer.#ctor(ZU.WPF.Data.DataAction,System.Collections.Generic.List{System.String},System.String,System.Windows.Point,System.Double)] Missing &lt;param name=&quot;modelBase&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -2034,7 +1891,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:ZU.WPF.Data.AppSpaceItemToPr
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.WPF.Data.AppSpaceItemToProjectSpaceDataContainer.EntityKind] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.WPF.Data.AppSpaceItemToProjectSpaceDataContainer.IsContainer] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.WPF.Data.DataAction] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:ZU.WPF.Data.DataContainer] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.WPF.Data.DataContainer.#ctor(ZU.WPF.Data.DataAction,System.Collections.Generic.List{System.String},System.String,System.Windows.Point,System.Double)] Missing &lt;param name=&quot;action&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.WPF.Data.DataContainer.#ctor(ZU.WPF.Data.DataAction,System.Collections.Generic.List{System.String},System.String,System.Windows.Point,System.Double)] Missing &lt;param name=&quot;entitiesIds&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ZU.WPF.Data.DataContainer.#ctor(ZU.WPF.Data.DataAction,System.Collections.Generic.List{System.String},System.String,System.Windows.Point,System.Double)] Missing &lt;param name=&quot;modelBase&quot;/&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -2074,9 +1930,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:ZU.WPF.Data.SharedFolderAppI
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.WPF.Data.SharedFolderAppItemDataContainer.RootFolder] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.WPF.Data.SharedFolderAppItemDataContainer.Title] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.WPF.Data.UnifiedListSearchToZoomableSpaceDragDropContainer] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.WPF.Data.UnifiedListSearchToZoomableSpaceDragDropContainer.Action] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.WPF.Data.UnifiedListSearchToZoomableSpaceDragDropContainer.EntityReferences] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:ZU.WPF.Data.UnifiedListSearchToZoomableSpaceDragDropContainer.InputType] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:ZU.WPF.Data.Schemas] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ZU.WPF.Data.Schemas.IEntityView] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ZU.WPF.Data.Schemas.IEntityView.ActionName] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
@@ -2103,22 +1956,23 @@ BuildAssembler : warning : ShowMissingComponent: [G:ZU.Semantic] Missing &lt;sum
 BuildAssembler : warning : ShowMissingComponent: [G:ZU.Core] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [G:ZU.Collections] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
   Processed 1322 topic(s)
-  1887 warning(s)
+  1735 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
+  ResolveReferenceLinksComponent: 7 entries added to the MSDN content ID cache.  New cache size: 636 entries
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 6 of 30.
-  SaveComponent: Waiting for the document writer task to finish (99 Website API file(s) remaining)...
+  SaveComponent: Waiting for the document writer task to finish (60 Website API file(s) remaining)...
 Done Building Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:39.28
-    Last step completed in 00:00:39.4087
+Time Elapsed 00:00:43.23
+    Last step completed in 00:00:43.3482
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0339
+    Last step completed in 00:00:00.0340
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -2134,7 +1988,7 @@ Processed 1322 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\WebKI.xml
 Saving website table of contents to C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\WebTOC.xml
-    Last step completed in 00:00:09.7507
+    Last step completed in 00:00:09.7333
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -2213,7 +2067,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.5773
+    Last step completed in 00:00:00.5757
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -2224,7 +2078,7 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:10.9815
+</plugIn>    Last step completed in 00:00:11.9034
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -2232,16 +2086,16 @@ Copying website files to output folder...
 Copied 500 files
 Copied 1000 files
 Copied 1500 files
-Copied 1737 files for the website content
-    Last step completed in 00:00:06.8202
+Copied 1744 files for the website content
+    Last step completed in 00:00:07.9458
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.6525
+    Last step completed in 00:00:02.2231
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 5/7/2016 6:43:57 PM.  Total time: 00:01:13.3835
+Build completed successfully at 5/7/2016 7:07:23 PM.  Total time: 00:01:26.0729
 
 </buildStep>
 </shfbBuild>
