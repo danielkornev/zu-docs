@@ -202,7 +202,6 @@
     <HelpKINode Title="IModel.AsEntityView Property " Url="html/P_ZU_Core_IModel_AsEntityView.htm" />
   </HelpKINode>
   <HelpKINode Title="AssemblyFileName field" Url="html/F_ZU_Constants_Application_Configuration_AssemblyFileName.htm" />
-  <HelpKINode Title="Author field" Url="html/F_ZU_Constants_Kinds_Author.htm" />
   <HelpKINode Title="AvoidMemoryCleansing property" Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_AvoidMemoryCleansing.htm" />
   <HelpKINode Title="BaseFolder property" Url="html/P_ZU_Core_IModel_BaseFolder.htm" />
   <HelpKINode Title="BasePropertyChanged class">
@@ -423,7 +422,6 @@
   <HelpKINode Title="Constants.Kinds.Appointment field" Url="html/F_ZU_Constants_Kinds_Appointment.htm" />
   <HelpKINode Title="Constants.Kinds.AppSpace field" Url="html/F_ZU_Constants_Kinds_AppSpace.htm" />
   <HelpKINode Title="Constants.Kinds.Article field" Url="html/F_ZU_Constants_Kinds_Article.htm" />
-  <HelpKINode Title="Constants.Kinds.Author field" Url="html/F_ZU_Constants_Kinds_Author.htm" />
   <HelpKINode Title="Constants.Kinds.Book field" Url="html/F_ZU_Constants_Kinds_Book.htm" />
   <HelpKINode Title="Constants.Kinds.BuiltInKindsDictionary property" Url="html/P_ZU_Constants_Kinds_BuiltInKindsDictionary.htm" />
   <HelpKINode Title="Constants.Kinds.Calendar field" Url="html/F_ZU_Constants_Kinds_Calendar.htm" />
@@ -2848,11 +2846,11 @@
     <HelpKINode Title="Property.UIdChanger Property " Url="html/P_ZU_Core_Property_UIdChanger.htm" />
   </HelpKINode>
   <HelpKINode Title="UIDChanger property" Url="html/P_ZU_Configuration_Settings_IAppSettings_UIDChanger.htm" />
+  <HelpKINode Title="UIDOwner property" Url="html/P_ZU_Configuration_Settings_IAppSettings_UIDOwner.htm" />
   <HelpKINode Title="UIdOwner property">
     <HelpKINode Title="ITimelined.UIdOwner Property " Url="html/P_ZU_Core_ITimelined_UIdOwner.htm" />
     <HelpKINode Title="Property.UIdOwner Property " Url="html/P_ZU_Core_Property_UIdOwner.htm" />
   </HelpKINode>
-  <HelpKINode Title="UIDOwner property" Url="html/P_ZU_Configuration_Settings_IAppSettings_UIDOwner.htm" />
   <HelpKINode Title="UnableToCreateMetaspaceAndOrUserFolder field" Url="html/F_ZU_Constants_Application_ErrorCodes_UnableToCreateMetaspaceAndOrUserFolder.htm" />
   <HelpKINode Title="Undefined enumeration member" Url="html/T_ZU_Semantic_Core_ContainerKinds.htm" />
   <HelpKINode Title="UnhandledException field" Url="html/F_ZU_Constants_Application_ErrorCodes_UnhandledException.htm" />
