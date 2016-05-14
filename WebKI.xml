@@ -33,6 +33,8 @@
   <HelpKINode Title="ActionName property" Url="html/P_ZU_WPF_Data_Schemas_IEntityView_ActionName.htm" />
   <HelpKINode Title="ActionRequired enumeration member" Url="html/T_ZU_Core_Structured_ReviewStatus.htm" />
   <HelpKINode Title="ActivityHistory class">
+    <HelpKINode Title="ActivityHistory Class" Url="html/T_ZU_Constants_Topics_ActivityHistory.htm" />
+    <HelpKINode Title="about ActivityHistory class" Url="html/T_ZU_Constants_Topics_ActivityHistory.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Topics_ActivityHistory.htm" />
   </HelpKINode>
   <HelpKINode Title="Add method">
@@ -111,6 +113,10 @@
     <HelpKINode Title="Property.AppId Property " Url="html/P_ZU_Core_Property_AppId.htm" />
     <HelpKINode Title="RelationshipMetadataAttribute.AppId Property " Url="html/P_ZU_RelationshipMetadataAttribute_AppId.htm" />
   </HelpKINode>
+  <HelpKINode Title="Application class">
+    <HelpKINode Title="Application Class" Url="html/T_ZU_Constants_Application.htm" />
+    <HelpKINode Title="about Application class" Url="html/T_ZU_Constants_Application.htm" />
+  </HelpKINode>
   <HelpKINode Title="Application field" Url="html/F_ZU_Constants_Kinds_Application.htm" />
   <HelpKINode Title="AppManager property" Url="html/P_ZU_Plugins_IZetHost_AppManager.htm" />
   <HelpKINode Title="AppMode enumeration" Url="html/T_ZU_Configuration_Settings_AppMode.htm" />
@@ -145,6 +151,8 @@
   <HelpKINode Title="AppRestartRequired enumeration member" Url="html/T_ZU_Core_Update_AppUpdateStatus.htm" />
   <HelpKINode Title="AppRootFolder field" Url="html/F_ZU_Constants_Properties_AppRootFolder.htm" />
   <HelpKINode Title="AppsKinds class">
+    <HelpKINode Title="AppsKinds Class" Url="html/T_ZU_Constants_AppsKinds.htm" />
+    <HelpKINode Title="about AppsKinds class" Url="html/T_ZU_Constants_AppsKinds.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_AppsKinds.htm" />
   </HelpKINode>
   <HelpKINode Title="AppSourceBoundFileSystemDataContainer class">
@@ -251,6 +259,8 @@
   <HelpKINode Title="ChildEntityDeleted enumeration member" Url="html/T_ZU_Semantic_Core_SemanticActionKinds.htm" />
   <HelpKINode Title="ChildEntityMoved enumeration member" Url="html/T_ZU_Semantic_Core_SemanticActionKinds.htm" />
   <HelpKINode Title="Classifications class">
+    <HelpKINode Title="Classifications Class" Url="html/T_ZU_Constants_Topics_Classifications.htm" />
+    <HelpKINode Title="about Classifications class" Url="html/T_ZU_Constants_Topics_Classifications.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Topics_Classifications.htm" />
   </HelpKINode>
   <HelpKINode Title="CleanupAfterEntityWasDeleted method" Url="html/M_ZU_Semantic_Spatial_Indexing_IVisualClustersIndexer_CleanupAfterEntityWasDeleted.htm" />
@@ -286,6 +296,8 @@
   <HelpKINode Title="Complete enumeration member" Url="html/T_ZU_Semantic_Core_LinkedItemNetworkOperationStatus.htm" />
   <HelpKINode Title="CompoundFileStorageProvider field" Url="html/F_ZU_Constants_Application_Configuration_StorageProviders_CompoundFileStorageProvider.htm" />
   <HelpKINode Title="Confidence class">
+    <HelpKINode Title="Confidence Class" Url="html/T_ZU_Constants_Meta_Confidence.htm" />
+    <HelpKINode Title="about Confidence class" Url="html/T_ZU_Constants_Meta_Confidence.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Meta_Confidence.htm" />
   </HelpKINode>
   <HelpKINode Title="Confidence property">
@@ -293,6 +305,8 @@
     <HelpKINode Title="Property.Confidence Property " Url="html/P_ZU_Core_Property_Confidence.htm" />
   </HelpKINode>
   <HelpKINode Title="Configuration class">
+    <HelpKINode Title="Configuration Class" Url="html/T_ZU_Constants_Application_Configuration.htm" />
+    <HelpKINode Title="about Configuration class" Url="html/T_ZU_Constants_Application_Configuration.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Application_Configuration.htm" />
   </HelpKINode>
   <HelpKINode Title="ConfigurationSettings property" Url="html/P_ZU_Core_ISystemInformationModel_ConfigurationSettings.htm" />
@@ -301,23 +315,11 @@
     <HelpKINode Title="about Constants class" Url="html/T_ZU_Constants.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_ZU_Constants.htm" />
   </HelpKINode>
-  <HelpKINode Title="Constants.Application class">
-    <HelpKINode Title="Constants.Application Class" Url="html/T_ZU_Constants_Application.htm" />
-    <HelpKINode Title="about Constants.Application class" Url="html/T_ZU_Constants_Application.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Constants.Application.Configuration class">
-    <HelpKINode Title="Constants.Application.Configuration Class" Url="html/T_ZU_Constants_Application_Configuration.htm" />
-    <HelpKINode Title="about Constants.Application.Configuration class" Url="html/T_ZU_Constants_Application_Configuration.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Application.Configuration.AppSpacesFolder field" Url="html/F_ZU_Constants_Application_Configuration_AppSpacesFolder.htm" />
   <HelpKINode Title="Constants.Application.Configuration.AssemblyFileName field" Url="html/F_ZU_Constants_Application_Configuration_AssemblyFileName.htm" />
   <HelpKINode Title="Constants.Application.Configuration.SALPluginsFolder field" Url="html/F_ZU_Constants_Application_Configuration_SALPluginsFolder.htm" />
   <HelpKINode Title="Constants.Application.Configuration.SALSettingsFolder field" Url="html/F_ZU_Constants_Application_Configuration_SALSettingsFolder.htm" />
   <HelpKINode Title="Constants.Application.Configuration.SpacesFolder field" Url="html/F_ZU_Constants_Application_Configuration_SpacesFolder.htm" />
-  <HelpKINode Title="Constants.Application.Configuration.StorageProviders class">
-    <HelpKINode Title="Constants.Application.Configuration.StorageProviders Class" Url="html/T_ZU_Constants_Application_Configuration_StorageProviders.htm" />
-    <HelpKINode Title="about Constants.Application.Configuration.StorageProviders class" Url="html/T_ZU_Constants_Application_Configuration_StorageProviders.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Application.Configuration.StorageProviders.CompoundFileStorageProvider field" Url="html/F_ZU_Constants_Application_Configuration_StorageProviders_CompoundFileStorageProvider.htm" />
   <HelpKINode Title="Constants.Application.Configuration.StorageProviders.FolderStorageProvider field" Url="html/F_ZU_Constants_Application_Configuration_StorageProviders_FolderStorageProvider.htm" />
   <HelpKINode Title="Constants.Application.Configuration.StorageProviders.NextStorageProvider field" Url="html/F_ZU_Constants_Application_Configuration_StorageProviders_NextStorageProvider.htm" />
@@ -329,10 +331,6 @@
   <HelpKINode Title="Constants.Application.Configuration.ZetUniverseRootFolder field" Url="html/F_ZU_Constants_Application_Configuration_ZetUniverseRootFolder.htm" />
   <HelpKINode Title="Constants.Application.Configuration.ZetUniverseUserSettingsFile field" Url="html/F_ZU_Constants_Application_Configuration_ZetUniverseUserSettingsFile.htm" />
   <HelpKINode Title="Constants.Application.Configuration.ZetUniverseUserSettingsV2File field" Url="html/F_ZU_Constants_Application_Configuration_ZetUniverseUserSettingsV2File.htm" />
-  <HelpKINode Title="Constants.Application.ErrorCodes class">
-    <HelpKINode Title="Constants.Application.ErrorCodes Class" Url="html/T_ZU_Constants_Application_ErrorCodes.htm" />
-    <HelpKINode Title="about Constants.Application.ErrorCodes class" Url="html/T_ZU_Constants_Application_ErrorCodes.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Application.ErrorCodes.FailedToExtractData field" Url="html/F_ZU_Constants_Application_ErrorCodes_FailedToExtractData.htm" />
   <HelpKINode Title="Constants.Application.ErrorCodes.FailedToMigrateData field" Url="html/F_ZU_Constants_Application_ErrorCodes_FailedToMigrateData.htm" />
   <HelpKINode Title="Constants.Application.ErrorCodes.FailedToPrepareStorageRecord field" Url="html/F_ZU_Constants_Application_ErrorCodes_FailedToPrepareStorageRecord.htm" />
@@ -343,48 +341,12 @@
   <HelpKINode Title="Constants.Application.ErrorCodes.SettingsObjectIsNull field" Url="html/F_ZU_Constants_Application_ErrorCodes_SettingsObjectIsNull.htm" />
   <HelpKINode Title="Constants.Application.ErrorCodes.UnableToCreateMetaspaceAndOrUserFolder field" Url="html/F_ZU_Constants_Application_ErrorCodes_UnableToCreateMetaspaceAndOrUserFolder.htm" />
   <HelpKINode Title="Constants.Application.ErrorCodes.UnhandledException field" Url="html/F_ZU_Constants_Application_ErrorCodes_UnhandledException.htm" />
-  <HelpKINode Title="Constants.AppsKinds class">
-    <HelpKINode Title="Constants.AppsKinds Class" Url="html/T_ZU_Constants_AppsKinds.htm" />
-    <HelpKINode Title="about Constants.AppsKinds class" Url="html/T_ZU_Constants_AppsKinds.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.AppsKinds.FileStore field" Url="html/F_ZU_Constants_AppsKinds_FileStore.htm" />
   <HelpKINode Title="Constants.GetDescription method" Url="html/M_ZU_Constants_GetDescription.htm" />
-  <HelpKINode Title="Constants.Importers class">
-    <HelpKINode Title="Constants.Importers Class" Url="html/T_ZU_Constants_Importers.htm" />
-    <HelpKINode Title="about Constants.Importers class" Url="html/T_ZU_Constants_Importers.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Constants.Importers.FileSystemImporter class">
-    <HelpKINode Title="Constants.Importers.FileSystemImporter Class" Url="html/T_ZU_Constants_Importers_FileSystemImporter.htm" />
-    <HelpKINode Title="about Constants.Importers.FileSystemImporter class" Url="html/T_ZU_Constants_Importers_FileSystemImporter.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Importers.FileSystemImporter.FileSystemDirectories field" Url="html/F_ZU_Constants_Importers_FileSystemImporter_FileSystemDirectories.htm" />
-  <HelpKINode Title="Constants.Importers.Services class">
-    <HelpKINode Title="Constants.Importers.Services Class" Url="html/T_ZU_Constants_Importers_Services.htm" />
-    <HelpKINode Title="about Constants.Importers.Services class" Url="html/T_ZU_Constants_Importers_Services.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Constants.Importers.Services.Dropbox class">
-    <HelpKINode Title="Constants.Importers.Services.Dropbox Class" Url="html/T_ZU_Constants_Importers_Services_Dropbox.htm" />
-    <HelpKINode Title="about Constants.Importers.Services.Dropbox class" Url="html/T_ZU_Constants_Importers_Services_Dropbox.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Importers.Services.Dropbox.ProviderName field" Url="html/F_ZU_Constants_Importers_Services_Dropbox_ProviderName.htm" />
-  <HelpKINode Title="Constants.Importers.Services.Microsoft class">
-    <HelpKINode Title="Constants.Importers.Services.Microsoft Class" Url="html/T_ZU_Constants_Importers_Services_Microsoft.htm" />
-    <HelpKINode Title="about Constants.Importers.Services.Microsoft class" Url="html/T_ZU_Constants_Importers_Services_Microsoft.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Constants.Importers.Services.Microsoft.Office365 class">
-    <HelpKINode Title="Constants.Importers.Services.Microsoft.Office365 Class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Office365.htm" />
-    <HelpKINode Title="about Constants.Importers.Services.Microsoft.Office365 class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Office365.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Importers.Services.Microsoft.Office365.ProviderName field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Office365_ProviderName.htm" />
   <HelpKINode Title="Constants.Importers.Services.Microsoft.Office365.TenantName field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Office365_TenantName.htm" />
-  <HelpKINode Title="Constants.Importers.Services.Microsoft.Outlook class">
-    <HelpKINode Title="Constants.Importers.Services.Microsoft.Outlook Class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Outlook.htm" />
-    <HelpKINode Title="about Constants.Importers.Services.Microsoft.Outlook class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Outlook.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Constants.Importers.Services.Microsoft.Outlook.ContactSchema class">
-    <HelpKINode Title="Constants.Importers.Services.Microsoft.Outlook.ContactSchema Class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema.htm" />
-    <HelpKINode Title="about Constants.Importers.Services.Microsoft.Outlook.ContactSchema class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Importers.Services.Microsoft.Outlook.ContactSchema.Id field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema_Id.htm" />
   <HelpKINode Title="Constants.Importers.Services.Microsoft.Outlook.ContactSchema.IsFavorite field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema_IsFavorite.htm" />
   <HelpKINode Title="Constants.Importers.Services.Microsoft.Outlook.ContactSchema.IsFriend field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema_IsFriend.htm" />
@@ -392,20 +354,8 @@
   <HelpKINode Title="Constants.Importers.Services.Microsoft.Outlook.ContactSchema.UserId field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema_UserId.htm" />
   <HelpKINode Title="Constants.Importers.Services.Microsoft.Outlook.LocalCacheName field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Outlook_LocalCacheName.htm" />
   <HelpKINode Title="Constants.Importers.Services.Microsoft.Outlook.ProviderName field" Url="html/F_ZU_Constants_Importers_Services_Microsoft_Outlook_ProviderName.htm" />
-  <HelpKINode Title="Constants.Importers.WebPageImporter class">
-    <HelpKINode Title="Constants.Importers.WebPageImporter Class" Url="html/T_ZU_Constants_Importers_WebPageImporter.htm" />
-    <HelpKINode Title="about Constants.Importers.WebPageImporter class" Url="html/T_ZU_Constants_Importers_WebPageImporter.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Importers.WebPageImporter.DefaultReadabilityParserToken field" Url="html/F_ZU_Constants_Importers_WebPageImporter_DefaultReadabilityParserToken.htm" />
   <HelpKINode Title="Constants.Importers.WebPageImporter.MaximumDownloadTimeInterval field" Url="html/F_ZU_Constants_Importers_WebPageImporter_MaximumDownloadTimeInterval.htm" />
-  <HelpKINode Title="Constants.Indexers class">
-    <HelpKINode Title="Constants.Indexers Class" Url="html/T_ZU_Constants_Indexers.htm" />
-    <HelpKINode Title="about Constants.Indexers class" Url="html/T_ZU_Constants_Indexers.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Constants.Indexers.FullTextSearchIndexer class">
-    <HelpKINode Title="Constants.Indexers.FullTextSearchIndexer Class" Url="html/T_ZU_Constants_Indexers_FullTextSearchIndexer.htm" />
-    <HelpKINode Title="about Constants.Indexers.FullTextSearchIndexer class" Url="html/T_ZU_Constants_Indexers_FullTextSearchIndexer.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Indexers.FullTextSearchIndexer.DocumentId field" Url="html/F_ZU_Constants_Indexers_FullTextSearchIndexer_DocumentId.htm" />
   <HelpKINode Title="Constants.Indexers.FullTextSearchIndexer.FullText field" Url="html/F_ZU_Constants_Indexers_FullTextSearchIndexer_FullText.htm" />
   <HelpKINode Title="Constants.Indexers.FullTextSearchIndexer.FullTextHash field" Url="html/F_ZU_Constants_Indexers_FullTextSearchIndexer_FullTextHash.htm" />
@@ -413,10 +363,6 @@
   <HelpKINode Title="Constants.Indexers.FullTextSearchIndexer.Kind field" Url="html/F_ZU_Constants_Indexers_FullTextSearchIndexer_Kind.htm" />
   <HelpKINode Title="Constants.Indexers.FullTextSearchIndexer.Title field" Url="html/F_ZU_Constants_Indexers_FullTextSearchIndexer_Title.htm" />
   <HelpKINode Title="Constants.Indexers.FullTextSearchIndexer.VisualClusterId field" Url="html/F_ZU_Constants_Indexers_FullTextSearchIndexer_VisualClusterId.htm" />
-  <HelpKINode Title="Constants.Kinds class">
-    <HelpKINode Title="Constants.Kinds Class" Url="html/T_ZU_Constants_Kinds.htm" />
-    <HelpKINode Title="about Constants.Kinds class" Url="html/T_ZU_Constants_Kinds.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Kinds.Agent field" Url="html/F_ZU_Constants_Kinds_Agent.htm" />
   <HelpKINode Title="Constants.Kinds.Application field" Url="html/F_ZU_Constants_Kinds_Application.htm" />
   <HelpKINode Title="Constants.Kinds.Appointment field" Url="html/F_ZU_Constants_Kinds_Appointment.htm" />
@@ -464,37 +410,16 @@
   <HelpKINode Title="Constants.Kinds.VisualCluster field" Url="html/F_ZU_Constants_Kinds_VisualCluster.htm" />
   <HelpKINode Title="Constants.Kinds.WebPage field" Url="html/F_ZU_Constants_Kinds_WebPage.htm" />
   <HelpKINode Title="Constants.Kinds.ZetUniverse field" Url="html/F_ZU_Constants_Kinds_ZetUniverse.htm" />
-  <HelpKINode Title="Constants.KindSelection enumeration" Url="html/T_ZU_Constants_KindSelection.htm" />
-  <HelpKINode Title="Constants.KnownEntities class">
-    <HelpKINode Title="Constants.KnownEntities Class" Url="html/T_ZU_Constants_KnownEntities.htm" />
-    <HelpKINode Title="about Constants.KnownEntities class" Url="html/T_ZU_Constants_KnownEntities.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.KnownEntities.DefaultUnsortedList field" Url="html/F_ZU_Constants_KnownEntities_DefaultUnsortedList.htm" />
   <HelpKINode Title="Constants.KnownEntities.Unsorted field" Url="html/F_ZU_Constants_KnownEntities_Unsorted.htm" />
-  <HelpKINode Title="Constants.Meta class">
-    <HelpKINode Title="Constants.Meta Class" Url="html/T_ZU_Constants_Meta.htm" />
-    <HelpKINode Title="about Constants.Meta class" Url="html/T_ZU_Constants_Meta.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Constants.Meta.Confidence class">
-    <HelpKINode Title="Constants.Meta.Confidence Class" Url="html/T_ZU_Constants_Meta_Confidence.htm" />
-    <HelpKINode Title="about Constants.Meta.Confidence class" Url="html/T_ZU_Constants_Meta_Confidence.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Meta.Confidence.EightyPercent field" Url="html/F_ZU_Constants_Meta_Confidence_EightyPercent.htm" />
   <HelpKINode Title="Constants.Meta.Confidence.NightyFivePercent field" Url="html/F_ZU_Constants_Meta_Confidence_NightyFivePercent.htm" />
   <HelpKINode Title="Constants.Meta.Confidence.OneHundredPercent field" Url="html/F_ZU_Constants_Meta_Confidence_OneHundredPercent.htm" />
   <HelpKINode Title="Constants.Meta.Confidence.SeventyFivePercent field" Url="html/F_ZU_Constants_Meta_Confidence_SeventyFivePercent.htm" />
   <HelpKINode Title="Constants.Meta.Confidence.SixtySixPercent field" Url="html/F_ZU_Constants_Meta_Confidence_SixtySixPercent.htm" />
-  <HelpKINode Title="Constants.Properties class">
-    <HelpKINode Title="Constants.Properties Class" Url="html/T_ZU_Constants_Properties.htm" />
-    <HelpKINode Title="about Constants.Properties class" Url="html/T_ZU_Constants_Properties.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Properties.AppId field" Url="html/F_ZU_Constants_Properties_AppId.htm" />
   <HelpKINode Title="Constants.Properties.AppRootFolder field" Url="html/F_ZU_Constants_Properties_AppRootFolder.htm" />
   <HelpKINode Title="Constants.Properties.FullPath field" Url="html/F_ZU_Constants_Properties_FullPath.htm" />
-  <HelpKINode Title="Constants.Properties.Person class">
-    <HelpKINode Title="Constants.Properties.Person Class" Url="html/T_ZU_Constants_Properties_Person.htm" />
-    <HelpKINode Title="about Constants.Properties.Person class" Url="html/T_ZU_Constants_Properties_Person.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Properties.Person.Email1 field" Url="html/F_ZU_Constants_Properties_Person_Email1.htm" />
   <HelpKINode Title="Constants.Properties.Person.Email10 field" Url="html/F_ZU_Constants_Properties_Person_Email10.htm" />
   <HelpKINode Title="Constants.Properties.Person.Email2 field" Url="html/F_ZU_Constants_Properties_Person_Email2.htm" />
@@ -513,15 +438,7 @@
   <HelpKINode Title="Constants.Properties.Person.WorkPhone field" Url="html/F_ZU_Constants_Properties_Person_WorkPhone.htm" />
   <HelpKINode Title="Constants.Properties.SyncSource field" Url="html/F_ZU_Constants_Properties_SyncSource.htm" />
   <HelpKINode Title="Constants.Properties.Uri field" Url="html/F_ZU_Constants_Properties_Uri.htm" />
-  <HelpKINode Title="Constants.Properties.WebPage class">
-    <HelpKINode Title="Constants.Properties.WebPage Class" Url="html/T_ZU_Constants_Properties_WebPage.htm" />
-    <HelpKINode Title="about Constants.Properties.WebPage class" Url="html/T_ZU_Constants_Properties_WebPage.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Properties.WebPage.LocalPageUri field" Url="html/F_ZU_Constants_Properties_WebPage_LocalPageUri.htm" />
-  <HelpKINode Title="Constants.Relationships class">
-    <HelpKINode Title="Constants.Relationships Class" Url="html/T_ZU_Constants_Relationships.htm" />
-    <HelpKINode Title="about Constants.Relationships class" Url="html/T_ZU_Constants_Relationships.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Relationships.BuiltInFromRelationshipsDictionary property" Url="html/P_ZU_Constants_Relationships_BuiltInFromRelationshipsDictionary.htm" />
   <HelpKINode Title="Constants.Relationships.BuiltInRelationshipsDictionary property" Url="html/P_ZU_Constants_Relationships_BuiltInRelationshipsDictionary.htm" />
   <HelpKINode Title="Constants.Relationships.CurrentZetUniverseUser field" Url="html/F_ZU_Constants_Relationships_CurrentZetUniverseUser.htm" />
@@ -531,20 +448,8 @@
   <HelpKINode Title="Constants.Relationships.PartOfList field" Url="html/F_ZU_Constants_Relationships_PartOfList.htm" />
   <HelpKINode Title="Constants.Relationships.PartOfVisualCluster field" Url="html/F_ZU_Constants_Relationships_PartOfVisualCluster.htm" />
   <HelpKINode Title="Constants.Relationships.SameEntity field" Url="html/F_ZU_Constants_Relationships_SameEntity.htm" />
-  <HelpKINode Title="Constants.Service class">
-    <HelpKINode Title="Constants.Service Class" Url="html/T_ZU_Constants_Service.htm" />
-    <HelpKINode Title="about Constants.Service class" Url="html/T_ZU_Constants_Service.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Constants.Service.Roles class">
-    <HelpKINode Title="Constants.Service.Roles Class" Url="html/T_ZU_Constants_Service_Roles.htm" />
-    <HelpKINode Title="about Constants.Service.Roles class" Url="html/T_ZU_Constants_Service_Roles.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Service.Roles.Admin field" Url="html/F_ZU_Constants_Service_Roles_Admin.htm" />
   <HelpKINode Title="Constants.Service.Roles.User field" Url="html/F_ZU_Constants_Service_Roles_User.htm" />
-  <HelpKINode Title="Constants.StorageHelper class">
-    <HelpKINode Title="Constants.StorageHelper Class" Url="html/T_ZU_Constants_StorageHelper.htm" />
-    <HelpKINode Title="about Constants.StorageHelper class" Url="html/T_ZU_Constants_StorageHelper.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.StorageHelper.GetBoundsFromStorageRecordKey method" Url="html/M_ZU_Constants_StorageHelper_GetBoundsFromStorageRecordKey.htm" />
   <HelpKINode Title="Constants.StorageHelper.GetChangeDateFromStorageRecordKey method" Url="html/M_ZU_Constants_StorageHelper_GetChangeDateFromStorageRecordKey.htm" />
   <HelpKINode Title="Constants.StorageHelper.GetEntityStorageRecordKey method" Url="html/M_ZU_Constants_StorageHelper_GetEntityStorageRecordKey.htm" />
@@ -560,33 +465,13 @@
   <HelpKINode Title="Constants.StorageHelper.strFilterLocationALE field" Url="html/F_ZU_Constants_StorageHelper_strFilterLocationALE.htm" />
   <HelpKINode Title="Constants.StorageHelper.StrFilterLocationE field" Url="html/F_ZU_Constants_StorageHelper_StrFilterLocationE.htm" />
   <HelpKINode Title="Constants.StorageHelper.strFilterLocationLE field" Url="html/F_ZU_Constants_StorageHelper_strFilterLocationLE.htm" />
-  <HelpKINode Title="Constants.Topics class">
-    <HelpKINode Title="Constants.Topics Class" Url="html/T_ZU_Constants_Topics.htm" />
-    <HelpKINode Title="about Constants.Topics class" Url="html/T_ZU_Constants_Topics.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Constants.Topics.ActivityHistory class">
-    <HelpKINode Title="Constants.Topics.ActivityHistory Class" Url="html/T_ZU_Constants_Topics_ActivityHistory.htm" />
-    <HelpKINode Title="about Constants.Topics.ActivityHistory class" Url="html/T_ZU_Constants_Topics_ActivityHistory.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Topics.ActivityHistory.SemanticActionEntries field" Url="html/F_ZU_Constants_Topics_ActivityHistory_SemanticActionEntries.htm" />
-  <HelpKINode Title="Constants.Topics.Classifications class">
-    <HelpKINode Title="Constants.Topics.Classifications Class" Url="html/T_ZU_Constants_Topics_Classifications.htm" />
-    <HelpKINode Title="about Constants.Topics.Classifications class" Url="html/T_ZU_Constants_Topics_Classifications.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Topics.Classifications.Kinds field" Url="html/F_ZU_Constants_Topics_Classifications_Kinds.htm" />
   <HelpKINode Title="Constants.Topics.Classifications.VisualClusters field" Url="html/F_ZU_Constants_Topics_Classifications_VisualClusters.htm" />
   <HelpKINode Title="Constants.Topics.Classifications.WebPages field" Url="html/F_ZU_Constants_Topics_Classifications_WebPages.htm" />
-  <HelpKINode Title="Constants.Topics.Incoming class">
-    <HelpKINode Title="Constants.Topics.Incoming Class" Url="html/T_ZU_Constants_Topics_Incoming.htm" />
-    <HelpKINode Title="about Constants.Topics.Incoming class" Url="html/T_ZU_Constants_Topics_Incoming.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Topics.Incoming.Documents field" Url="html/F_ZU_Constants_Topics_Incoming_Documents.htm" />
   <HelpKINode Title="Constants.Topics.Incoming.Generic field" Url="html/F_ZU_Constants_Topics_Incoming_Generic.htm" />
   <HelpKINode Title="Constants.Topics.Incoming.WebPages field" Url="html/F_ZU_Constants_Topics_Incoming_WebPages.htm" />
-  <HelpKINode Title="Constants.Topics.Properties class">
-    <HelpKINode Title="Constants.Topics.Properties Class" Url="html/T_ZU_Constants_Topics_Properties.htm" />
-    <HelpKINode Title="about Constants.Topics.Properties class" Url="html/T_ZU_Constants_Topics_Properties.htm" />
-  </HelpKINode>
   <HelpKINode Title="Constants.Topics.Properties.FullText field" Url="html/F_ZU_Constants_Topics_Properties_FullText.htm" />
   <HelpKINode Title="Constants.Topics.Properties.Keyphrases field" Url="html/F_ZU_Constants_Topics_Properties_Keyphrases.htm" />
   <HelpKINode Title="Constants.Topics.Properties.Thumbnail field" Url="html/F_ZU_Constants_Topics_Properties_Thumbnail.htm" />
@@ -595,6 +480,8 @@
   <HelpKINode Title="Constants.ValueOf(Of T) method" Url="html/M_ZU_Constants_ValueOf__1.htm" />
   <HelpKINode Title="Constants.ValueOf&lt;T&gt; method" Url="html/M_ZU_Constants_ValueOf__1.htm" />
   <HelpKINode Title="ContactSchema class">
+    <HelpKINode Title="ContactSchema Class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema.htm" />
+    <HelpKINode Title="about ContactSchema class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema.htm" />
   </HelpKINode>
   <HelpKINode Title="ContainerEntityKind property" Url="html/P_ZU_WPF_Data_SharedFolderAppItemDataContainer_ContainerEntityKind.htm" />
@@ -702,6 +589,8 @@
   <HelpKINode Title="DownloadAndSetThumbnail method" Url="html/M_ZU_WPF_IThumbnailProvider_DownloadAndSetThumbnail.htm" />
   <HelpKINode Title="DownloadInProgress enumeration member" Url="html/T_ZU_Semantic_Core_LinkedItemNetworkOperationStatus.htm" />
   <HelpKINode Title="Dropbox class">
+    <HelpKINode Title="Dropbox Class" Url="html/T_ZU_Constants_Importers_Services_Dropbox.htm" />
+    <HelpKINode Title="about Dropbox class" Url="html/T_ZU_Constants_Importers_Services_Dropbox.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Importers_Services_Dropbox.htm" />
   </HelpKINode>
   <HelpKINode Title="DropboxSpaceAdded enumeration member" Url="html/T_ZU_Telemetry_OperationKind.htm" />
@@ -737,7 +626,7 @@
     <HelpKINode Title="DataContainer.EntitiesIds Property " Url="html/P_ZU_WPF_Data_DataContainer_EntitiesIds.htm" />
   </HelpKINode>
   <HelpKINode Title="Entity enumeration member">
-    <HelpKINode Title="Constants.KindSelection Enumeration" Url="html/T_ZU_Constants_KindSelection.htm" />
+    <HelpKINode Title="KindSelection Enumeration" Url="html/T_ZU_Constants_KindSelection.htm" />
     <HelpKINode Title="StorageRecordKinds Enumeration" Url="html/T_ZU_Storage_StorageRecordKinds.htm" />
   </HelpKINode>
   <HelpKINode Title="Entity field" Url="html/F_ZU_WPF_Data_DataFormats_Entity.htm" />
@@ -851,6 +740,8 @@
   <HelpKINode Title="EntityWebPageDownloadingFinished enumeration member" Url="html/T_ZU_Semantic_Core_SemanticActionKinds.htm" />
   <HelpKINode Title="EntityWebPageStartedDownloading enumeration member" Url="html/T_ZU_Semantic_Core_SemanticActionKinds.htm" />
   <HelpKINode Title="Entry structure">
+    <HelpKINode Title="Entry Structure" Url="html/T_ZU_Log_Entry.htm" />
+    <HelpKINode Title="about Entry structure" Url="html/T_ZU_Log_Entry.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_ZU_Log_Entry.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_ZU_Log_Entry.htm" />
   </HelpKINode>
@@ -869,6 +760,8 @@
   <HelpKINode Title="Error enumeration member" Url="html/T_ZU_Log_Level.htm" />
   <HelpKINode Title="Error method" Url="html/M_ZU_Log_Error.htm" />
   <HelpKINode Title="ErrorCodes class">
+    <HelpKINode Title="ErrorCodes Class" Url="html/T_ZU_Constants_Application_ErrorCodes.htm" />
+    <HelpKINode Title="about ErrorCodes class" Url="html/T_ZU_Constants_Application_ErrorCodes.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Application_ErrorCodes.htm" />
   </HelpKINode>
   <HelpKINode Title="EventDay property" Url="html/P_ZU_Core_IEntity_EventDay.htm" />
@@ -897,6 +790,8 @@
   <HelpKINode Title="FileStore field" Url="html/F_ZU_Constants_AppsKinds_FileStore.htm" />
   <HelpKINode Title="FileSystemDirectories field" Url="html/F_ZU_Constants_Importers_FileSystemImporter_FileSystemDirectories.htm" />
   <HelpKINode Title="FileSystemImporter class">
+    <HelpKINode Title="FileSystemImporter Class" Url="html/T_ZU_Constants_Importers_FileSystemImporter.htm" />
+    <HelpKINode Title="about FileSystemImporter class" Url="html/T_ZU_Constants_Importers_FileSystemImporter.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Importers_FileSystemImporter.htm" />
   </HelpKINode>
   <HelpKINode Title="FileSystemPath property" Url="html/P_ZU_WPF_Data_SharedFolderAppItemDataContainer_FileSystemPath.htm" />
@@ -935,6 +830,8 @@
   <HelpKINode Title="FullTextHash field" Url="html/F_ZU_Constants_Indexers_FullTextSearchIndexer_FullTextHash.htm" />
   <HelpKINode Title="FullTextIndexCache property" Url="html/P_ZU_Core_ISystemInformationModel_FullTextIndexCache.htm" />
   <HelpKINode Title="FullTextSearchIndexer class">
+    <HelpKINode Title="FullTextSearchIndexer Class" Url="html/T_ZU_Constants_Indexers_FullTextSearchIndexer.htm" />
+    <HelpKINode Title="about FullTextSearchIndexer class" Url="html/T_ZU_Constants_Indexers_FullTextSearchIndexer.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Indexers_FullTextSearchIndexer.htm" />
   </HelpKINode>
   <HelpKINode Title="Generic field" Url="html/F_ZU_Constants_Topics_Incoming_Generic.htm" />
@@ -1508,14 +1405,24 @@
   <HelpKINode Title="IModel.UpdateUnreadIndex method" Url="html/M_ZU_Core_IModel_UpdateUnreadIndex.htm" />
   <HelpKINode Title="IModel.VisualClusters property" Url="html/P_ZU_Core_IModel_VisualClusters.htm" />
   <HelpKINode Title="IModel.VisualClustersIndexer property" Url="html/P_ZU_Core_IModel_VisualClustersIndexer.htm" />
+  <HelpKINode Title="Importers class">
+    <HelpKINode Title="Importers Class" Url="html/T_ZU_Constants_Importers.htm" />
+    <HelpKINode Title="about Importers class" Url="html/T_ZU_Constants_Importers.htm" />
+  </HelpKINode>
   <HelpKINode Title="ImportShellItem method" Url="html/M_ZU_Plugins_IFileStorageApp_ImportShellItem.htm" />
   <HelpKINode Title="ImportStorageRecords method" Url="html/M_ZU_Storage_IStorageProvider_ImportStorageRecords.htm" />
   <HelpKINode Title="Incoming class">
+    <HelpKINode Title="Incoming Class" Url="html/T_ZU_Constants_Topics_Incoming.htm" />
+    <HelpKINode Title="about Incoming class" Url="html/T_ZU_Constants_Topics_Incoming.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Topics_Incoming.htm" />
   </HelpKINode>
   <HelpKINode Title="IndentLevel field" Url="html/F_ZU_Log_IndentLevel.htm" />
   <HelpKINode Title="IndentLevel property" Url="html/P_ZU_Log_Entry_IndentLevel.htm" />
   <HelpKINode Title="Index property" Url="html/P_ZU_Core_IEntity_Index.htm" />
+  <HelpKINode Title="Indexers class">
+    <HelpKINode Title="Indexers Class" Url="html/T_ZU_Constants_Indexers.htm" />
+    <HelpKINode Title="about Indexers class" Url="html/T_ZU_Constants_Indexers.htm" />
+  </HelpKINode>
   <HelpKINode Title="Info enumeration member" Url="html/T_ZU_Log_Level.htm" />
   <HelpKINode Title="Info method" Url="html/M_ZU_Log_Info.htm" />
   <HelpKINode Title="Init method" Url="html/M_ZU_Core_IModel_Init.htm" />
@@ -2093,12 +2000,17 @@
   <HelpKINode Title="KindMetadataAttribute.KindParent property" Url="html/P_ZU_Semantic_Text_KindMetadataAttribute_KindParent.htm" />
   <HelpKINode Title="KindParent property" Url="html/P_ZU_Semantic_Text_KindMetadataAttribute_KindParent.htm" />
   <HelpKINode Title="Kinds class">
+    <HelpKINode Title="Kinds Class" Url="html/T_ZU_Constants_Kinds.htm" />
+    <HelpKINode Title="about Kinds class" Url="html/T_ZU_Constants_Kinds.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Kinds.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_ZU_Constants_Kinds.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_ZU_Constants_Kinds.htm" />
   </HelpKINode>
   <HelpKINode Title="Kinds field" Url="html/F_ZU_Constants_Topics_Classifications_Kinds.htm" />
+  <HelpKINode Title="KindSelection enumeration" Url="html/T_ZU_Constants_KindSelection.htm" />
   <HelpKINode Title="KnownEntities class">
+    <HelpKINode Title="KnownEntities Class" Url="html/T_ZU_Constants_KnownEntities.htm" />
+    <HelpKINode Title="about KnownEntities class" Url="html/T_ZU_Constants_KnownEntities.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_KnownEntities.htm" />
   </HelpKINode>
   <HelpKINode Title="KnownEntities property" Url="html/P_ZU_Core_IModel_KnownEntities.htm" />
@@ -2119,6 +2031,7 @@
   <HelpKINode Title="LegacyDropboxMetaspace enumeration member" Url="html/T_ZU_Core_ModelKinds.htm" />
   <HelpKINode Title="LegacyLocalFolder enumeration member" Url="html/T_ZU_Core_ModelKinds.htm" />
   <HelpKINode Title="LegacyLocalMetaspace enumeration member" Url="html/T_ZU_Core_ModelKinds.htm" />
+  <HelpKINode Title="Level enumeration" Url="html/T_ZU_Log_Level.htm" />
   <HelpKINode Title="Level property" Url="html/P_ZU_Log_Entry_Level.htm" />
   <HelpKINode Title="Link field" Url="html/F_ZU_Constants_Kinds_Link.htm" />
   <HelpKINode Title="LinkedFileMoved enumeration member" Url="html/T_ZU_Semantic_Core_SemanticActionKinds.htm" />
@@ -2169,8 +2082,6 @@
   <HelpKINode Title="Log.Debug method" Url="html/M_ZU_Log_Debug.htm" />
   <HelpKINode Title="Log.Dispose method" Url="html/Overload_ZU_Log_Dispose.htm" />
   <HelpKINode Title="Log.Entry structure">
-    <HelpKINode Title="Log.Entry Structure" Url="html/T_ZU_Log_Entry.htm" />
-    <HelpKINode Title="about Log.Entry structure" Url="html/T_ZU_Log_Entry.htm" />
     <HelpKINode Title="constructor" Url="html/M_ZU_Log_Entry__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Log.Entry.Entry constructor" Url="html/M_ZU_Log_Entry__ctor.htm" />
@@ -2188,7 +2099,6 @@
   <HelpKINode Title="Log.Instance property" Url="html/P_ZU_Log_Instance.htm" />
   <HelpKINode Title="Log.IsFatal method" Url="html/M_ZU_Log_IsFatal.htm" />
   <HelpKINode Title="Log.Items field" Url="html/F_ZU_Log_Items.htm" />
-  <HelpKINode Title="Log.Level enumeration" Url="html/T_ZU_Log_Level.htm" />
   <HelpKINode Title="Log.Locker field" Url="html/F_ZU_Log_Locker.htm" />
   <HelpKINode Title="Log.Log constructor" Url="html/Overload_ZU_Log__ctor.htm" />
   <HelpKINode Title="Log.Message method" Url="html/M_ZU_Log_Message.htm" />
@@ -2230,8 +2140,16 @@
     <HelpKINode Title="Log.Entry.Message Property " Url="html/P_ZU_Log_Entry_Message.htm" />
   </HelpKINode>
   <HelpKINode Title="MessageEntity property" Url="html/P_ZU_Core_IModel_MessageEntity.htm" />
+  <HelpKINode Title="Meta class">
+    <HelpKINode Title="Meta Class" Url="html/T_ZU_Constants_Meta.htm" />
+    <HelpKINode Title="about Meta class" Url="html/T_ZU_Constants_Meta.htm" />
+  </HelpKINode>
   <HelpKINode Title="MetaId property" Url="html/P_ZU_Core_IEntity_MetaId.htm" />
   <HelpKINode Title="MetaspaceFolder property" Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_MetaspaceFolder.htm" />
+  <HelpKINode Title="Microsoft class">
+    <HelpKINode Title="Microsoft Class" Url="html/T_ZU_Constants_Importers_Services_Microsoft.htm" />
+    <HelpKINode Title="about Microsoft class" Url="html/T_ZU_Constants_Importers_Services_Microsoft.htm" />
+  </HelpKINode>
   <HelpKINode Title="Migration enumeration member" Url="html/T_ZU_Storage_Migration_MigrationPhase.htm" />
   <HelpKINode Title="MigrationFailed field" Url="html/F_ZU_Constants_Application_ErrorCodes_MigrationFailed.htm" />
   <HelpKINode Title="MigrationPhase enumeration" Url="html/T_ZU_Storage_Migration_MigrationPhase.htm" />
@@ -2252,17 +2170,6 @@
     <HelpKINode Title="ModelEvents Class" Url="html/T_ZU_Core_ModelEvents.htm" />
     <HelpKINode Title="about ModelEvents class" Url="html/T_ZU_Core_ModelEvents.htm" />
   </HelpKINode>
-  <HelpKINode Title="ModelEvents.OnEntityAddedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityAddedEventHandler.htm" />
-  <HelpKINode Title="ModelEvents.OnEntityAddedToVisualClusterEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityAddedToVisualClusterEventHandler.htm" />
-  <HelpKINode Title="ModelEvents.OnEntityDeletedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityDeletedEventHandler.htm" />
-  <HelpKINode Title="ModelEvents.OnEntityDynamicPropertyChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityDynamicPropertyChangedEventHandler.htm" />
-  <HelpKINode Title="ModelEvents.OnEntityPositionChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityPositionChangedEventHandler.htm" />
-  <HelpKINode Title="ModelEvents.OnEntityPropertyChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityPropertyChangedEventHandler.htm" />
-  <HelpKINode Title="ModelEvents.OnEntityRemovedFromVisualClusterEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityRemovedFromVisualClusterEventHandler.htm" />
-  <HelpKINode Title="ModelEvents.OnFileBasedEntityFileChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnFileBasedEntityFileChangedEventHandler.htm" />
-  <HelpKINode Title="ModelEvents.OnVisualClusterCreatedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnVisualClusterCreatedEventHandler.htm" />
-  <HelpKINode Title="ModelEvents.OnVisualClusterDeletedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnVisualClusterDeletedEventHandler.htm" />
-  <HelpKINode Title="ModelEvents.OnVisualClusterMovedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnVisualClusterMovedEventHandler.htm" />
   <HelpKINode Title="ModelId property" Url="html/P_ZU_Semantic_EntityRef_ModelId.htm" />
   <HelpKINode Title="ModelKind enumeration" Url="html/T_ZU_Core_ModelKind.htm" />
   <HelpKINode Title="ModelKind property" Url="html/P_ZU_Core_IModel_ModelKind.htm" />
@@ -2285,7 +2192,7 @@
   <HelpKINode Title="NextStorageProvider field" Url="html/F_ZU_Constants_Application_Configuration_StorageProviders_NextStorageProvider.htm" />
   <HelpKINode Title="NightyFivePercent field" Url="html/F_ZU_Constants_Meta_Confidence_NightyFivePercent.htm" />
   <HelpKINode Title="None enumeration member">
-    <HelpKINode Title="Constants.KindSelection Enumeration" Url="html/T_ZU_Constants_KindSelection.htm" />
+    <HelpKINode Title="KindSelection Enumeration" Url="html/T_ZU_Constants_KindSelection.htm" />
     <HelpKINode Title="OperationKind Enumeration" Url="html/T_ZU_Telemetry_OperationKind.htm" />
     <HelpKINode Title="ReviewStatus Enumeration" Url="html/T_ZU_Core_Structured_ReviewStatus.htm" />
     <HelpKINode Title="SemanticActionKinds Enumeration" Url="html/T_ZU_Semantic_Core_SemanticActionKinds.htm" />
@@ -2306,6 +2213,8 @@
   <HelpKINode Title="ObjectDropped enumeration member" Url="html/T_ZU_Telemetry_OperationKind.htm" />
   <HelpKINode Title="ObjectPasted enumeration member" Url="html/T_ZU_Telemetry_OperationKind.htm" />
   <HelpKINode Title="Office365 class">
+    <HelpKINode Title="Office365 Class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Office365.htm" />
+    <HelpKINode Title="about Office365 class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Office365.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Importers_Services_Microsoft_Office365.htm" />
   </HelpKINode>
   <HelpKINode Title="Offline enumeration member" Url="html/T_ZU_Configuration_Settings_AppMode.htm" />
@@ -2319,13 +2228,21 @@
   <HelpKINode Title="OnAllProjectSpacesLoaded event" Url="html/E_ZU_Core_ISystemInformationModel_OnAllProjectSpacesLoaded.htm" />
   <HelpKINode Title="OneHundredPercent field" Url="html/F_ZU_Constants_Meta_Confidence_OneHundredPercent.htm" />
   <HelpKINode Title="OnEntityAdded event" Url="html/E_ZU_Core_IModel_OnEntityAdded.htm" />
+  <HelpKINode Title="OnEntityAddedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityAddedEventHandler.htm" />
+  <HelpKINode Title="OnEntityAddedToVisualClusterEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityAddedToVisualClusterEventHandler.htm" />
   <HelpKINode Title="OnEntityChange method" Url="html/M_ZU_Core_IModel_OnEntityChange.htm" />
   <HelpKINode Title="OnEntityDeleted event" Url="html/E_ZU_Core_IModel_OnEntityDeleted.htm" />
+  <HelpKINode Title="OnEntityDeletedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityDeletedEventHandler.htm" />
   <HelpKINode Title="OnEntityDynamicPropChanged method" Url="html/M_ZU_Core_IModel_OnEntityDynamicPropChanged.htm" />
   <HelpKINode Title="OnEntityDynamicPropertyChanged event" Url="html/E_ZU_Core_IModel_OnEntityDynamicPropertyChanged.htm" />
+  <HelpKINode Title="OnEntityDynamicPropertyChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityDynamicPropertyChangedEventHandler.htm" />
   <HelpKINode Title="OnEntityOpen delegate" Url="html/T_ZU_Core_Apps_OnEntityOpen.htm" />
   <HelpKINode Title="OnEntityPositionChanged event" Url="html/E_ZU_Core_IModel_OnEntityPositionChanged.htm" />
+  <HelpKINode Title="OnEntityPositionChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityPositionChangedEventHandler.htm" />
   <HelpKINode Title="OnEntityPropertyChanged event" Url="html/E_ZU_Core_IModel_OnEntityPropertyChanged.htm" />
+  <HelpKINode Title="OnEntityPropertyChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityPropertyChangedEventHandler.htm" />
+  <HelpKINode Title="OnEntityRemovedFromVisualClusterEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityRemovedFromVisualClusterEventHandler.htm" />
+  <HelpKINode Title="OnFileBasedEntityFileChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnFileBasedEntityFileChangedEventHandler.htm" />
   <HelpKINode Title="OnInformationStructureChangedEventHandler delegate" Url="html/T_ZU_Core_Apps_OnInformationStructureChangedEventHandler.htm" />
   <HelpKINode Title="OnMessage field" Url="html/F_ZU_Log_OnMessage.htm" />
   <HelpKINode Title="OnProjectSpaceChanged event" Url="html/E_ZU_Core_ISystemInformationModel_OnProjectSpaceChanged.htm" />
@@ -2335,9 +2252,14 @@
   <HelpKINode Title="OnShellItemCreated method" Url="html/M_ZU_Plugins_ILocalFolderApp_OnShellItemCreated.htm" />
   <HelpKINode Title="OnShellItemDeleted method" Url="html/M_ZU_Plugins_ILocalFolderApp_OnShellItemDeleted.htm" />
   <HelpKINode Title="OnShellItemRenamed method" Url="html/M_ZU_Plugins_ILocalFolderApp_OnShellItemRenamed.htm" />
+  <HelpKINode Title="OnVisualClusterCreatedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnVisualClusterCreatedEventHandler.htm" />
+  <HelpKINode Title="OnVisualClusterDeletedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnVisualClusterDeletedEventHandler.htm" />
+  <HelpKINode Title="OnVisualClusterMovedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnVisualClusterMovedEventHandler.htm" />
   <HelpKINode Title="OperationKind enumeration" Url="html/T_ZU_Telemetry_OperationKind.htm" />
   <HelpKINode Title="Organization field" Url="html/F_ZU_Constants_Kinds_Organization.htm" />
   <HelpKINode Title="Outlook class">
+    <HelpKINode Title="Outlook Class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Outlook.htm" />
+    <HelpKINode Title="about Outlook class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Outlook.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Importers_Services_Microsoft_Outlook.htm" />
   </HelpKINode>
   <HelpKINode Title="OutputRedisLogToTerminal property" Url="html/P_ZU_Configuration_Settings_IConfigurationSettings_OutputRedisLogToTerminal.htm" />
@@ -2362,6 +2284,8 @@
     <HelpKINode Title="ISystemInformationModel.PerformCleanup Method " Url="html/M_ZU_Core_ISystemInformationModel_PerformCleanup.htm" />
   </HelpKINode>
   <HelpKINode Title="Person class">
+    <HelpKINode Title="Person Class" Url="html/T_ZU_Constants_Properties_Person.htm" />
+    <HelpKINode Title="about Person class" Url="html/T_ZU_Constants_Properties_Person.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Properties_Person.htm" />
   </HelpKINode>
   <HelpKINode Title="Person field" Url="html/F_ZU_Constants_Kinds_Person.htm" />
@@ -2401,6 +2325,10 @@
   </HelpKINode>
   <HelpKINode Title="ProjectSpace field" Url="html/F_ZU_Constants_Kinds_ProjectSpace.htm" />
   <HelpKINode Title="Properties class">
+    <HelpKINode Title="Properties Class" Url="html/T_ZU_Constants_Properties.htm" />
+    <HelpKINode Title="Properties Class" Url="html/T_ZU_Constants_Topics_Properties.htm" />
+    <HelpKINode Title="about Properties class" Url="html/T_ZU_Constants_Properties.htm" />
+    <HelpKINode Title="about Properties class" Url="html/T_ZU_Constants_Topics_Properties.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Topics_Properties.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Properties.htm" />
   </HelpKINode>
@@ -2496,6 +2424,8 @@
   <HelpKINode Title="RelationshipMetadataAttribute.RelationshipMetadataAttribute constructor" Url="html/Overload_ZU_RelationshipMetadataAttribute__ctor.htm" />
   <HelpKINode Title="RelationshipModelId property" Url="html/P_ZU_Semantic_EntityRef_RelationshipModelId.htm" />
   <HelpKINode Title="Relationships class">
+    <HelpKINode Title="Relationships Class" Url="html/T_ZU_Constants_Relationships.htm" />
+    <HelpKINode Title="about Relationships class" Url="html/T_ZU_Constants_Relationships.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Relationships.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_ZU_Constants_Relationships.htm" />
   </HelpKINode>
@@ -2516,6 +2446,8 @@
   <HelpKINode Title="RoamingTBDMetaspace enumeration member" Url="html/T_ZU_Core_ModelKinds.htm" />
   <HelpKINode Title="RoamingTBDWorkspace enumeration member" Url="html/T_ZU_Core_ModelKinds.htm" />
   <HelpKINode Title="Roles class">
+    <HelpKINode Title="Roles Class" Url="html/T_ZU_Constants_Service_Roles.htm" />
+    <HelpKINode Title="about Roles class" Url="html/T_ZU_Constants_Service_Roles.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Service_Roles.htm" />
   </HelpKINode>
   <HelpKINode Title="RootFolder property" Url="html/P_ZU_WPF_Data_SharedFolderAppItemDataContainer_RootFolder.htm" />
@@ -2558,6 +2490,14 @@
   <HelpKINode Title="SemanticActionKinds enumeration" Url="html/T_ZU_Semantic_Core_SemanticActionKinds.htm" />
   <HelpKINode Title="SemanticPipelineProcessor property" Url="html/P_ZU_Core_ISystemInformationModel_SemanticPipelineProcessor.htm" />
   <HelpKINode Title="Sentences property" Url="html/P_ZU_Semantic_Keyphrases_IParagraph_Sentences.htm" />
+  <HelpKINode Title="Service class">
+    <HelpKINode Title="Service Class" Url="html/T_ZU_Constants_Service.htm" />
+    <HelpKINode Title="about Service class" Url="html/T_ZU_Constants_Service.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Services class">
+    <HelpKINode Title="Services Class" Url="html/T_ZU_Constants_Importers_Services.htm" />
+    <HelpKINode Title="about Services class" Url="html/T_ZU_Constants_Importers_Services.htm" />
+  </HelpKINode>
   <HelpKINode Title="SetDateTime method" Url="html/M_ZU_Core_IEntity_SetDateTime.htm" />
   <HelpKINode Title="SetLastChangedModelAsCurrent method" Url="html/M_ZU_Core_ISystemInformationModel_SetLastChangedModelAsCurrent.htm" />
   <HelpKINode Title="SetProperty(Of T) method" Url="html/M_ZU_BasePropertyChanged_SetProperty__1.htm" />
@@ -2675,6 +2615,8 @@
   <HelpKINode Title="StopWatchingShellItem method" Url="html/M_ZU_Plugins_ILocalFolderApp_StopWatchingShellItem.htm" />
   <HelpKINode Title="StorageContext property" Url="html/P_ZU_Core_IModel_StorageContext.htm" />
   <HelpKINode Title="StorageHelper class">
+    <HelpKINode Title="StorageHelper Class" Url="html/T_ZU_Constants_StorageHelper.htm" />
+    <HelpKINode Title="about StorageHelper class" Url="html/T_ZU_Constants_StorageHelper.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_StorageHelper.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_ZU_Constants_StorageHelper.htm" />
   </HelpKINode>
@@ -2683,6 +2625,8 @@
     <HelpKINode Title="IStorageContext.StorageProvider Property " Url="html/P_ZU_Storage_IStorageContext_StorageProvider.htm" />
   </HelpKINode>
   <HelpKINode Title="StorageProviders class">
+    <HelpKINode Title="StorageProviders Class" Url="html/T_ZU_Constants_Application_Configuration_StorageProviders.htm" />
+    <HelpKINode Title="about StorageProviders class" Url="html/T_ZU_Constants_Application_Configuration_StorageProviders.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Application_Configuration_StorageProviders.htm" />
   </HelpKINode>
   <HelpKINode Title="StorageRecordKey property" Url="html/P_ZU_Core_IUserAction_StorageRecordKey.htm" />
@@ -2775,6 +2719,8 @@
   <HelpKINode Title="Tooltip property" Url="html/P_ZU_Core_Apps_IAppButtonInfo_Tooltip.htm" />
   <HelpKINode Title="Topic property" Url="html/P_ZU_Core_VisualCluster_Topic.htm" />
   <HelpKINode Title="Topics class">
+    <HelpKINode Title="Topics Class" Url="html/T_ZU_Constants_Topics.htm" />
+    <HelpKINode Title="about Topics class" Url="html/T_ZU_Constants_Topics.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Topics.htm" />
   </HelpKINode>
   <HelpKINode Title="TopographicClustersVisualizationEffectIsDisabled enumeration member" Url="html/T_ZU_Telemetry_OperationKind.htm" />
@@ -2846,11 +2792,11 @@
     <HelpKINode Title="ITimelined.UIdChanger Property " Url="html/P_ZU_Core_ITimelined_UIdChanger.htm" />
     <HelpKINode Title="Property.UIdChanger Property " Url="html/P_ZU_Core_Property_UIdChanger.htm" />
   </HelpKINode>
-  <HelpKINode Title="UIDOwner property" Url="html/P_ZU_Configuration_Settings_IAppSettings_UIDOwner.htm" />
   <HelpKINode Title="UIdOwner property">
     <HelpKINode Title="ITimelined.UIdOwner Property " Url="html/P_ZU_Core_ITimelined_UIdOwner.htm" />
     <HelpKINode Title="Property.UIdOwner Property " Url="html/P_ZU_Core_Property_UIdOwner.htm" />
   </HelpKINode>
+  <HelpKINode Title="UIDOwner property" Url="html/P_ZU_Configuration_Settings_IAppSettings_UIDOwner.htm" />
   <HelpKINode Title="UnableToCreateMetaspaceAndOrUserFolder field" Url="html/F_ZU_Constants_Application_ErrorCodes_UnableToCreateMetaspaceAndOrUserFolder.htm" />
   <HelpKINode Title="Undefined enumeration member" Url="html/T_ZU_Semantic_Core_ContainerKinds.htm" />
   <HelpKINode Title="UnhandledException field" Url="html/F_ZU_Constants_Application_ErrorCodes_UnhandledException.htm" />
@@ -2946,8 +2892,8 @@
     <HelpKINode Title="properties" Url="html/Properties_T_ZU_Core_VisualCluster.htm" />
   </HelpKINode>
   <HelpKINode Title="VisualCluster enumeration member">
-    <HelpKINode Title="Constants.KindSelection Enumeration" Url="html/T_ZU_Constants_KindSelection.htm" />
     <HelpKINode Title="ContainerKinds Enumeration" Url="html/T_ZU_Semantic_Core_ContainerKinds.htm" />
+    <HelpKINode Title="KindSelection Enumeration" Url="html/T_ZU_Constants_KindSelection.htm" />
   </HelpKINode>
   <HelpKINode Title="VisualCluster field" Url="html/F_ZU_Constants_Kinds_VisualCluster.htm" />
   <HelpKINode Title="VisualCluster.Add method" Url="html/M_ZU_Core_VisualCluster_Add.htm" />
@@ -2977,10 +2923,14 @@
   <HelpKINode Title="Warn method" Url="html/M_ZU_Log_Warn.htm" />
   <HelpKINode Title="Warning method" Url="html/M_ZU_Log_Warning.htm" />
   <HelpKINode Title="WebPage class">
+    <HelpKINode Title="WebPage Class" Url="html/T_ZU_Constants_Properties_WebPage.htm" />
+    <HelpKINode Title="about WebPage class" Url="html/T_ZU_Constants_Properties_WebPage.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Properties_WebPage.htm" />
   </HelpKINode>
   <HelpKINode Title="WebPage field" Url="html/F_ZU_Constants_Kinds_WebPage.htm" />
   <HelpKINode Title="WebPageImporter class">
+    <HelpKINode Title="WebPageImporter Class" Url="html/T_ZU_Constants_Importers_WebPageImporter.htm" />
+    <HelpKINode Title="about WebPageImporter class" Url="html/T_ZU_Constants_Importers_WebPageImporter.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_ZU_Constants_Importers_WebPageImporter.htm" />
   </HelpKINode>
   <HelpKINode Title="WebPages field">
@@ -3009,8 +2959,12 @@
   <HelpKINode Title="ZoomedUsingTouch enumeration member" Url="html/T_ZU_Telemetry_OperationKind.htm" />
   <HelpKINode Title="ZPos property" Url="html/P_ZU_Core_IEntity_ZPos.htm" />
   <HelpKINode Title="ZU namespace" Url="html/N_ZU.htm" />
+  <HelpKINode Title="ZU.ActivityHistory class" Url="html/T_ZU_Constants_Topics_ActivityHistory.htm" />
+  <HelpKINode Title="ZU.Application class" Url="html/T_ZU_Constants_Application.htm" />
   <HelpKINode Title="ZU.AppRelationshipDefinition class" Url="html/T_ZU_AppRelationshipDefinition.htm" />
+  <HelpKINode Title="ZU.AppsKinds class" Url="html/T_ZU_Constants_AppsKinds.htm" />
   <HelpKINode Title="ZU.BasePropertyChanged class" Url="html/T_ZU_BasePropertyChanged.htm" />
+  <HelpKINode Title="ZU.Classifications class" Url="html/T_ZU_Constants_Topics_Classifications.htm" />
   <HelpKINode Title="ZU.Collections.Generic namespace" Url="html/N_ZU_Collections_Generic.htm" />
   <HelpKINode Title="ZU.Collections.Generic.IPriorityQuadTree(Of T) interface" Url="html/T_ZU_Collections_Generic_IPriorityQuadTree_1.htm" />
   <HelpKINode Title="ZU.Collections.Generic.IPriorityQuadTree&lt;T&gt; interface" Url="html/T_ZU_Collections_Generic_IPriorityQuadTree_1.htm" />
@@ -3019,6 +2973,8 @@
   <HelpKINode Title="ZU.Collections.ObjectModel.IRangeObservableCollection&lt;T&gt; interface" Url="html/T_ZU_Collections_ObjectModel_IRangeObservableCollection_1.htm" />
   <HelpKINode Title="ZU.ComponentModel namespace" Url="html/N_ZU_ComponentModel.htm" />
   <HelpKINode Title="ZU.ComponentModel.IInstantiateProperty interface" Url="html/T_ZU_ComponentModel_IInstantiateProperty.htm" />
+  <HelpKINode Title="ZU.Confidence class" Url="html/T_ZU_Constants_Meta_Confidence.htm" />
+  <HelpKINode Title="ZU.Configuration class" Url="html/T_ZU_Constants_Application_Configuration.htm" />
   <HelpKINode Title="ZU.Configuration.Settings namespace" Url="html/N_ZU_Configuration_Settings.htm" />
   <HelpKINode Title="ZU.Configuration.Settings.AppMode enumeration" Url="html/T_ZU_Configuration_Settings_AppMode.htm" />
   <HelpKINode Title="ZU.Configuration.Settings.IAppAccount interface" Url="html/T_ZU_Configuration_Settings_IAppAccount.htm" />
@@ -3026,39 +2982,7 @@
   <HelpKINode Title="ZU.Configuration.Settings.IConfigurationManager interface" Url="html/T_ZU_Configuration_Settings_IConfigurationManager.htm" />
   <HelpKINode Title="ZU.Configuration.Settings.IConfigurationSettings interface" Url="html/T_ZU_Configuration_Settings_IConfigurationSettings.htm" />
   <HelpKINode Title="ZU.Constants class" Url="html/T_ZU_Constants.htm" />
-  <HelpKINode Title="ZU.Constants.Application class" Url="html/T_ZU_Constants_Application.htm" />
-  <HelpKINode Title="ZU.Constants.Application.Configuration class" Url="html/T_ZU_Constants_Application_Configuration.htm" />
-  <HelpKINode Title="ZU.Constants.Application.Configuration.StorageProviders class" Url="html/T_ZU_Constants_Application_Configuration_StorageProviders.htm" />
-  <HelpKINode Title="ZU.Constants.Application.ErrorCodes class" Url="html/T_ZU_Constants_Application_ErrorCodes.htm" />
-  <HelpKINode Title="ZU.Constants.AppsKinds class" Url="html/T_ZU_Constants_AppsKinds.htm" />
-  <HelpKINode Title="ZU.Constants.Importers class" Url="html/T_ZU_Constants_Importers.htm" />
-  <HelpKINode Title="ZU.Constants.Importers.FileSystemImporter class" Url="html/T_ZU_Constants_Importers_FileSystemImporter.htm" />
-  <HelpKINode Title="ZU.Constants.Importers.Services class" Url="html/T_ZU_Constants_Importers_Services.htm" />
-  <HelpKINode Title="ZU.Constants.Importers.Services.Dropbox class" Url="html/T_ZU_Constants_Importers_Services_Dropbox.htm" />
-  <HelpKINode Title="ZU.Constants.Importers.Services.Microsoft class" Url="html/T_ZU_Constants_Importers_Services_Microsoft.htm" />
-  <HelpKINode Title="ZU.Constants.Importers.Services.Microsoft.Office365 class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Office365.htm" />
-  <HelpKINode Title="ZU.Constants.Importers.Services.Microsoft.Outlook class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Outlook.htm" />
-  <HelpKINode Title="ZU.Constants.Importers.Services.Microsoft.Outlook.ContactSchema class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema.htm" />
-  <HelpKINode Title="ZU.Constants.Importers.WebPageImporter class" Url="html/T_ZU_Constants_Importers_WebPageImporter.htm" />
-  <HelpKINode Title="ZU.Constants.Indexers class" Url="html/T_ZU_Constants_Indexers.htm" />
-  <HelpKINode Title="ZU.Constants.Indexers.FullTextSearchIndexer class" Url="html/T_ZU_Constants_Indexers_FullTextSearchIndexer.htm" />
-  <HelpKINode Title="ZU.Constants.Kinds class" Url="html/T_ZU_Constants_Kinds.htm" />
-  <HelpKINode Title="ZU.Constants.KindSelection enumeration" Url="html/T_ZU_Constants_KindSelection.htm" />
-  <HelpKINode Title="ZU.Constants.KnownEntities class" Url="html/T_ZU_Constants_KnownEntities.htm" />
-  <HelpKINode Title="ZU.Constants.Meta class" Url="html/T_ZU_Constants_Meta.htm" />
-  <HelpKINode Title="ZU.Constants.Meta.Confidence class" Url="html/T_ZU_Constants_Meta_Confidence.htm" />
-  <HelpKINode Title="ZU.Constants.Properties class" Url="html/T_ZU_Constants_Properties.htm" />
-  <HelpKINode Title="ZU.Constants.Properties.Person class" Url="html/T_ZU_Constants_Properties_Person.htm" />
-  <HelpKINode Title="ZU.Constants.Properties.WebPage class" Url="html/T_ZU_Constants_Properties_WebPage.htm" />
-  <HelpKINode Title="ZU.Constants.Relationships class" Url="html/T_ZU_Constants_Relationships.htm" />
-  <HelpKINode Title="ZU.Constants.Service class" Url="html/T_ZU_Constants_Service.htm" />
-  <HelpKINode Title="ZU.Constants.Service.Roles class" Url="html/T_ZU_Constants_Service_Roles.htm" />
-  <HelpKINode Title="ZU.Constants.StorageHelper class" Url="html/T_ZU_Constants_StorageHelper.htm" />
-  <HelpKINode Title="ZU.Constants.Topics class" Url="html/T_ZU_Constants_Topics.htm" />
-  <HelpKINode Title="ZU.Constants.Topics.ActivityHistory class" Url="html/T_ZU_Constants_Topics_ActivityHistory.htm" />
-  <HelpKINode Title="ZU.Constants.Topics.Classifications class" Url="html/T_ZU_Constants_Topics_Classifications.htm" />
-  <HelpKINode Title="ZU.Constants.Topics.Incoming class" Url="html/T_ZU_Constants_Topics_Incoming.htm" />
-  <HelpKINode Title="ZU.Constants.Topics.Properties class" Url="html/T_ZU_Constants_Topics_Properties.htm" />
+  <HelpKINode Title="ZU.ContactSchema class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Outlook_ContactSchema.htm" />
   <HelpKINode Title="ZU.Core namespace" Url="html/N_ZU_Core.htm" />
   <HelpKINode Title="ZU.Core.Apps namespace" Url="html/N_ZU_Core_Apps.htm" />
   <HelpKINode Title="ZU.Core.Apps.AccountAddedEventArgs class" Url="html/T_ZU_Core_Apps_AccountAddedEventArgs.htm" />
@@ -3087,20 +3011,20 @@
   <HelpKINode Title="ZU.Core.ITimelined interface" Url="html/T_ZU_Core_ITimelined.htm" />
   <HelpKINode Title="ZU.Core.IUserAction interface" Url="html/T_ZU_Core_IUserAction.htm" />
   <HelpKINode Title="ZU.Core.ModelEvents class" Url="html/T_ZU_Core_ModelEvents.htm" />
-  <HelpKINode Title="ZU.Core.ModelEvents.OnEntityAddedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityAddedEventHandler.htm" />
-  <HelpKINode Title="ZU.Core.ModelEvents.OnEntityAddedToVisualClusterEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityAddedToVisualClusterEventHandler.htm" />
-  <HelpKINode Title="ZU.Core.ModelEvents.OnEntityDeletedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityDeletedEventHandler.htm" />
-  <HelpKINode Title="ZU.Core.ModelEvents.OnEntityDynamicPropertyChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityDynamicPropertyChangedEventHandler.htm" />
-  <HelpKINode Title="ZU.Core.ModelEvents.OnEntityPositionChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityPositionChangedEventHandler.htm" />
-  <HelpKINode Title="ZU.Core.ModelEvents.OnEntityPropertyChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityPropertyChangedEventHandler.htm" />
-  <HelpKINode Title="ZU.Core.ModelEvents.OnEntityRemovedFromVisualClusterEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityRemovedFromVisualClusterEventHandler.htm" />
-  <HelpKINode Title="ZU.Core.ModelEvents.OnFileBasedEntityFileChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnFileBasedEntityFileChangedEventHandler.htm" />
-  <HelpKINode Title="ZU.Core.ModelEvents.OnVisualClusterCreatedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnVisualClusterCreatedEventHandler.htm" />
-  <HelpKINode Title="ZU.Core.ModelEvents.OnVisualClusterDeletedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnVisualClusterDeletedEventHandler.htm" />
-  <HelpKINode Title="ZU.Core.ModelEvents.OnVisualClusterMovedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnVisualClusterMovedEventHandler.htm" />
   <HelpKINode Title="ZU.Core.ModelKind enumeration" Url="html/T_ZU_Core_ModelKind.htm" />
   <HelpKINode Title="ZU.Core.ModelKinds enumeration" Url="html/T_ZU_Core_ModelKinds.htm" />
+  <HelpKINode Title="ZU.Core.OnEntityAddedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityAddedEventHandler.htm" />
+  <HelpKINode Title="ZU.Core.OnEntityAddedToVisualClusterEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityAddedToVisualClusterEventHandler.htm" />
+  <HelpKINode Title="ZU.Core.OnEntityDeletedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityDeletedEventHandler.htm" />
+  <HelpKINode Title="ZU.Core.OnEntityDynamicPropertyChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityDynamicPropertyChangedEventHandler.htm" />
+  <HelpKINode Title="ZU.Core.OnEntityPositionChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityPositionChangedEventHandler.htm" />
+  <HelpKINode Title="ZU.Core.OnEntityPropertyChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityPropertyChangedEventHandler.htm" />
+  <HelpKINode Title="ZU.Core.OnEntityRemovedFromVisualClusterEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnEntityRemovedFromVisualClusterEventHandler.htm" />
+  <HelpKINode Title="ZU.Core.OnFileBasedEntityFileChangedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnFileBasedEntityFileChangedEventHandler.htm" />
   <HelpKINode Title="ZU.Core.OnProjectSpaceChangedEventHandler delegate" Url="html/T_ZU_Core_OnProjectSpaceChangedEventHandler.htm" />
+  <HelpKINode Title="ZU.Core.OnVisualClusterCreatedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnVisualClusterCreatedEventHandler.htm" />
+  <HelpKINode Title="ZU.Core.OnVisualClusterDeletedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnVisualClusterDeletedEventHandler.htm" />
+  <HelpKINode Title="ZU.Core.OnVisualClusterMovedEventHandler delegate" Url="html/T_ZU_Core_ModelEvents_OnVisualClusterMovedEventHandler.htm" />
   <HelpKINode Title="ZU.Core.Property class" Url="html/T_ZU_Core_Property.htm" />
   <HelpKINode Title="ZU.Core.Structured namespace" Url="html/N_ZU_Core_Structured.htm" />
   <HelpKINode Title="ZU.Core.Structured.ReviewStatus enumeration" Url="html/T_ZU_Core_Structured_ReviewStatus.htm" />
@@ -3116,9 +3040,24 @@
   <HelpKINode Title="ZU.Core.Update.AppUpdateStatus enumeration" Url="html/T_ZU_Core_Update_AppUpdateStatus.htm" />
   <HelpKINode Title="ZU.Core.Update.UpdateCheckStates enumeration" Url="html/T_ZU_Core_Update_UpdateCheckStates.htm" />
   <HelpKINode Title="ZU.Core.VisualCluster class" Url="html/T_ZU_Core_VisualCluster.htm" />
+  <HelpKINode Title="ZU.Dropbox class" Url="html/T_ZU_Constants_Importers_Services_Dropbox.htm" />
+  <HelpKINode Title="ZU.Entry structure" Url="html/T_ZU_Log_Entry.htm" />
+  <HelpKINode Title="ZU.ErrorCodes class" Url="html/T_ZU_Constants_Application_ErrorCodes.htm" />
+  <HelpKINode Title="ZU.FileSystemImporter class" Url="html/T_ZU_Constants_Importers_FileSystemImporter.htm" />
+  <HelpKINode Title="ZU.FullTextSearchIndexer class" Url="html/T_ZU_Constants_Indexers_FullTextSearchIndexer.htm" />
+  <HelpKINode Title="ZU.Importers class" Url="html/T_ZU_Constants_Importers.htm" />
+  <HelpKINode Title="ZU.Incoming class" Url="html/T_ZU_Constants_Topics_Incoming.htm" />
+  <HelpKINode Title="ZU.Indexers class" Url="html/T_ZU_Constants_Indexers.htm" />
+  <HelpKINode Title="ZU.Kinds class" Url="html/T_ZU_Constants_Kinds.htm" />
+  <HelpKINode Title="ZU.KindSelection enumeration" Url="html/T_ZU_Constants_KindSelection.htm" />
+  <HelpKINode Title="ZU.KnownEntities class" Url="html/T_ZU_Constants_KnownEntities.htm" />
+  <HelpKINode Title="ZU.Level enumeration" Url="html/T_ZU_Log_Level.htm" />
   <HelpKINode Title="ZU.Log class" Url="html/T_ZU_Log.htm" />
-  <HelpKINode Title="ZU.Log.Entry structure" Url="html/T_ZU_Log_Entry.htm" />
-  <HelpKINode Title="ZU.Log.Level enumeration" Url="html/T_ZU_Log_Level.htm" />
+  <HelpKINode Title="ZU.Meta class" Url="html/T_ZU_Constants_Meta.htm" />
+  <HelpKINode Title="ZU.Microsoft class" Url="html/T_ZU_Constants_Importers_Services_Microsoft.htm" />
+  <HelpKINode Title="ZU.Office365 class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Office365.htm" />
+  <HelpKINode Title="ZU.Outlook class" Url="html/T_ZU_Constants_Importers_Services_Microsoft_Outlook.htm" />
+  <HelpKINode Title="ZU.Person class" Url="html/T_ZU_Constants_Properties_Person.htm" />
   <HelpKINode Title="ZU.Platform class" Url="html/T_ZU_Platform.htm" />
   <HelpKINode Title="ZU.Plugins namespace" Url="html/N_ZU_Plugins.htm" />
   <HelpKINode Title="ZU.Plugins.FullTextExtractionResult class" Url="html/T_ZU_Plugins_FullTextExtractionResult.htm" />
@@ -3129,8 +3068,14 @@
   <HelpKINode Title="ZU.Plugins.IZetApp interface" Url="html/T_ZU_Plugins_IZetApp.htm" />
   <HelpKINode Title="ZU.Plugins.IZetHost interface" Url="html/T_ZU_Plugins_IZetHost.htm" />
   <HelpKINode Title="ZU.Plugins.IZetProcessor interface" Url="html/T_ZU_Plugins_IZetProcessor.htm" />
+  <HelpKINode Title="ZU.Properties class">
+    <HelpKINode Title="Properties Class" Url="html/T_ZU_Constants_Properties.htm" />
+    <HelpKINode Title="Properties Class" Url="html/T_ZU_Constants_Topics_Properties.htm" />
+  </HelpKINode>
   <HelpKINode Title="ZU.RegexUtilities class" Url="html/T_ZU_RegexUtilities.htm" />
   <HelpKINode Title="ZU.RelationshipMetadataAttribute class" Url="html/T_ZU_RelationshipMetadataAttribute.htm" />
+  <HelpKINode Title="ZU.Relationships class" Url="html/T_ZU_Constants_Relationships.htm" />
+  <HelpKINode Title="ZU.Roles class" Url="html/T_ZU_Constants_Service_Roles.htm" />
   <HelpKINode Title="ZU.Semantic namespace" Url="html/N_ZU_Semantic.htm" />
   <HelpKINode Title="ZU.Semantic.Core namespace" Url="html/N_ZU_Semantic_Core.htm" />
   <HelpKINode Title="ZU.Semantic.Core.ContainerKinds enumeration" Url="html/T_ZU_Semantic_Core_ContainerKinds.htm" />
@@ -3161,6 +3106,8 @@
   <HelpKINode Title="ZU.Semantic.Spatial.ISpatialItemsSource interface" Url="html/T_ZU_Semantic_Spatial_ISpatialItemsSource.htm" />
   <HelpKINode Title="ZU.Semantic.Text namespace" Url="html/N_ZU_Semantic_Text.htm" />
   <HelpKINode Title="ZU.Semantic.Text.KindMetadataAttribute class" Url="html/T_ZU_Semantic_Text_KindMetadataAttribute.htm" />
+  <HelpKINode Title="ZU.Service class" Url="html/T_ZU_Constants_Service.htm" />
+  <HelpKINode Title="ZU.Services class" Url="html/T_ZU_Constants_Importers_Services.htm" />
   <HelpKINode Title="ZU.ShortGuid class" Url="html/T_ZU_ShortGuid.htm" />
   <HelpKINode Title="ZU.Storage namespace" Url="html/N_ZU_Storage.htm" />
   <HelpKINode Title="ZU.Storage.IStorageContext interface" Url="html/T_ZU_Storage_IStorageContext.htm" />
@@ -3169,11 +3116,16 @@
   <HelpKINode Title="ZU.Storage.Migration.IMigrationProvider interface" Url="html/T_ZU_Storage_Migration_IMigrationProvider.htm" />
   <HelpKINode Title="ZU.Storage.Migration.MigrationPhase enumeration" Url="html/T_ZU_Storage_Migration_MigrationPhase.htm" />
   <HelpKINode Title="ZU.Storage.StorageRecordKinds enumeration" Url="html/T_ZU_Storage_StorageRecordKinds.htm" />
+  <HelpKINode Title="ZU.StorageHelper class" Url="html/T_ZU_Constants_StorageHelper.htm" />
+  <HelpKINode Title="ZU.StorageProviders class" Url="html/T_ZU_Constants_Application_Configuration_StorageProviders.htm" />
   <HelpKINode Title="ZU.Sync namespace" Url="html/N_ZU_Sync.htm" />
   <HelpKINode Title="ZU.Sync.ISyncAgent interface" Url="html/T_ZU_Sync_ISyncAgent.htm" />
   <HelpKINode Title="ZU.Sync.SyncAgentKind enumeration" Url="html/T_ZU_Sync_SyncAgentKind.htm" />
   <HelpKINode Title="ZU.Telemetry namespace" Url="html/N_ZU_Telemetry.htm" />
   <HelpKINode Title="ZU.Telemetry.OperationKind enumeration" Url="html/T_ZU_Telemetry_OperationKind.htm" />
+  <HelpKINode Title="ZU.Topics class" Url="html/T_ZU_Constants_Topics.htm" />
+  <HelpKINode Title="ZU.WebPage class" Url="html/T_ZU_Constants_Properties_WebPage.htm" />
+  <HelpKINode Title="ZU.WebPageImporter class" Url="html/T_ZU_Constants_Importers_WebPageImporter.htm" />
   <HelpKINode Title="ZU.WPF namespace" Url="html/N_ZU_WPF.htm" />
   <HelpKINode Title="ZU.WPF.Data namespace" Url="html/N_ZU_WPF_Data.htm" />
   <HelpKINode Title="ZU.WPF.Data.AppSourceBoundFileSystemDataContainer class" Url="html/T_ZU_WPF_Data_AppSourceBoundFileSystemDataContainer.htm" />

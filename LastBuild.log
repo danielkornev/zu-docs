@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.4.9.0" projectFile="C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\ZUSDK_docs.shfbproj" started="5/12/2016 4:44:10 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.4.9.0" projectFile="C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\ZUSDK_docs.shfbproj" started="5/15/2016 1:18:46 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -13,6 +13,9 @@ Loading and initializing plug-ins...
 Lightweight Website Style Version 2016.4.9.0
 Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved
 Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
 -------------------------------
 Clearing any prior web/markdown output...
     Did not delete folder &#39;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\zu-docs\.git&#39; as it contains read-only or hidden folders/files
@@ -26,8 +29,7 @@ Source: C:\stuff\dev\ZUSDK\ZUSDK\ZU.Core.Developer\bin\debug\ZU.Core.Developer.d
     Found assembly &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZU.Core.Developer\bin\debug\ZU.Core.Developer.dll&#39;
 
 Parsing project files
-    Ignoring duplicate assembly file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZU.Core.Developer\bin\debug\ZU.Core.Developer.dll&#39;
-    Ignoring duplicate comments file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZU.Core.Developer\bin\debug\ZU.Core.Developer.XML&#39;
+    Found assembly &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZU.Core.Developer\bin\Release\ZU.Core.Developer.dll&#39;
 
 References to include (excluding framework assemblies):
     SAL.Flatbed, Version=1.2.7.0, Culture=neutral, PublicKeyToken=81cd27c630db6689, processorArchitecture=MSIL
@@ -38,16 +40,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0296
+</plugIn>    Last step completed in 00:00:00.0380
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 5/12/2016 4:44:13 PM.
+Build started 5/15/2016 1:18:47 AM.
 Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -55,8 +57,8 @@ GenerateRefInfo:
   MRefBuilder (v2016.4.9.0)
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
-  Loaded 1 assemblies for reflection and 2 dependency assemblies.
-  Wrote information on 29 namespaces, 148 types, and 1132 members
+  Loaded 2 assemblies for reflection and 2 dependency assemblies.
+  Wrote information on 29 namespaces, 296 types, and 2264 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2016.4.9.0)
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
@@ -67,13 +69,13 @@ Done Building Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\Generate
 
 Build succeeded.
 
-Time Elapsed 00:00:02.73
-    Last step completed in 00:00:02.9427
+Time Elapsed 00:00:03.37
+    Last step completed in 00:00:03.5137
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
-Build started 5/12/2016 4:44:15 PM.
+Build started 5/15/2016 1:18:50 AM.
 Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2016.4.9.0)
@@ -119,12 +121,12 @@ Done Building Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\Transfor
 
 Build succeeded.
 
-Time Elapsed 00:00:02.67
-    Last step completed in 00:00:02.8605
+Time Elapsed 00:00:05.54
+    Last step completed in 00:00:05.7501
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.1351
+    Last step completed in 00:00:00.2212
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -182,14 +184,16 @@ Generating conceptual topic files
     C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\How To Set Up and Build a Plugin that Uses Zet Universe.aml -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ddueXml\f5459c77-4896-4b2a-893f-d5c78a32b527.xml
     Parsing topic file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\Use Zet Universe Projects in Visual Studio.aml&#39;
     C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\Use Zet Universe Projects in Visual Studio.aml -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ddueXml\b5b3c1a2-6c3f-4847-9e1d-bb220d6a09db.xml
+    Parsing topic file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\Use the Zet Universe ZApp Project.aml&#39;
+    C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\Use the Zet Universe ZApp Project.aml -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ddueXml\b5444cd6-bad4-4e1a-a18e-e46e8aa8f2d5.xml
     Parsing topic file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\Use the Zet Universe ZProcessor Project.aml&#39;
     C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\Use the Zet Universe ZProcessor Project.aml -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ddueXml\e5d81a56-0236-4126-b415-5b02afff3018.xml
     Parsing topic file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\How Do Implement Zet Universe Plugins Manually.aml&#39;
     C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\How Do Implement Zet Universe Plugins Manually.aml -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ddueXml\9386df10-65ac-4fe5-ba30-77c6a737ee6a.xml
-    Parsing topic file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\How Do I Implement ZProcessor Plugin.aml&#39;
-    C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\How Do I Implement ZProcessor Plugin.aml -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ddueXml\7b29f333-013c-4c57-ab60-6a8452057826.xml
     Parsing topic file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\How Do I Implement ZApp Plugin.aml&#39;
     C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\How Do I Implement ZApp Plugin.aml -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ddueXml\407c25cf-2499-4fa3-9778-1c094be37fc9.xml
+    Parsing topic file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\How Do I Implement ZProcessor Plugin.aml&#39;
+    C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\How Do I Implement ZProcessor Plugin.aml -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ddueXml\7b29f333-013c-4c57-ab60-6a8452057826.xml
     Parsing topic file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\How Do I Extend Ontology.aml&#39;
     C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\How Do I Extend Ontology.aml -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ddueXml\7d16a426-9e57-42a1-90f1-80d8298cf755.xml
     Parsing topic file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\How Do I Define Custom Kind.aml&#39;
@@ -208,28 +212,28 @@ Generating conceptual topic files
     C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\VersionHistory\VersionHistory.aml -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ddueXml\21d8718e-1300-4395-9b34-3b24ca1870e0.xml
     Parsing topic file &#39;C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\VersionHistory\v2.0.5971.29607.aml&#39;
     C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\Content\VersionHistory\v2.0.5971.29607.aml -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\ddueXml\22d8acf8-13da-42e9-afd3-29265d034a21.xml
-    Last step completed in 00:00:00.5237
+    Last step completed in 00:00:02.8464
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.1728
+    Last step completed in 00:00:00.3988
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 C:\stuff\dev\ZUSDK\ZUSDK\ZUSDK_docs\icons\Help.png -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\Output\Website\icons\Help.png
-    Last step completed in 00:00:00.0037
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0005
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 5/12/2016 4:44:19 PM.
+Build started 5/15/2016 1:19:00 AM.
 Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2016.4.9.0)
@@ -240,14 +244,14 @@ Done Building Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\Generate
 
 Build succeeded.
 
-Time Elapsed 00:00:00.19
+Time Elapsed 00:00:00.51
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.3203
+    Last step completed in 00:00:00.9432
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.4469
+    Last step completed in 00:00:00.9617
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -256,12 +260,12 @@ C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\sandcastle.config
     Replaced configuration for &#39;Syntax Component&#39; (instance 1) with configuration for &#39;Syntax Component&#39;
   Updating conceptual topic configurations.
     Replacing default configuration for &#39;Syntax Component&#39; with the custom configuration
-    Last step completed in 00:00:00.0207
+    Last step completed in 00:00:00.0490
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildTopics.proj]
-Build started 5/12/2016 4:44:20 PM.
+Build started 5/15/2016 1:19:02 AM.
 Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2016.4.9.0)
@@ -1977,23 +1981,23 @@ BuildAssembler : warning : ShowMissingComponent: [G:ZU.Storage] Missing &lt;summ
 BuildAssembler : warning : ShowMissingComponent: [G:ZU.Semantic] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [G:ZU.Core] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [G:ZU.Collections] Missing &lt;summary&gt; documentation [C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj]
-  Processed 1336 topic(s)
+  Processed 1337 topic(s)
   1708 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 6 of 30.
-  SaveComponent: Waiting for the document writer task to finish (78 Website API file(s) remaining)...
+  SaveComponent: Waiting for the document writer task to finish (98 Website API file(s) remaining)...
 Done Building Project &quot;C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:47.20
-    Last step completed in 00:00:47.3385
+Time Elapsed 00:01:53.54
+    Last step completed in 00:01:53.7954
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0441
+    Last step completed in 00:00:00.0856
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -2005,11 +2009,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\Output\Website
-Processed 1336 HTML files
+Processed 1337 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\WebKI.xml
 Saving website table of contents to C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\WebTOC.xml
-    Last step completed in 00:00:13.7762
+    Last step completed in 00:00:30.8399
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -2088,7 +2092,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\stuff\dev\zusdk_wiki\ZUSDK.gh_pages\temp\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.6006
+    Last step completed in 00:00:03.0566
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -2099,7 +2103,7 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:12.0452
+</plugIn>    Last step completed in 00:00:36.7770
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -2107,16 +2111,16 @@ Copying website files to output folder...
 Copied 500 files
 Copied 1000 files
 Copied 1500 files
-Copied 1771 files for the website content
-    Last step completed in 00:00:02.9777
+Copied 1772 files for the website content
+    Last step completed in 00:00:08.7415
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.9518
+    Last step completed in 00:00:02.0302
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 5/12/2016 4:45:38 PM.  Total time: 00:01:27.0735
+Build completed successfully at 5/15/2016 1:22:17 AM.  Total time: 00:03:30.8023
 
 </buildStep>
 </shfbBuild>
